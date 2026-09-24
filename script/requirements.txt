@@ -1,0 +1,5 @@
+numpy>=1.24,<2.3
+scipy>=1.13,<2
+h5py>=3.11,<4
+Pillow>=10,<13
+imageio-ffmpeg>=0.6,<1
