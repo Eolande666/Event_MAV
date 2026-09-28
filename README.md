@@ -1,8 +1,8 @@
-> **2026-09-28 显著性过滤试验**：当前工作分支为 `codex/saliency-small-regions-20260928`。新增 `--saliency-min-area 9` 可清除小显著区域；默认值 0 仍运行下述原版。使用方法、变量及对比协议见 [显著性过滤说明](docs/SALIENCY_AREA_FILTER.md)。完整原版分支仍保留。
+> **2026-09-28 显著性过滤试验**：当前工作分支为 `codex/saliency-small-regions-20260928`。新增 `--saliency-min-area 9` 可清除小显著区域；默认值 0 仍运行下述原版。使用方法、变量及对比协议见 [显著性过滤说明](docs/SALIENCY_AREA_FILTER.md)。完整原版分支仍保留。本轮完整对比的保留测试集中心 F1 为 63.31%，低于原版 65.29%，因此默认仍关闭新过滤。详见 [本轮结果](docs/SALIENCY_AREA9_RESULTS.md)。
 
 # 当前保留版本（2026-09-28）
 
-已恢复 `d9bf804` 的原版持续性检测算法，当前分支为 `codex/best-persistence-20260928`。
+原版持续性检测算法对应 `d9bf804`，保存在 `codex/best-persistence-20260928` 分支。
 使用 `configs/persistence_original.json` 运行原版“邻域匹配＋轨迹持续性”；使用 `configs/baseline.json` 可独立运行 EvDetMAV baseline。
 本次只保留较新版的 ECF 解码库加载与构建工具，未移入 V1/V2 的算法微调。
 

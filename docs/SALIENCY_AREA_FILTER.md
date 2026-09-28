@@ -70,3 +70,10 @@ python -m unittest discover -s tests -v
 逐窗过滤量见 `saliency_windows.csv`，周期性结果见 `filtered_detections.csv`，持续性详细记录见 `persistence_debug.jsonl`。
 `preview_saliency.npz` 保存预览所在真实时间窗的原始/过滤显著图，预览按删除前景像素最多选择，不按 GT 或检测好坏挑选。
 实验开始时保存代码快照及 SHA-256，避免未来修改代码后混淆本次结果。
+
+## 本轮完整结果
+
+6 段、22,088 个窗口已完成，两部完整版视频均逐帧解码通过。保留测试集中心匹配 P/R/F1 为 63.02% / 63.59% / 63.31%，原版为 62.42% / 68.43% / 65.29%。
+本轮过滤减少误报但损失召回，综合 F1 下降 1.98 个百分点；原版仍为默认，本轮结果作为面积过滤的对照试验保留。39 项单元测试通过。
+详细逐段结果见 [本轮结果](SALIENCY_AREA9_RESULTS.md)，视频与中间日志在 `results/saliency_area9_20260928/`。
+重复分段视频及短烟雾测试输出已在完整合并视频校验后清理；保留的两部完整版按编号顺序拼接，分段帧位置见 `video_sequence_index.csv`。

@@ -1,6 +1,6 @@
 """Audit complete area-filter runs: counts, legacy reproduction, pixel maps and video frames."""
 from pathlib import Path
-import sys,json,csv,argparse,subprocess
+import sys,json,csv,argparse,subprocess,hashlib
 from concurrent.futures import ThreadPoolExecutor
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import numpy as np
@@ -24,6 +24,9 @@ def verify_video(path,expected):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,required=True);a=parser.parse_args();out=a.out
     status=json.loads((out/'status.json').read_text());assert status['status']=='complete'
+    hashes=json.loads((out/'source_sha256.json').read_text())
+    for name,expected_hash in hashes.items():
+        assert hashlib.sha256((out/'source'/name).read_bytes()).hexdigest()==expected_hash,name
     sequences=status['sequences'];area=status['area_px'];count=0;checks=[]
     for seq in sequences:
         dest=out/seq;summary=json.loads((dest/'summary.json').read_text());assert summary['status']=='complete'
@@ -58,7 +61,8 @@ def main():
             historical_matches.append(split)
     with ThreadPoolExecutor(max_workers=2) as pool:
         videos=list(pool.map(lambda name:verify_video(out/name,count),['Detection_compare_all.mp4','Saliency_compare_all.mp4']))
-    result=dict(status='passed',total_windows=count,historical_original_metrics_exact=historical_matches,sequences=checks,videos=videos)
+    result=dict(status='passed',total_windows=count,source_snapshot_hashes_verified=len(hashes),
+                historical_original_metrics_exact=historical_matches,sequences=checks,videos=videos)
     (out/'verification.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(result,ensure_ascii=False,indent=2))
 
