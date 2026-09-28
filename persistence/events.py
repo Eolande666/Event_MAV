@@ -1,7 +1,7 @@
 """Stream original FRED structured H5/ZIP events, preserving baseline inclusive windows."""
 from contextlib import contextmanager
 from pathlib import Path
-import ctypes, tempfile, zipfile, shutil
+import ctypes, tempfile, zipfile, shutil, os, platform
 import numpy as np
 import h5py
 from evdetmav.cli import build_windows
@@ -34,7 +34,13 @@ def stream_windows(path,args):
         lib=None
         if ecf:
             root=Path(__file__).resolve().parents[1]
-            lib=ctypes.CDLL(str(root/'tmp/fred_figures/libecf_decode.dylib'))
+            suffix='.dylib' if platform.system()=='Darwin' else '.so'
+            choices=[Path(os.environ['EVDETMAV_ECF_LIBRARY'])] if os.environ.get('EVDETMAV_ECF_LIBRARY') else [
+                root/'lib'/('libecf_decode'+suffix),root/'tmp/fred_figures/libecf_decode.dylib']
+            library=next((p for p in choices if p.is_file()),None)
+            if library is None:
+                raise RuntimeError('ECF decoder missing: run python tools/build_ecf.py or set EVDETMAV_ECF_LIBRARY')
+            lib=ctypes.CDLL(str(library))
             lib.decode.argtypes=[ctypes.c_void_p,ctypes.c_size_t,ctypes.c_void_p]
             lib.decode.restype=ctypes.c_size_t
         def chunk(offset):

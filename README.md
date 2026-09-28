@@ -1,3 +1,26 @@
+# 当前保留版本（2026-09-28）
+
+已恢复 `d9bf804` 的原版持续性检测算法，当前分支为 `codex/best-persistence-20260928`。
+使用 `configs/persistence_original.json` 运行原版“邻域匹配＋轨迹持续性”；使用 `configs/baseline.json` 可独立运行 EvDetMAV baseline。
+本次只保留较新版的 ECF 解码库加载与构建工具，未移入 V1/V2 的算法微调。
+
+在本地保留测试序列 51、65、93、114 上，以**中心匹配**评价旋翼候选：Precision **62.42%**、Recall **68.43%**、F1 **65.29%**。
+这是已有完整实验中综合 F1 最好的版本；不以整机标注框的 IoU 排名。数据与比较范围详见 [版本选择记录](docs/BEST_VERSION.md)。
+
+```sh
+python -m pip install -r requirements-persistence.txt
+python tools/build_ecf.py
+python evdetmav_persistence.py --config configs/persistence_original.json --input FRED/8.zip --out results/run_8 --width 1280 --height 720 --time-unit us --window-ms 30 --step-ms 30
+```
+
+完整检测视频：`results/persistence_mvp/fred_v1/videos/Persistence_all.mp4`。
+左右对比视频：`results/persistence_mvp/fred_v1/videos/Comparison_all.mp4`。
+原始 RGB 和红蓝事件完整视频：`output/FRED_current/combined/`。
+单段重复视频已清理，按原顺序拼接的完整版、原始数据、实验记录、论文与真实数据图保留。
+历史报告中的 `tmp/fred_figures/venv/bin/python` 是已清理的临时环境；重新运行时使用安装好依赖的 Python 3.10+。
+
+---
+
 # EvDetMAV reproduction
 
 This folder contains a standalone reproduction of the algorithm flow from

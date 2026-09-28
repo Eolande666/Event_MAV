@@ -1,0 +1,5 @@
+method,protocol,tp,fp,fn,precision,recall,f1,frames
+original_three_stage,iou50,0,27,36,0.0,0.0,0.0,54
+original_three_stage,center,27,0,9,1.0,0.75,0.8571428571428571,54
+tuned_three_stage,iou50,7,25,29,0.21875,0.19444444444444445,0.20588235294117646,54
+tuned_three_stage,center,30,2,6,0.9375,0.8333333333333334,0.8823529411764706,54

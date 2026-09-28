@@ -1,0 +1,90 @@
+{
+  "sequence": "8",
+  "start_window": 270,
+  "windows": 100,
+  "duration_s": 3.0,
+  "scope": "calibration-sequence excerpt smoke test with fresh trackers, not full held-out performance",
+  "inherited": 2,
+  "log_counts": {
+    "TRANSIENT": 15065,
+    "NEW": 59,
+    "CONFIRMED": 42,
+    "ASSOC": 2,
+    "INHERIT": 2,
+    "MISSED": 13,
+    "DROP": 2
+  },
+  "proposals": 15213,
+  "rejected_support": 15077,
+  "baseline_detection_support_quantiles": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      4.0,
+      2.5500000000000003
+    ],
+    [
+      31.5,
+      34.0
+    ],
+    [
+      2729.5499999999824,
+      2453.549999999988
+    ],
+    [
+      8994.0,
+      10904.0
+    ]
+  ],
+  "baseline_detections_below_3_per_polarity": 3,
+  "original_ms": 273.4122837521136,
+  "tuned_ms": 200.27355793397874,
+  "metrics": [
+    {
+      "method": "original_three_stage",
+      "protocol": "iou50",
+      "tp": 0,
+      "fp": 38,
+      "fn": 49,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "frames": 90
+    },
+    {
+      "method": "original_three_stage",
+      "protocol": "center",
+      "tp": 38,
+      "fp": 0,
+      "fn": 11,
+      "precision": 1.0,
+      "recall": 0.7755102040816326,
+      "f1": 0.8735632183908046,
+      "frames": 90
+    },
+    {
+      "method": "tuned_three_stage",
+      "protocol": "iou50",
+      "tp": 0,
+      "fp": 39,
+      "fn": 49,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "frames": 90
+    },
+    {
+      "method": "tuned_three_stage",
+      "protocol": "center",
+      "tp": 39,
+      "fp": 0,
+      "fn": 10,
+      "precision": 1.0,
+      "recall": 0.7959183673469388,
+      "f1": 0.8863636363636364,
+      "frames": 90
+    }
+  ]
+}

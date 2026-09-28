@@ -10,4 +10,4 @@
 
 `use_periodicity=False` 只可用于原始 H5 重算，真正绕过周期性调用；不可从已经过周期性筛选的缓存 CSV 重建。`use_neighborhood` / `use_trajectory` 分别控制两项评分。阶段一只支持 rejection。
 
-依赖见 `../requirements-persistence.txt`。FRED 的 ECF 压缩另依赖现有 `tmp/fred_figures/libecf_decode.dylib`，不能删除该解码器；普通未压缩 structured H5 不依赖它。可复现实验脚本位于 `../experiments/`，测试命令 `python -m unittest discover -s tests -v`。
+依赖见 `../requirements-persistence.txt`。FRED 的 ECF 压缩依赖 `lib/libecf_decode.dylib`（Linux 使用 `.so`），可用 `python tools/build_ecf.py` 构建；兼容旧图表脚本的解码库仍保留在 `tmp/fred_figures/`；普通未压缩 structured H5 不依赖它。可复现实验脚本位于 `../experiments/`，测试命令 `python -m unittest discover -s tests -v`。

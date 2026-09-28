@@ -1,0 +1,86 @@
+{
+  "sequence": "8",
+  "windows": 200,
+  "duration_s": 6.0,
+  "scope": "calibration-sequence prefix smoke test, not full held-out performance",
+  "inherited": 0,
+  "log_counts": {
+    "NEW": 82,
+    "MISSED": 155,
+    "DROP": 51,
+    "TRANSIENT": 37156
+  },
+  "proposals": 37517,
+  "rejected_support": 37241,
+  "baseline_detection_support_quantiles": [
+    [
+      2.0,
+      3.0
+    ],
+    [
+      4.95,
+      4.0
+    ],
+    [
+      15357.0,
+      16601.0
+    ],
+    [
+      423445.39999999985,
+      301749.7
+    ],
+    [
+      594280.0,
+      335001.0
+    ]
+  ],
+  "baseline_detections_below_3_per_polarity": 1,
+  "original_ms": 296.880738119944,
+  "tuned_ms": 305.3034099738579,
+  "metrics": [
+    {
+      "method": "original_three_stage",
+      "protocol": "iou50",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "frames": 180
+    },
+    {
+      "method": "original_three_stage",
+      "protocol": "center",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "frames": 180
+    },
+    {
+      "method": "tuned_three_stage",
+      "protocol": "iou50",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "frames": 180
+    },
+    {
+      "method": "tuned_three_stage",
+      "protocol": "center",
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision": null,
+      "recall": null,
+      "f1": null,
+      "frames": 180
+    }
+  ]
+}
