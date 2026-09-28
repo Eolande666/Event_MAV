@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 import numpy as np
@@ -58,6 +59,10 @@ def process_file(input_file: Path, out_root: Path, output_prefix: str, args: arg
     saliency_dir = out_root / "saliency"
     event_dir = out_root / "event_boxes_evdetmav"
     segmentation_dir = out_root / "segmentation"
+    stats_path = out_root / f"{output_prefix}_saliency_filter.jsonl"
+    if args.saliency_min_area > 0:
+        out_root.mkdir(parents=True, exist_ok=True)
+        stats_path.write_text('')
 
     for local_window_id, start_t, end_t in windows:
         start_idx = int(np.searchsorted(t, start_t, side="left"))
@@ -67,6 +72,10 @@ def process_file(input_file: Path, out_root: Path, output_prefix: str, args: arg
             continue
         result = process_window(xw, yw, tw, pw, start_t, end_t, height, width, str(input_file), local_window_id, args)
         rows.extend(result.detections)
+        if args.saliency_min_area > 0:
+            with stats_path.open('a') as log:
+                log.write(json.dumps(dict(window_id=local_window_id, start_sec=start_t, end_sec=end_t,
+                                          **result.saliency_filter_stats)) + '\n')
 
         if local_window_id % int(args.save_every) == 0:
             image_stem = f"{output_prefix}__win_{local_window_id:06d}"
@@ -111,6 +120,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--intersection-radius", type=int, default=1, help="Spatial tolerance for positive/negative intersection. 0 is the strict paper rule.")
     parser.add_argument("--saliency-sigma", type=float, default=0.0, help="Optional Gaussian smoothing on saliency map.")
     parser.add_argument("--tau-s", type=float, default=50.0, help="Paper saliency threshold tau_s.")
+    parser.add_argument("--saliency-min-area", type=int, default=0, help="Before candidate dilation/merging, keep only thresholded 8-connected saliency regions with at least this many pixels. 0 preserves the original algorithm; recommended first trial: 9.")
     parser.add_argument("--tau-p", type=int, default=3, help="Paper periodicity threshold tau_p.")
     parser.add_argument("--top-k", type=int, default=4, help="K top salient areas evaluated with periodicity features.")
     parser.add_argument("--init-dilate-px", type=int, default=0, help="Optional dilation before initial connected components.")

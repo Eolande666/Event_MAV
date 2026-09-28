@@ -8,6 +8,41 @@ import numpy as np
 from scipy import ndimage
 
 
+def remove_small_saliency_regions(
+    saliency: np.ndarray, threshold: float, min_area: int,
+) -> tuple[np.ndarray, dict]:
+    """在候选膨胀/合并前按 8 邻域真实前景像素数过滤显著图。
+
+    min_area=0 原样返回，用于复现旧版；正数启用显著性阈值与面积过滤。
+    面积恰好等于 min_area 的区域保留。保留像素的显著值不重新归一化。
+    本函数不删除原事件；周期性仍在原始事件中计算。
+    """
+    if min_area < 0:
+        raise ValueError('saliency min_area must be nonnegative')
+    if min_area == 0:
+        return saliency, {'enabled': False, 'min_area_px': 0}
+    if not np.isfinite(threshold) or threshold <= 0:
+        raise ValueError('enabled saliency filtering requires a positive finite threshold')
+    # foreground: 超过显著性阈值的有效像素；低于阈值的背景也不参与评分。
+    foreground = saliency >= threshold
+    labels, count = ndimage.label(foreground, structure=np.ones((3, 3), dtype=bool))
+    # areas[label_id]: 实际像素数，不是外接框面积，也不是膨胀后的面积。
+    areas = np.bincount(labels.ravel(), minlength=count + 1)
+    keep = areas >= min_area
+    keep[0] = False  # 0 为背景标签，永不保留。
+    filtered = np.where(keep[labels], saliency, 0).astype(saliency.dtype, copy=False)
+    removed = (areas[1:] < min_area)
+    return filtered, {
+        'enabled': True, 'min_area_px': int(min_area), 'threshold': float(threshold),
+        'connectivity': 8, 'components_before': int(count),
+        'components_removed': int(removed.sum()), 'components_kept': int(keep[1:].sum()),
+        'foreground_pixels_before': int(foreground.sum()),
+        'foreground_pixels_removed': int(areas[1:][removed].sum()),
+        'foreground_pixels_kept': int(areas[1:][~removed].sum()),
+        'subthreshold_pixels_cleared': int(np.count_nonzero((saliency > 0) & ~foreground)),
+    }
+
+
 def binary_image_for_events(x: np.ndarray, y: np.ndarray, height: int, width: int) -> np.ndarray:
     image = np.zeros(height * width, dtype=bool)
     if x.size:

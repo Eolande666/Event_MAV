@@ -1,3 +1,5 @@
+> **2026-09-28 显著性过滤试验**：当前工作分支为 `codex/saliency-small-regions-20260928`。新增 `--saliency-min-area 9` 可清除小显著区域；默认值 0 仍运行下述原版。使用方法、变量及对比协议见 [显著性过滤说明](docs/SALIENCY_AREA_FILTER.md)。完整原版分支仍保留。
+
 # 当前保留版本（2026-09-28）
 
 已恢复 `d9bf804` 的原版持续性检测算法，当前分支为 `codex/best-persistence-20260928`。

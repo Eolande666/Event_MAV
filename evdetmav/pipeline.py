@@ -17,7 +17,7 @@ from .models import (
     events_in_box,
     union_boxes,
 )
-from .saliency import build_density_saliency
+from .saliency import build_density_saliency, remove_small_saliency_regions
 from .periodicity import evaluate_periodicity
 from .clustering import initialize_candidates, refine_candidate
 
@@ -83,6 +83,9 @@ def process_window(
 ) -> WindowResult:
     tic = time.perf_counter()
     saliency_u8 = build_density_saliency(x, y, t, p, start_t, end_t, height, width, args)
+    raw_saliency_u8 = saliency_u8
+    saliency_u8, filter_stats = remove_small_saliency_regions(
+        saliency_u8, float(args.tau_s), int(getattr(args, 'saliency_min_area', 0)))
     candidates = initialize_candidates(saliency_u8, args)
     top_candidates = candidates[: max(int(args.top_k), 1)]
 
@@ -120,4 +123,5 @@ def process_window(
         detections.sort(key=lambda d: (d.periodicity_score, d.saliency_score, d.event_count), reverse=True)
         detections = detections[: int(args.max_detections_per_window)]
 
-    return WindowResult(detections, saliency_u8, candidates, accepted, segmentation_mask)
+    return WindowResult(detections, saliency_u8, candidates, accepted, segmentation_mask,
+                        filter_stats, raw_saliency_u8)

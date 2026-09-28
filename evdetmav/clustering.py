@@ -8,6 +8,7 @@ import numpy as np
 from scipy import ndimage
 
 from .models import Box, Candidate, RefinedCandidate, box_area, pad_box, rectangle_distance, union_boxes
+from .saliency import remove_small_saliency_regions
 
 
 def connected_component_boxes(mask: np.ndarray, min_area: int) -> list[tuple[Box, int]]:
@@ -114,6 +115,11 @@ def refine_candidate(saliency_u8: np.ndarray, candidate: Candidate, args: argpar
         return None
     fine_threshold = float(args.fine_threshold) if args.fine_threshold > 0 else float(args.tau_s)
     mask = crop >= fine_threshold
+    # 裁剪可能把邻近大区域切成小碎片；同一面积门限再检查，避免精细阶段回退带回碎片。
+    area_limit = int(getattr(args, 'saliency_min_area', 0))
+    if area_limit > 0:
+        filtered_crop, _ = remove_small_saliency_regions(crop, fine_threshold, area_limit)
+        mask = filtered_crop > 0
     components = connected_component_boxes(mask, int(args.fine_min_area))
     kept_masks = []
     kept_scores = []
