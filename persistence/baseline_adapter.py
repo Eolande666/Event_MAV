@@ -20,8 +20,10 @@ def detect(events,start,end,width,height,source,window_id,args,use_periodicity=T
     if args.merge_propellers:
         raise ValueError('periodicity-off ablation currently requires separate candidate outputs')
     tic=time.perf_counter()
-    saliency=build_density_saliency(x,y,t,p,start,end,height,width,args)
+    support_stats={}
+    saliency=build_density_saliency(x,y,t,p,start,end,height,width,args,raw_support_stats=support_stats)
     saliency,stats=remove_small_saliency_regions(saliency,float(args.tau_s),int(getattr(args,'saliency_min_area',0)))
+    stats.update(support_stats)
     if saliency_stats is not None:saliency_stats.update(stats)
     candidates=initialize_candidates(saliency,args)[:max(int(args.top_k),1)]
     refined=[r for c in candidates if (r:=refine_candidate(saliency,c,args)) is not None]

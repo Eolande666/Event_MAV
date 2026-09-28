@@ -82,10 +82,13 @@ def process_window(
     args: argparse.Namespace,
 ) -> WindowResult:
     tic = time.perf_counter()
-    saliency_u8 = build_density_saliency(x, y, t, p, start_t, end_t, height, width, args)
+    support_stats = {}
+    saliency_u8 = build_density_saliency(x, y, t, p, start_t, end_t, height, width, args,
+                                       raw_support_stats=support_stats)
     raw_saliency_u8 = saliency_u8
     saliency_u8, filter_stats = remove_small_saliency_regions(
         saliency_u8, float(args.tau_s), int(getattr(args, 'saliency_min_area', 0)))
+    filter_stats.update(support_stats)
     candidates = initialize_candidates(saliency_u8, args)
     top_candidates = candidates[: max(int(args.top_k), 1)]
 

@@ -1,3 +1,5 @@
+> **最新：扩张前真实像素覆盖试验。** 分支 `codex/raw-pixel-support-20260928`；使用 `--min-raw-component-pixels 3 --saliency-min-area 0`，将重复触发的单个坐标始终计作 1 个像素。说明和命令见 [真实像素覆盖过滤](docs/RAW_PIXEL_SUPPORT.md)。原版与上一版面积过滤均可单独复现。
+
 > **2026-09-28 显著性过滤试验**：当前工作分支为 `codex/saliency-small-regions-20260928`。新增 `--saliency-min-area 9` 可清除小显著区域；默认值 0 仍运行下述原版。使用方法、变量及对比协议见 [显著性过滤说明](docs/SALIENCY_AREA_FILTER.md)。完整原版分支仍保留。本轮完整对比的保留测试集中心 F1 为 63.31%，低于原版 65.29%，因此默认仍关闭新过滤。详见 [本轮结果](docs/SALIENCY_AREA9_RESULTS.md)。
 
 # 当前保留版本（2026-09-28）
