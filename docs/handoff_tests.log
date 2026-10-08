@@ -1,0 +1,53 @@
+test_center_not_box_metric (test_persistence_mvp.EvaluationTests.test_center_not_box_metric) ... ok
+test_duplicates_count_false_positive (test_persistence_mvp.EvaluationTests.test_duplicates_count_false_positive) ... ok
+test_maximum_matching (test_persistence_mvp.EvaluationTests.test_maximum_matching) ... ok
+test_no_future_or_stale_alignment (test_persistence_mvp.EvaluationTests.test_no_future_or_stale_alignment) ... ok
+test_no_predictions_precision_undefined (test_persistence_mvp.EvaluationTests.test_no_predictions_precision_undefined) ... ok
+test_deletion_strict_exceeds (test_persistence_mvp.TrackerTests.test_deletion_strict_exceeds) ... ok
+test_disabled_passes_every_current_candidate (test_persistence_mvp.TrackerTests.test_disabled_passes_every_current_candidate) ... ok
+test_duplicate_window_rejected (test_persistence_mvp.TrackerTests.test_duplicate_window_rejected) ... ok
+test_history_bounded_and_rejected_candidates_retained (test_persistence_mvp.TrackerTests.test_history_bounded_and_rejected_candidates_retained) ... ok
+test_one_to_one_and_gate (test_persistence_mvp.TrackerTests.test_one_to_one_and_gate) ... ok
+test_random_outside_gate_new_tracks (test_persistence_mvp.TrackerTests.test_random_outside_gate_new_tracks) ... ok
+test_reordering (test_persistence_mvp.TrackerTests.test_reordering) ... ok
+test_short_miss_and_no_hallucination (test_persistence_mvp.TrackerTests.test_short_miss_and_no_hallucination) ... ok
+test_t_only_warmup_and_masks (test_persistence_mvp.TrackerTests.test_t_only_warmup_and_masks) ... ok
+test_current_does_not_leak_into_prediction (test_persistence_primitives.PersistenceTests.test_current_does_not_leak_into_prediction) ... ok
+test_disabled_config_needs_no_scales (test_persistence_primitives.PersistenceTests.test_disabled_config_needs_no_scales) ... ok
+test_fusion_missing (test_persistence_primitives.PersistenceTests.test_fusion_missing) ... ok
+test_invalid_observation (test_persistence_primitives.PersistenceTests.test_invalid_observation) ... ok
+test_invalid_times (test_persistence_primitives.PersistenceTests.test_invalid_times) ... ok
+test_irregular_constant_velocity (test_persistence_primitives.PersistenceTests.test_irregular_constant_velocity) ... ok
+test_missing_scale_is_error (test_persistence_primitives.PersistenceTests.test_missing_scale_is_error) ... ok
+test_neighborhood (test_persistence_primitives.PersistenceTests.test_neighborhood) ... ok
+test_stationary_disables_direction (test_persistence_primitives.PersistenceTests.test_stationary_disables_direction) ... ok
+test_turn_soft_penalty (test_persistence_primitives.PersistenceTests.test_turn_soft_penalty) ... ok
+test_warmup (test_persistence_primitives.PersistenceTests.test_warmup) ... ok
+test_debug_panel_preserves_entire_sensor_image (test_persistence_streaming.StreamingTests.test_debug_panel_preserves_entire_sensor_image) ... ok
+test_matches_inclusive_cli_boundaries_and_empty_windows (test_persistence_streaming.StreamingTests.test_matches_inclusive_cli_boundaries_and_empty_windows) ... ok
+test_negative_config_values (test_persistence_streaming.StreamingTests.test_negative_config_values) ... ok
+test_true_periodicity_off_does_not_call_original_pipeline (test_persistence_streaming.StreamingTests.test_true_periodicity_off_does_not_call_original_pipeline) ... ok
+test_diagonal_connectivity_and_boundary (test_raw_pixel_support.RawSupportTests.test_diagonal_connectivity_and_boundary) ... ok
+test_disabled_and_empty (test_raw_pixel_support.RawSupportTests.test_disabled_and_empty) ... ok
+test_distinct_coordinates_not_polarity_or_frequency (test_raw_pixel_support.RawSupportTests.test_distinct_coordinates_not_polarity_or_frequency) ... ok
+test_negative_threshold (test_raw_pixel_support.RawSupportTests.test_negative_threshold) ... ok
+test_repeated_single_coordinate_stays_one_pixel (test_raw_pixel_support.RawSupportTests.test_repeated_single_coordinate_stays_one_pixel) ... ok
+test_separate_single_points_cannot_combine_by_dilation (test_raw_pixel_support.RawSupportTests.test_separate_single_points_cannot_combine_by_dilation) ... ok
+test_single_pixel_is_removed_before_any_dilation (test_raw_pixel_support.RawSupportTests.test_single_pixel_is_removed_before_any_dilation) ... ok
+test_streaming_runner_logs_new_filter_with_old_filter_off (test_raw_pixel_support.RawSupportTests.test_streaming_runner_logs_new_filter_with_old_filter_off) ... ok
+test_sufficient_real_support_preserves_saliency_exactly (test_raw_pixel_support.RawSupportTests.test_sufficient_real_support_preserves_saliency_exactly) ... ok
+test_cropped_fragment_cannot_pass_fine_fallback (test_saliency_small_regions.SmallRegionTests.test_cropped_fragment_cannot_pass_fine_fallback) ... ok
+test_dilation_merge_and_fallback_cannot_recover_removed_pixels (test_saliency_small_regions.SmallRegionTests.test_dilation_merge_and_fallback_cannot_recover_removed_pixels) ... ok
+test_disabled_is_exact_identity (test_saliency_small_regions.SmallRegionTests.test_disabled_is_exact_identity) ... ok
+test_eight_connectivity (test_saliency_small_regions.SmallRegionTests.test_eight_connectivity) ... ok
+test_empty_and_background (test_saliency_small_regions.SmallRegionTests.test_empty_and_background) ... ok
+test_every_surviving_region_meets_area_limit (test_saliency_small_regions.SmallRegionTests.test_every_surviving_region_meets_area_limit) ... ok
+test_exact_boundary_and_real_pixel_area (test_saliency_small_regions.SmallRegionTests.test_exact_boundary_and_real_pixel_area) ... ok
+test_h5_runner_records_area_filter (test_saliency_small_regions.SmallRegionTests.test_h5_runner_records_area_filter) ... ok
+test_invalid_parameters (test_saliency_small_regions.SmallRegionTests.test_invalid_parameters) ... ok
+test_pipeline_filters_before_periodicity (test_saliency_small_regions.SmallRegionTests.test_pipeline_filters_before_periodicity) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 0.025s
+
+OK

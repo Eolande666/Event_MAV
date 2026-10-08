@@ -1,0 +1,81 @@
+[
+  {
+    "sequence": "51",
+    "window_id": 479,
+    "before": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0
+    },
+    "after": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 2
+    },
+    "gt": [
+      {
+        "bbox": [
+          697.55,
+          187.25,
+          751.45,
+          225.75
+        ],
+        "identity": 2
+      },
+      {
+        "bbox": [
+          390.25,
+          551.25,
+          428.75,
+          589.75
+        ],
+        "identity": 1
+      }
+    ],
+    "timestamp": 14.433188999999999,
+    "case": "true_candidate_rejected",
+    "selection_rule": "largest increase in FN, then earliest sequence/window",
+    "image": "failure_cases/true_candidate_rejected.png",
+    "note": "Magenta GT is evaluation-only; never used for detection or video tracking"
+  },
+  {
+    "sequence": "93",
+    "window_id": 106,
+    "before": {
+      "tp": 0,
+      "fp": 4,
+      "fn": 0
+    },
+    "after": {
+      "tp": 0,
+      "fp": 4,
+      "fn": 0
+    },
+    "gt": [],
+    "timestamp": 3.233301,
+    "case": "persistent_false_positive",
+    "selection_rule": "largest retained FP, then earliest sequence/window",
+    "image": "failure_cases/persistent_false_positive.png",
+    "note": "Magenta GT is evaluation-only; never used for detection or video tracking"
+  },
+  {
+    "sequence": "93",
+    "window_id": 118,
+    "before": {
+      "tp": 0,
+      "fp": 4,
+      "fn": 0
+    },
+    "after": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    },
+    "gt": [],
+    "timestamp": 3.599964,
+    "case": "false_positive_removed",
+    "selection_rule": "largest FP decrease with no TP decrease, then earliest sequence/window",
+    "image": "failure_cases/false_positive_removed.png",
+    "note": "Magenta GT is evaluation-only; never used for detection or video tracking"
+  }
+]

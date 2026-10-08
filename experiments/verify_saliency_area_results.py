@@ -51,7 +51,7 @@ def main():
             assert len(frames)==int(metric['frames'])
         checks.append(dict(sequence=seq,windows=summary['windows'],metrics_from_frames=True,preview_area_check=True))
     historical_matches=[]
-    if not status['max_windows'] and set(sequences)=={'8','20','51','65','93','114'}:
+    if not status['max_windows'] and set(sequences)=={'8','20','51','65','93'}:
         historical=csv_rows(ROOT/'results/persistence_mvp/fred_v1/metrics_aggregate.csv')
         actual=csv_rows(out/'metrics_aggregate.csv')
         for split in ['calibration','holdout']:

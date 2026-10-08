@@ -1,0 +1,110 @@
+[
+  {
+    "sequence": "93",
+    "method": "baseline",
+    "protocol": "iou40",
+    "tp": 234,
+    "fp": 5165,
+    "fn": 2979,
+    "precision": 0.04334135951102056,
+    "recall": 0.07282913165266107,
+    "f1": 0.0543427775197399,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "baseline",
+    "protocol": "iou50",
+    "tp": 119,
+    "fp": 5280,
+    "fn": 3094,
+    "precision": 0.022041118725689944,
+    "recall": 0.037037037037037035,
+    "f1": 0.027635856943799348,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "baseline",
+    "protocol": "center",
+    "tp": 3109,
+    "fp": 2290,
+    "fn": 104,
+    "precision": 0.575847379144286,
+    "recall": 0.9676314970432618,
+    "f1": 0.7220157919182536,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "persistence",
+    "protocol": "iou40",
+    "tp": 232,
+    "fp": 3939,
+    "fn": 2981,
+    "precision": 0.05562215296092064,
+    "recall": 0.07220666044195456,
+    "f1": 0.0628385698808234,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "persistence",
+    "protocol": "iou50",
+    "tp": 117,
+    "fp": 4054,
+    "fn": 3096,
+    "precision": 0.028050827139774633,
+    "recall": 0.036414565826330535,
+    "f1": 0.03169014084507042,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "persistence",
+    "protocol": "center",
+    "tp": 3022,
+    "fp": 1149,
+    "fn": 191,
+    "precision": 0.7245264924478543,
+    "recall": 0.9405539993775288,
+    "f1": 0.8185265438786565,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "script",
+    "protocol": "iou40",
+    "tp": 36,
+    "fp": 1811,
+    "fn": 3177,
+    "precision": 0.01949106659447753,
+    "recall": 0.011204481792717087,
+    "f1": 0.014229249011857707,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "script",
+    "protocol": "iou50",
+    "tp": 0,
+    "fp": 1847,
+    "fn": 3213,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "frames": 3336
+  },
+  {
+    "sequence": "93",
+    "method": "script",
+    "protocol": "center",
+    "tp": 1011,
+    "fp": 836,
+    "fn": 2202,
+    "precision": 0.5473741201949107,
+    "recall": 0.3146591970121382,
+    "f1": 0.399604743083004,
+    "frames": 3336
+  }
+]

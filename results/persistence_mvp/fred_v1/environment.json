@@ -1,0 +1,6 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "numpy": "2.3.5",
+  "baseline_commit": "3864488d88ba80188aa0e2b03453779d3183b4ba"
+}

@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "source": "/Users/eolande/EventMAV/FRED/65.zip",
+  "rgb_frames": 3434,
+  "event_frames": 3816,
+  "event_start_sec": 0.006225,
+  "event_end_sec": 114.465508,
+  "event_fps": "100/3",
+  "rgb_fps": 30,
+  "reused_verified_detections": false
+}

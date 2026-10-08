@@ -1,0 +1,10 @@
+{
+  "sequence": "65",
+  "status": "complete",
+  "windows": 3816,
+  "fresh_original_windows_checked": 12,
+  "elapsed_s": 587.460826124996,
+  "raw_components_removed": 901798,
+  "raw_unique_pixels_removed": 1033401,
+  "raw_events_removed": 1062914
+}

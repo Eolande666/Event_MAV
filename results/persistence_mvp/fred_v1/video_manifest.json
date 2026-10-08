@@ -1,0 +1,32 @@
+[
+  {
+    "file": "results/persistence_mvp/fred_v1/videos/Persistence_all.mp4",
+    "frames": 18351,
+    "duration_sec": 550.53,
+    "dimensions": [
+      1280,
+      784
+    ],
+    "bytes": 51410235
+  },
+  {
+    "file": "results/persistence_mvp/fred_v1/videos/Debug_all.mp4",
+    "frames": 18351,
+    "duration_sec": 550.53,
+    "dimensions": [
+      1280,
+      928
+    ],
+    "bytes": 82913292
+  },
+  {
+    "file": "results/persistence_mvp/fred_v1/videos/Comparison_all.mp4",
+    "frames": 18351,
+    "duration_sec": 550.53,
+    "dimensions": [
+      2560,
+      784
+    ],
+    "bytes": 98053973
+  }
+]

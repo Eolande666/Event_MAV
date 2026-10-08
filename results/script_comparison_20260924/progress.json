@@ -1,0 +1,36 @@
+{
+  "sequences": [
+    {
+      "sequence": "8",
+      "status": "complete",
+      "windows": 3491,
+      "total": 3491
+    },
+    {
+      "sequence": "20",
+      "status": "complete",
+      "windows": 3757,
+      "total": 3757
+    },
+    {
+      "sequence": "51",
+      "status": "complete",
+      "windows": 3579,
+      "total": 3579
+    },
+    {
+      "sequence": "65",
+      "status": "complete",
+      "windows": 3816,
+      "total": 3816
+    },
+    {
+      "sequence": "93",
+      "status": "complete",
+      "windows": 3708,
+      "total": 3708
+    }
+  ],
+  "processed": 22088,
+  "total": 22088
+}

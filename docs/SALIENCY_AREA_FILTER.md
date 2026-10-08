@@ -45,7 +45,7 @@ python evdetmav_persistence.py --config configs/persistence_original.json --inpu
 # 对照：关闭新过滤，其余不变
 python evdetmav_persistence.py --config configs/persistence_original.json --input FRED/8.zip --out results/original_run_8 --width 1280 --height 720 --time-unit us --window-ms 30 --step-ms 30 --saliency-min-area 0
 
-# 全部六段对比，输出目录必须尚不存在
+# 全部五段对比，输出目录必须尚不存在
 python experiments/compare_saliency_area.py --out results/area9_new_comparison --area 9 --workers 4
 
 python -m unittest discover -s tests -v
@@ -53,13 +53,13 @@ python -m unittest discover -s tests -v
 
 ## 本次对比协议
 
-- 素材：8、20、51、65、93、114 的原 ZIP/H5，无 RGB 读取。
+- 素材：8、20、51、65、93 的原 ZIP/H5，无 RGB 读取。
 - 所有时间窗保留旧版闭区间边界、30 ms 窗长与步长；每段从第 0 窗开始，不跳过历史。
 - 左侧原版：冻结原版 CSV，每段前 12 窗重新检测并逐字段核验（仅忽略来源路径和耗时），然后用独立原版 Tracker 重放完整序列。
 - 右侧新版：重新计算所有时间窗的显著性、周期性、最终候选，再进入另一独立 Tracker。
 - 两侧持续性配置完全相同；参数门限在运行前固定，没有根据保留测试集评价进行调参。
 - 中心匹配按原代码执行一对一匹配：预测框中心位于 GT 目标框内。不用整机 IoU 排名，也不把这一指标声称为逐旋翼标注的检测精度。
-- 8、20 为已有本地校准素材，51、65、93、114 为已有本地保留测试素材；以保留测试汇总判断本轮效果。
+- 8、20 为已有本地校准素材，51、65、93 为已有本地保留测试素材；以保留测试汇总判断本轮效果。
 - 原版使用缓存，因此此次耗时不构成两算法公平速度对比。
 - 新版视频每侧维持 1280×720 原生画面，框线直接绘制，不缩放后回放；单独标题区使用宋体和 Times New Roman。
 
@@ -73,7 +73,7 @@ python -m unittest discover -s tests -v
 
 ## 本轮完整结果
 
-6 段、22,088 个窗口已完成，两部完整版视频均逐帧解码通过。保留测试集中心匹配 P/R/F1 为 63.02% / 63.59% / 63.31%，原版为 62.42% / 68.43% / 65.29%。
-本轮过滤减少误报但损失召回，综合 F1 下降 1.98 个百分点；原版仍为默认，本轮结果作为面积过滤的对照试验保留。39 项单元测试通过。
+5 段、18,351 个窗口已完成，两部完整版视频均逐帧解码通过。保留测试集中心匹配 P/R/F1 为 83.53% / 63.42% / 72.10%，原版为 80.53% / 70.17% / 75.00%。
+本轮过滤减少误报但损失召回，综合 F1 下降 2.90 个百分点；原版仍为默认，本轮结果作为面积过滤的对照试验保留。39 项单元测试通过。
 详细逐段结果见 [本轮结果](SALIENCY_AREA9_RESULTS.md)，视频与中间日志在 `results/saliency_area9_20260928/`。
 重复分段视频及短烟雾测试输出已在完整合并视频校验后清理；保留的两部完整版按编号顺序拼接，分段帧位置见 `video_sequence_index.csv`。

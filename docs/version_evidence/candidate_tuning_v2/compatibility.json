@@ -1,7 +1,0 @@
-{
-  "checkpoint": "persistence-before-tuning-20260924",
-  "tracker_windows_equal": 100,
-  "detector_windows_equal": 10,
-  "excluded_field": "latency_ms only",
-  "status": "passed"
-}

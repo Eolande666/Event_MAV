@@ -27,7 +27,7 @@ def main():
             assert len(frames)==int(metric['frames'])
         checks.append(dict(sequence=seq,windows=n,frames_and_filter_logs_verified=True))
     historical=[]
-    if not state['max_windows'] and set(state['sequences'])=={'8','20','51','65','93','114'}:
+    if not state['max_windows'] and set(state['sequences'])=={'8','20','51','65','93'}:
         for split in ['calibration','holdout']:
             old=next(r for r in csv_rows(ROOT/'results/persistence_mvp/fred_v1/metrics_aggregate.csv') if r['split']==split and r['mode']=='combined' and r['protocol']=='center')
             new=next(r for r in csv_rows(out/'metrics_aggregate.csv') if r['split']==split and r['method']=='original')

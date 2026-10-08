@@ -1,0 +1,9 @@
+{
+  "unit_tests": 29,
+  "core_files_identical_to_d9bf804": 29,
+  "fresh_zip_windows": 12,
+  "fresh_baseline_matches_historical": true,
+  "fresh_persistence_matches_historical": true,
+  "algorithm_changed": false,
+  "infrastructure_exception": "ECF library lookup/build tools only"
+}

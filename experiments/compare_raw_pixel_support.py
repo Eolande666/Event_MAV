@@ -122,7 +122,7 @@ def finalize(out,sequences,minimum,limit):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--minimum',type=int,default=3);p.add_argument('--sequences',nargs='+',default=['8','20','51','65','93','114']);p.add_argument('--workers',type=int,default=4);p.add_argument('--max-windows',type=int,default=0);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--minimum',type=int,default=3);p.add_argument('--sequences',nargs='+',default=['8','20','51','65','93']);p.add_argument('--workers',type=int,default=4);p.add_argument('--max-windows',type=int,default=0);a=p.parse_args()
     assert a.minimum>0;a.out=a.out.resolve();a.out.mkdir(parents=True,exist_ok=False)
     write(a.out/'status.json',dict(status='running',sequences=a.sequences,min_raw_component_pixels=a.minimum,max_windows=a.max_windows))
     (a.out/'source').mkdir()

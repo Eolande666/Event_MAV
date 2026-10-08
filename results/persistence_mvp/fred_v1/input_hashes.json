@@ -1,0 +1,12 @@
+{
+  "comparison/8/evdetmav_detections_batch.csv": "f6af2d4df8bd8c2b989ff9ddc8992126d30be7543422ad9917bc8f158def811c",
+  "comparison/8/video_windows.csv": "d50802745efa5f85896a82e57b2c6727709d34bc7c5b34703261615b720f6589",
+  "comparison/20/evdetmav_detections_batch.csv": "682eb42c19dfe846cb86f80c6e5cd4ddcc90c3ef2a56fcff7786ed41f2c2fbcc",
+  "comparison/20/video_windows.csv": "8cafda5e4d65843c35f467ddd87652bfae09af0f1bd03d66e3f48295531da71e",
+  "comparison/51/evdetmav_detections_batch.csv": "0ff5baaefc78f44300aa239853f40cc75fb1bb8d6afc85af258d49d064945b1e",
+  "comparison/51/video_windows.csv": "cea4d2f365e8d9848463bbb05b24896aab9324f9f9de3e67ec3c26a26241dc36",
+  "comparison/65/evdetmav_detections_batch.csv": "039258c4e0fcda748743ae10e3b9492cd69d5754659dc97fb3de3b8a68b5545f",
+  "comparison/65/video_windows.csv": "580e505969f4e8d88b97119afa11899c982937be173f758f87653c65881d5067",
+  "comparison/93/evdetmav_detections_batch.csv": "96acff29ca126a1ebe3c1ab8e3c662095dcef6dda0f7c72fbf87bf99db1bbf60",
+  "comparison/93/video_windows.csv": "047fcedef2f972dc42634f0787120dd53f3bad573c2604428ef5d07c8254ca40"
+}

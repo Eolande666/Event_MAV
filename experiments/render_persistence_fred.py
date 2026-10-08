@@ -15,7 +15,7 @@ from persistence.replay import load_baseline
 from persistence.visualization import event_image,overlay_baseline,overlay_persistence,with_header,debug_panel
 
 OUT=ROOT/'results/persistence_mvp/fred_v1'
-SEQUENCES=['8','20','51','65','93','114']
+SEQUENCES=['8','20','51','65','93']
 FF=imageio_ffmpeg.get_ffmpeg_exe()
 
 

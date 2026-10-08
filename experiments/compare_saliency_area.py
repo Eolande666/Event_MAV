@@ -161,7 +161,7 @@ def finalize(out,sequences,area,limit):
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,required=True);parser.add_argument('--area',type=int,default=9)
-    parser.add_argument('--sequences',nargs='+',default=['8','20','51','65','93','114']);parser.add_argument('--workers',type=int,default=2);parser.add_argument('--max-windows',type=int,default=0)
+    parser.add_argument('--sequences',nargs='+',default=['8','20','51','65','93']);parser.add_argument('--workers',type=int,default=2);parser.add_argument('--max-windows',type=int,default=0)
     a=parser.parse_args();assert a.area>0;a.out=a.out.resolve();a.out.mkdir(parents=True,exist_ok=False)
     write(a.out/'status.json',dict(status='running',sequences=a.sequences,area_px=a.area,max_windows=a.max_windows))
     write(a.out/'source_sha256.json',{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for directory in ['evdetmav','persistence'] for p in (ROOT/directory).glob('*.py')})

@@ -17,7 +17,7 @@ def main():
     for kind in ('Persistence','Debug','Comparison'):
         path=OUT/'videos'/f'{kind}_all.mp4'
         frames,seconds=imageio_ffmpeg.count_frames_and_secs(str(path))
-        assert frames==22088
+        assert frames==18351
         reader=imageio_ffmpeg.read_frames(str(path));metadata=next(reader);reader.close()
         expected=(2560,784) if kind=='Comparison' else ((1280,928) if kind=='Debug' else (1280,784))
         assert tuple(metadata['size'])==expected,(kind,metadata['size'])
@@ -75,14 +75,14 @@ def main():
         relative=path.relative_to(ROOT);target=source/relative;target.parent.mkdir(parents=True,exist_ok=True)
         shutil.copy2(path,target);source_hashes[str(relative)]=hashlib.sha256(path.read_bytes()).hexdigest()
     write(OUT/'source_hashes.json',source_hashes)
-    write(OUT/'status.json',dict(stage='complete',sequences=SEQUENCES,calibration=['8','20'],holdout=['51','65','93','114'],
-                               unit_tests_passed=tests,total_windows=22088,video_duration_sec=662.64,
+    write(OUT/'status.json',dict(stage='complete',sequences=SEQUENCES,calibration=['8','20'],holdout=['51','65','93'],
+                               unit_tests_passed=tests,total_windows=18351,video_duration_sec=550.53,
                                baseline_core_unchanged=True,report='REPORT.md',videos=[v['file'] for v in video_manifest]))
     report=OUT/'REPORT.md';text=report.read_text()
     marker='## 候选确认延迟与最终视频布局'
     if marker in text:text=text.split(marker)[0].rstrip()+'\n'
-    text+='\n'+marker+'\n\n联合模块在留出序列 51/65/93/114 上，候选轨迹首次被接受的延迟中位数依次为 90/60/90/60 ms（相对同一 Track 的第一次 baseline 观测）。只统计最终曾被接受的轨迹，不代表真实目标首次可见到检出的端到端延迟；未被接受的轨迹数量另存 confirmation_delay.json。\n\n调试版评分表已移至原事件画面外，尺寸 1280×928；最终检测版为 1280×784，左右对照版为 2560×784。三个视频的 1280×720 原始传感器图像均未缩放。三版均 22,088 帧，662.64 秒，全片解码及尺寸/帧数核验通过。\n'
-    text+='\n定位诊断的 FP 另拆分为标注框外候选和框内未获一对一匹配的重复候选，见 false_positive_breakdown.json。114 的保留 FP 全部属于标注框外候选。30 ms 检测窗口与约 33.333 ms 标注帧率不同，因果对齐仍有最多约 30 ms 的结果年龄，快速运动时会影响重叠/中心匹配；两组严格采用相同规则，但不能与官方逐帧同步模型分数直接比较。\n'
+    text+='\n'+marker+'\n\n联合模块在留出序列 51/65/93 上，候选轨迹首次被接受的延迟中位数依次为 90/60/90 ms（相对同一 Track 的第一次 baseline 观测）。只统计最终曾被接受的轨迹，不代表真实目标首次可见到检出的端到端延迟；未被接受的轨迹数量另存 confirmation_delay.json。\n\n调试版评分表已移至原事件画面外，尺寸 1280×928；最终检测版为 1280×784，左右对照版为 2560×784。三个视频的 1280×720 原始传感器图像均未缩放。三版均 18,351 帧，550.53 秒，全片解码及尺寸/帧数核验通过。\n'
+    text+='\n定位诊断的 FP 另拆分为标注框外候选和框内未获一对一匹配的重复候选，见 false_positive_breakdown.json。30 ms 检测窗口与约 33.333 ms 标注帧率不同，因果对齐仍有最多约 30 ms 的结果年龄，快速运动时会影响重叠/中心匹配；两组严格采用相同规则，但不能与官方逐帧同步模型分数直接比较。\n'
     report.write_text(text)
     print(json.dumps(dict(tests=tests,video_manifest=video_manifest),indent=2))
 

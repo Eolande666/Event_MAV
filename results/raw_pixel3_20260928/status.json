@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "sequences": [
+    "8",
+    "20",
+    "51",
+    "65",
+    "93"
+  ],
+  "min_raw_component_pixels": 3,
+  "max_windows": 0
+}

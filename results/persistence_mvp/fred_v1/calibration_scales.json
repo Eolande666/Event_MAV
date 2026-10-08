@@ -1,0 +1,44 @@
+[
+  {
+    "radius": 10.0,
+    "quantile": 0.9,
+    "scales": {
+      "position": 0.6343343548115347,
+      "direction": 0.5056890712755864,
+      "acceleration": 6666.666666666161
+    },
+    "sample_counts": {
+      "position": 3879,
+      "direction": 3926,
+      "acceleration": 3879
+    }
+  },
+  {
+    "radius": 20.0,
+    "quantile": 0.9,
+    "scales": {
+      "position": 0.7103728805760764,
+      "direction": 0.5595125566475381,
+      "acceleration": 7797.593804231743
+    },
+    "sample_counts": {
+      "position": 4546,
+      "direction": 4595,
+      "acceleration": 4546
+    }
+  },
+  {
+    "radius": 40.0,
+    "quantile": 0.9,
+    "scales": {
+      "position": 0.722801038013432,
+      "direction": 0.5650013584392009,
+      "acceleration": 7857.614742161395
+    },
+    "sample_counts": {
+      "position": 4639,
+      "direction": 4689,
+      "acceleration": 4639
+    }
+  }
+]

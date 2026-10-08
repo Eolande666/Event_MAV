@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "total_windows": 18351,
+  "source_snapshot_hashes_verified": 25,
+  "historical_original_metrics_exact": [
+    "calibration",
+    "holdout"
+  ],
+  "sequences": [
+    {
+      "sequence": "8",
+      "windows": 3491,
+      "metrics_from_frames": true,
+      "preview_area_check": true
+    },
+    {
+      "sequence": "20",
+      "windows": 3757,
+      "metrics_from_frames": true,
+      "preview_area_check": true
+    },
+    {
+      "sequence": "51",
+      "windows": 3579,
+      "metrics_from_frames": true,
+      "preview_area_check": true
+    },
+    {
+      "sequence": "65",
+      "windows": 3816,
+      "metrics_from_frames": true,
+      "preview_area_check": true
+    },
+    {
+      "sequence": "93",
+      "windows": 3708,
+      "metrics_from_frames": true,
+      "preview_area_check": true
+    }
+  ],
+  "videos": [
+    {
+      "file": "Detection_compare_all.mp4",
+      "decoded_frames": 18351,
+      "decode_errors": false
+    },
+    {
+      "file": "Saliency_compare_all.mp4",
+      "decoded_frames": 18351,
+      "decode_errors": false
+    }
+  ]
+}

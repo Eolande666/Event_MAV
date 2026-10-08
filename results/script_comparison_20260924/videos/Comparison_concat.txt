@@ -1,0 +1,5 @@
+file '/Users/eolande/EventMAV/results/script_comparison_20260924/8/Comparison.mp4'
+file '/Users/eolande/EventMAV/results/script_comparison_20260924/20/Comparison.mp4'
+file '/Users/eolande/EventMAV/results/script_comparison_20260924/51/Comparison.mp4'
+file '/Users/eolande/EventMAV/results/script_comparison_20260924/65/Comparison.mp4'
+file '/Users/eolande/EventMAV/results/script_comparison_20260924/93/Comparison.mp4'

@@ -1,0 +1,16 @@
+{
+  "window_id": 1665,
+  "timestamp": 49.98667600000114,
+  "selection": "maximum removed foreground pixels; no GT selection",
+  "enabled": true,
+  "min_area_px": 9,
+  "threshold": 50.0,
+  "connectivity": 8,
+  "components_before": 29,
+  "components_removed": 23,
+  "components_kept": 6,
+  "foreground_pixels_before": 164,
+  "foreground_pixels_removed": 77,
+  "foreground_pixels_kept": 87,
+  "subthreshold_pixels_cleared": 307
+}

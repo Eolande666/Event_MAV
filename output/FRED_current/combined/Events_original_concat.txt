@@ -1,0 +1,5 @@
+file '/Users/eolande/EventMAV/output/FRED_current/8/Events_original.mp4'
+file '/Users/eolande/EventMAV/output/FRED_current/20/Events_original.mp4'
+file '/Users/eolande/EventMAV/output/FRED_current/51/Events_original.mp4'
+file '/Users/eolande/EventMAV/output/FRED_current/65/Events_original.mp4'
+file '/Users/eolande/EventMAV/output/FRED_current/93/Events_original.mp4'

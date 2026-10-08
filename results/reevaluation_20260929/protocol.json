@@ -1,0 +1,25 @@
+{
+  "sequences": [
+    "8",
+    "20",
+    "51",
+    "65",
+    "93"
+  ],
+  "calibration": [
+    "8",
+    "20"
+  ],
+  "holdout": [
+    "51",
+    "65",
+    "93"
+  ],
+  "stages_1_2": "saved detections, not rerun",
+  "stage_3": "fresh replay from window zero; frozen config",
+  "annotations": "fresh ZIP coordinates and official Event frame timestamps",
+  "matching": "one-to-one maximum-cardinality center containment; no IoU acceptance threshold",
+  "aggregation": "micro: sum TP/FP/FN before computing P/R/F1",
+  "tuning": false,
+  "limitation": "previously inspected local holdout; not a new unseen test set; whole-drone GT, not individual rotor GT"
+}

@@ -1,0 +1,5 @@
+file '/Users/eolande/EventMAV/results/persistence_mvp/fred_v1/8/videos/Persistence.mp4'
+file '/Users/eolande/EventMAV/results/persistence_mvp/fred_v1/20/videos/Persistence.mp4'
+file '/Users/eolande/EventMAV/results/persistence_mvp/fred_v1/51/videos/Persistence.mp4'
+file '/Users/eolande/EventMAV/results/persistence_mvp/fred_v1/65/videos/Persistence.mp4'
+file '/Users/eolande/EventMAV/results/persistence_mvp/fred_v1/93/videos/Persistence.mp4'

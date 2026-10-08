@@ -1,0 +1,1096 @@
+{"timestamp": 0.06748799999999999, "window_id": 1, "track_id": 1, "previous_state": "Tentative", "state": "Lost", "predicted_center": [78.0, 197.5], "miss_count": 1}
+{"timestamp": 0.09748799999999999, "window_id": 2, "track_id": 1, "previous_state": "Lost", "state": "Lost", "predicted_center": [78.0, 197.5], "miss_count": 2}
+{"timestamp": 0.09748799999999999, "window_id": 2, "track_id": 2, "previous_state": "Tentative", "state": "Lost", "predicted_center": [815.0, 206.0], "miss_count": 1}
+{"timestamp": 0.09748799999999999, "window_id": 2, "track_id": 3, "previous_state": "Tentative", "state": "Lost", "predicted_center": [357.0, 217.0], "miss_count": 1}
+{"timestamp": 0.09748799999999999, "window_id": 2, "track_id": 4, "previous_state": "Tentative", "state": "Lost", "predicted_center": [379.0, 318.5], "miss_count": 1}
+{"timestamp": 0.09748799999999999, "window_id": 2, "track_id": 5, "previous_state": "Tentative", "state": "Lost", "predicted_center": [809.0, 211.5], "miss_count": 1}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 2, "previous_state": "Lost", "state": "Lost", "predicted_center": [832.0, 204.5], "miss_count": 2}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 3, "previous_state": "Lost", "state": "Lost", "predicted_center": [357.0, 217.0], "miss_count": 2}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 4, "previous_state": "Lost", "state": "Lost", "predicted_center": [379.0, 318.5], "miss_count": 2}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 5, "previous_state": "Lost", "state": "Lost", "predicted_center": [809.0, 211.5], "miss_count": 2}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 6, "previous_state": "Tentative", "state": "Lost", "predicted_center": [31.0, 221.5], "miss_count": 1}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 7, "previous_state": "Tentative", "state": "Lost", "predicted_center": [452.5, 300.5], "miss_count": 1}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 8, "previous_state": "Tentative", "state": "Lost", "predicted_center": [669.5, 195.5], "miss_count": 1}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 9, "previous_state": "Tentative", "state": "Lost", "predicted_center": [696.5, 190.5], "miss_count": 1}
+{"timestamp": 0.127488, "window_id": 3, "track_id": 1, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 1, "previous_state": "Tentative", "state": "Lost", "predicted_center": [89.33333333333333, 206.16666666666666], "miss_count": 1}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 2, "previous_state": "Lost", "state": "Deleted", "predicted_center": [849.0, 203.0], "miss_count": 3}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 3, "previous_state": "Lost", "state": "Deleted", "predicted_center": [357.0, 217.0], "miss_count": 3}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 4, "previous_state": "Lost", "state": "Deleted", "predicted_center": [379.0, 318.5], "miss_count": 3}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 5, "previous_state": "Lost", "state": "Deleted", "predicted_center": [809.0, 211.5], "miss_count": 3}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 6, "previous_state": "Lost", "state": "Lost", "predicted_center": [31.0, 221.5], "miss_count": 2}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 7, "previous_state": "Lost", "state": "Lost", "predicted_center": [452.5, 300.5], "miss_count": 2}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 8, "previous_state": "Lost", "state": "Lost", "predicted_center": [669.5, 195.5], "miss_count": 2}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 9, "previous_state": "Lost", "state": "Lost", "predicted_center": [696.5, 190.5], "miss_count": 2}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 10, "previous_state": "Tentative", "state": "Lost", "predicted_center": [312.5, 256.0], "miss_count": 1}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 11, "previous_state": "Tentative", "state": "Lost", "predicted_center": [465.0, 713.5], "miss_count": 1}
+{"timestamp": 0.157488, "window_id": 4, "track_id": 12, "previous_state": "Tentative", "state": "Lost", "predicted_center": [748.0, 183.0], "miss_count": 1}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 1, "previous_state": "Lost", "state": "Lost", "predicted_center": [92.16666666666667, 208.33333333333334], "miss_count": 2}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 6, "previous_state": "Lost", "state": "Deleted", "predicted_center": [31.0, 221.5], "miss_count": 3}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 7, "previous_state": "Lost", "state": "Deleted", "predicted_center": [452.5, 300.5], "miss_count": 3}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 8, "previous_state": "Lost", "state": "Deleted", "predicted_center": [669.5, 195.5], "miss_count": 3}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 9, "previous_state": "Lost", "state": "Deleted", "predicted_center": [696.5, 190.5], "miss_count": 3}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 10, "previous_state": "Lost", "state": "Lost", "predicted_center": [312.5, 256.0], "miss_count": 2}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 11, "previous_state": "Lost", "state": "Lost", "predicted_center": [465.0, 713.5], "miss_count": 2}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 12, "previous_state": "Lost", "state": "Lost", "predicted_center": [748.0, 183.0], "miss_count": 2}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 13, "previous_state": "Tentative", "state": "Lost", "predicted_center": [262.5, 189.5], "miss_count": 1}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 14, "previous_state": "Tentative", "state": "Lost", "predicted_center": [552.5, 697.5], "miss_count": 1}
+{"timestamp": 0.187488, "window_id": 5, "track_id": 15, "previous_state": "Tentative", "state": "Lost", "predicted_center": [913.0, 703.0], "miss_count": 1}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 1, "previous_state": "Lost", "state": "Deleted", "predicted_center": [95.0, 210.5], "miss_count": 3}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 10, "previous_state": "Lost", "state": "Deleted", "predicted_center": [312.5, 256.0], "miss_count": 3}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 11, "previous_state": "Lost", "state": "Deleted", "predicted_center": [465.0, 713.5], "miss_count": 3}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 12, "previous_state": "Lost", "state": "Deleted", "predicted_center": [748.0, 183.0], "miss_count": 3}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 13, "previous_state": "Lost", "state": "Lost", "predicted_center": [262.5, 189.5], "miss_count": 2}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 14, "previous_state": "Lost", "state": "Lost", "predicted_center": [552.5, 697.5], "miss_count": 2}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 15, "previous_state": "Lost", "state": "Lost", "predicted_center": [913.0, 703.0], "miss_count": 2}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 16, "previous_state": "Tentative", "state": "Lost", "predicted_center": [439.0, 170.0], "miss_count": 1}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 17, "previous_state": "Tentative", "state": "Lost", "predicted_center": [650.5, 671.5], "miss_count": 1}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 18, "previous_state": "Tentative", "state": "Lost", "predicted_center": [972.5, 202.5], "miss_count": 1}
+{"timestamp": 0.217488, "window_id": 6, "track_id": 19, "previous_state": "Tentative", "state": "Lost", "predicted_center": [999.0, 686.0], "miss_count": 1}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 13, "previous_state": "Lost", "state": "Deleted", "predicted_center": [262.5, 189.5], "miss_count": 3}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 14, "previous_state": "Lost", "state": "Deleted", "predicted_center": [552.5, 697.5], "miss_count": 3}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 15, "previous_state": "Lost", "state": "Deleted", "predicted_center": [913.0, 703.0], "miss_count": 3}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 16, "previous_state": "Lost", "state": "Lost", "predicted_center": [439.0, 170.0], "miss_count": 2}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 17, "previous_state": "Lost", "state": "Lost", "predicted_center": [650.5, 671.5], "miss_count": 2}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 18, "previous_state": "Lost", "state": "Lost", "predicted_center": [972.5, 202.5], "miss_count": 2}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 19, "previous_state": "Lost", "state": "Lost", "predicted_center": [999.0, 686.0], "miss_count": 2}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 20, "previous_state": "Tentative", "state": "Lost", "predicted_center": [562.0, 143.5], "miss_count": 1}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 21, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1110.5, 156.0], "miss_count": 1}
+{"timestamp": 0.24748799999999999, "window_id": 7, "track_id": 22, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1105.5, 652.5], "miss_count": 1}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 16, "previous_state": "Lost", "state": "Deleted", "predicted_center": [439.0, 170.0], "miss_count": 3}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 17, "previous_state": "Lost", "state": "Deleted", "predicted_center": [650.5, 671.5], "miss_count": 3}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 18, "previous_state": "Lost", "state": "Deleted", "predicted_center": [972.5, 202.5], "miss_count": 3}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 19, "previous_state": "Lost", "state": "Deleted", "predicted_center": [999.0, 686.0], "miss_count": 3}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 20, "previous_state": "Lost", "state": "Lost", "predicted_center": [562.0, 143.5], "miss_count": 2}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 21, "previous_state": "Lost", "state": "Lost", "predicted_center": [1110.5, 156.0], "miss_count": 2}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 22, "previous_state": "Lost", "state": "Lost", "predicted_center": [1105.5, 652.5], "miss_count": 2}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 23, "previous_state": "Tentative", "state": "Lost", "predicted_center": [709.0, 116.0], "miss_count": 1}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 24, "previous_state": "Tentative", "state": "Lost", "predicted_center": [894.0, 592.0], "miss_count": 1}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 25, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1170.5, 130.5], "miss_count": 1}
+{"timestamp": 0.27748799999999996, "window_id": 8, "track_id": 26, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1184.5, 616.5], "miss_count": 1}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 20, "previous_state": "Lost", "state": "Deleted", "predicted_center": [562.0, 143.5], "miss_count": 3}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 21, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1110.5, 156.0], "miss_count": 3}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 22, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1105.5, 652.5], "miss_count": 3}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 23, "previous_state": "Lost", "state": "Lost", "predicted_center": [709.0, 116.0], "miss_count": 2}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 24, "previous_state": "Lost", "state": "Lost", "predicted_center": [894.0, 592.0], "miss_count": 2}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 25, "previous_state": "Lost", "state": "Lost", "predicted_center": [1170.5, 130.5], "miss_count": 2}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 26, "previous_state": "Lost", "state": "Lost", "predicted_center": [1184.5, 616.5], "miss_count": 2}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 27, "previous_state": "Tentative", "state": "Lost", "predicted_center": [884.5, 101.5], "miss_count": 1}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 28, "previous_state": "Tentative", "state": "Lost", "predicted_center": [700.5, 531.5], "miss_count": 1}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 29, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1043.5, 556.0], "miss_count": 1}
+{"timestamp": 0.307488, "window_id": 9, "track_id": 30, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1251.0, 66.0], "miss_count": 1}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 23, "previous_state": "Lost", "state": "Deleted", "predicted_center": [709.0, 116.0], "miss_count": 3}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 24, "previous_state": "Lost", "state": "Deleted", "predicted_center": [894.0, 592.0], "miss_count": 3}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 25, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1170.5, 130.5], "miss_count": 3}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 26, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1184.5, 616.5], "miss_count": 3}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 27, "previous_state": "Lost", "state": "Lost", "predicted_center": [884.5, 101.5], "miss_count": 2}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 28, "previous_state": "Lost", "state": "Lost", "predicted_center": [700.5, 531.5], "miss_count": 2}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 29, "previous_state": "Lost", "state": "Lost", "predicted_center": [1043.5, 556.0], "miss_count": 2}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 30, "previous_state": "Lost", "state": "Lost", "predicted_center": [1251.0, 66.0], "miss_count": 2}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 31, "previous_state": "Tentative", "state": "Lost", "predicted_center": [106.0, 376.5], "miss_count": 1}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 32, "previous_state": "Tentative", "state": "Lost", "predicted_center": [997.0, 84.5], "miss_count": 1}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 33, "previous_state": "Tentative", "state": "Lost", "predicted_center": [867.0, 498.0], "miss_count": 1}
+{"timestamp": 0.337488, "window_id": 10, "track_id": 34, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1168.0, 528.5], "miss_count": 1}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 27, "previous_state": "Lost", "state": "Deleted", "predicted_center": [884.5, 101.5], "miss_count": 3}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 28, "previous_state": "Lost", "state": "Deleted", "predicted_center": [700.5, 531.5], "miss_count": 3}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 29, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1043.5, 556.0], "miss_count": 3}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 30, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1251.0, 66.0], "miss_count": 3}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 31, "previous_state": "Lost", "state": "Lost", "predicted_center": [106.0, 376.5], "miss_count": 2}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 32, "previous_state": "Lost", "state": "Lost", "predicted_center": [997.0, 84.5], "miss_count": 2}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 33, "previous_state": "Lost", "state": "Lost", "predicted_center": [867.0, 498.0], "miss_count": 2}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 34, "previous_state": "Lost", "state": "Lost", "predicted_center": [1168.0, 528.5], "miss_count": 2}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 35, "previous_state": "Tentative", "state": "Lost", "predicted_center": [312.0, 352.5], "miss_count": 1}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 36, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1086.0, 76.0], "miss_count": 1}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 37, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1058.0, 480.5], "miss_count": 1}
+{"timestamp": 0.36748800000000004, "window_id": 11, "track_id": 38, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1258.5, 511.5], "miss_count": 1}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 31, "previous_state": "Lost", "state": "Deleted", "predicted_center": [106.0, 376.5], "miss_count": 3}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 32, "previous_state": "Lost", "state": "Deleted", "predicted_center": [997.0, 84.5], "miss_count": 3}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 33, "previous_state": "Lost", "state": "Deleted", "predicted_center": [867.0, 498.0], "miss_count": 3}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 34, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1168.0, 528.5], "miss_count": 3}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 35, "previous_state": "Lost", "state": "Lost", "predicted_center": [312.0, 352.5], "miss_count": 2}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 36, "previous_state": "Lost", "state": "Lost", "predicted_center": [1086.0, 76.0], "miss_count": 2}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 37, "previous_state": "Lost", "state": "Lost", "predicted_center": [1058.0, 480.5], "miss_count": 2}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 38, "previous_state": "Lost", "state": "Lost", "predicted_center": [1258.5, 511.5], "miss_count": 2}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 39, "previous_state": "Tentative", "state": "Lost", "predicted_center": [528.0, 352.0], "miss_count": 1}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 40, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1181.0, 70.0], "miss_count": 1}
+{"timestamp": 0.39748800000000006, "window_id": 12, "track_id": 41, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1208.5, 471.5], "miss_count": 1}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 35, "previous_state": "Lost", "state": "Deleted", "predicted_center": [312.0, 352.5], "miss_count": 3}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 36, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1086.0, 76.0], "miss_count": 3}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 37, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1058.0, 480.5], "miss_count": 3}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 38, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1258.5, 511.5], "miss_count": 3}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 39, "previous_state": "Lost", "state": "Lost", "predicted_center": [528.0, 352.0], "miss_count": 2}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 40, "previous_state": "Lost", "state": "Lost", "predicted_center": [1181.0, 70.0], "miss_count": 2}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 41, "previous_state": "Lost", "state": "Lost", "predicted_center": [1208.5, 471.5], "miss_count": 2}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 42, "previous_state": "Tentative", "state": "Lost", "predicted_center": [745.5, 278.0], "miss_count": 1}
+{"timestamp": 0.4274880000000001, "window_id": 13, "track_id": 43, "previous_state": "Tentative", "state": "Lost", "predicted_center": [893.5, 224.5], "miss_count": 1}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 39, "previous_state": "Lost", "state": "Deleted", "predicted_center": [528.0, 352.0], "miss_count": 3}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 40, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1181.0, 70.0], "miss_count": 3}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 41, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1208.5, 471.5], "miss_count": 3}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 42, "previous_state": "Lost", "state": "Lost", "predicted_center": [745.5, 278.0], "miss_count": 2}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 43, "previous_state": "Lost", "state": "Lost", "predicted_center": [893.5, 224.5], "miss_count": 2}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 44, "previous_state": "Tentative", "state": "Lost", "predicted_center": [981.5, 360.0], "miss_count": 1}
+{"timestamp": 0.4574880000000001, "window_id": 14, "track_id": 45, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1150.5, 391.0], "miss_count": 1}
+{"timestamp": 0.48748800000000014, "window_id": 15, "track_id": 42, "previous_state": "Lost", "state": "Deleted", "predicted_center": [745.5, 278.0], "miss_count": 3}
+{"timestamp": 0.48748800000000014, "window_id": 15, "track_id": 43, "previous_state": "Lost", "state": "Deleted", "predicted_center": [893.5, 224.5], "miss_count": 3}
+{"timestamp": 0.48748800000000014, "window_id": 15, "track_id": 44, "previous_state": "Lost", "state": "Lost", "predicted_center": [981.5, 360.0], "miss_count": 2}
+{"timestamp": 0.48748800000000014, "window_id": 15, "track_id": 45, "previous_state": "Lost", "state": "Lost", "predicted_center": [1150.5, 391.0], "miss_count": 2}
+{"timestamp": 0.48748800000000014, "window_id": 15, "track_id": 46, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1159.0, 344.0], "miss_count": 1}
+{"timestamp": 0.5174880000000002, "window_id": 16, "track_id": 44, "previous_state": "Lost", "state": "Deleted", "predicted_center": [981.5, 360.0], "miss_count": 3}
+{"timestamp": 0.5174880000000002, "window_id": 16, "track_id": 45, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1150.5, 391.0], "miss_count": 3}
+{"timestamp": 0.5174880000000002, "window_id": 16, "track_id": 46, "previous_state": "Lost", "state": "Lost", "predicted_center": [1146.5, 328.0], "miss_count": 2}
+{"timestamp": 0.5474880000000002, "window_id": 17, "track_id": 46, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1134.0, 312.0], "miss_count": 3}
+{"timestamp": 1.387488000000001, "window_id": 45, "track_id": 47, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1037.5, 431.5], "miss_count": 1}
+{"timestamp": 1.417488000000001, "window_id": 46, "track_id": 47, "previous_state": "Lost", "state": "Lost", "predicted_center": [1002.0, 433.0], "miss_count": 2}
+{"timestamp": 1.447488000000001, "window_id": 47, "track_id": 47, "previous_state": "Lost", "state": "Deleted", "predicted_center": [966.5, 434.5], "miss_count": 3}
+{"timestamp": 1.567488000000001, "window_id": 51, "track_id": 48, "previous_state": "Tentative", "state": "Lost", "predicted_center": [928.0, 21.0], "miss_count": 1}
+{"timestamp": 1.5974880000000011, "window_id": 52, "track_id": 48, "previous_state": "Lost", "state": "Lost", "predicted_center": [928.0, 21.0], "miss_count": 2}
+{"timestamp": 1.6274880000000012, "window_id": 53, "track_id": 48, "previous_state": "Lost", "state": "Deleted", "predicted_center": [928.0, 21.0], "miss_count": 3}
+{"timestamp": 1.7774880000000013, "window_id": 58, "track_id": 49, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1257.5, 499.5], "miss_count": 1}
+{"timestamp": 1.8074880000000013, "window_id": 59, "track_id": 49, "previous_state": "Lost", "state": "Lost", "predicted_center": [1257.5, 499.5], "miss_count": 2}
+{"timestamp": 1.8374880000000013, "window_id": 60, "track_id": 49, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1257.5, 499.5], "miss_count": 3}
+{"timestamp": 3.937487999999989, "window_id": 130, "track_id": 50, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1049.5, 451.0], "miss_count": 1}
+{"timestamp": 3.967487999999989, "window_id": 131, "track_id": 50, "previous_state": "Lost", "state": "Lost", "predicted_center": [1049.5, 451.0], "miss_count": 2}
+{"timestamp": 3.9974879999999886, "window_id": 132, "track_id": 50, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1049.5, 451.0], "miss_count": 3}
+{"timestamp": 4.777487999999995, "window_id": 158, "track_id": 51, "previous_state": "Tentative", "state": "Lost", "predicted_center": [107.0, 503.0], "miss_count": 1}
+{"timestamp": 4.807487999999995, "window_id": 159, "track_id": 51, "previous_state": "Lost", "state": "Lost", "predicted_center": [109.5, 500.0], "miss_count": 2}
+{"timestamp": 4.837487999999995, "window_id": 160, "track_id": 51, "previous_state": "Lost", "state": "Deleted", "predicted_center": [112.0, 497.0], "miss_count": 3}
+{"timestamp": 6.067488000000005, "window_id": 201, "track_id": 52, "previous_state": "Tentative", "state": "Lost", "predicted_center": [973.0, 33.5], "miss_count": 1}
+{"timestamp": 6.097488000000006, "window_id": 202, "track_id": 52, "previous_state": "Lost", "state": "Lost", "predicted_center": [971.0, 35.5], "miss_count": 2}
+{"timestamp": 6.127488000000006, "window_id": 203, "track_id": 52, "previous_state": "Lost", "state": "Deleted", "predicted_center": [969.0, 37.5], "miss_count": 3}
+{"timestamp": 6.877488000000012, "window_id": 228, "track_id": 53, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1102.0, 412.0], "miss_count": 1}
+{"timestamp": 6.907488000000012, "window_id": 229, "track_id": 53, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 6.9374880000000125, "window_id": 230, "track_id": 53, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1097.5, 424.0], "miss_count": 1}
+{"timestamp": 6.967488000000013, "window_id": 231, "track_id": 53, "previous_state": "Lost", "state": "Lost", "predicted_center": [1096.0, 428.0], "miss_count": 2}
+{"timestamp": 6.997488000000013, "window_id": 232, "track_id": 53, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1094.5, 432.0], "miss_count": 3}
+{"timestamp": 8.167488000000018, "window_id": 271, "track_id": 54, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 8.257488000000016, "window_id": 274, "track_id": 54, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [-0.5, 112.0], "miss_count": 1}
+{"timestamp": 8.287488000000016, "window_id": 275, "track_id": 54, "previous_state": "Lost", "state": "Lost", "predicted_center": [-8.5, 129.0], "miss_count": 2}
+{"timestamp": 8.317488000000015, "window_id": 276, "track_id": 54, "previous_state": "Lost", "state": "Deleted", "predicted_center": [-16.5, 146.0], "miss_count": 3}
+{"timestamp": 8.947488000000002, "window_id": 297, "track_id": 55, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1021.0, 464.5], "miss_count": 1}
+{"timestamp": 8.977488000000001, "window_id": 298, "track_id": 55, "previous_state": "Lost", "state": "Lost", "predicted_center": [1021.0, 464.5], "miss_count": 2}
+{"timestamp": 9.007488, "window_id": 299, "track_id": 55, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1021.0, 464.5], "miss_count": 3}
+{"timestamp": 9.667487999999986, "window_id": 321, "track_id": 56, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 9.787487999999984, "window_id": 325, "track_id": 56, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [61.5, 354.5], "miss_count": 1}
+{"timestamp": 9.817487999999983, "window_id": 326, "track_id": 56, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 9.907487999999981, "window_id": 329, "track_id": 57, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1170.5, 518.5], "miss_count": 1}
+{"timestamp": 9.93748799999998, "window_id": 330, "track_id": 56, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [124.0, 350.5], "miss_count": 1}
+{"timestamp": 9.93748799999998, "window_id": 330, "track_id": 57, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 9.96748799999998, "window_id": 331, "track_id": 57, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1122.5, 508.0], "miss_count": 1}
+{"timestamp": 9.96748799999998, "window_id": 331, "track_id": 56, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 9.99748799999998, "window_id": 332, "track_id": 57, "previous_state": "Lost", "state": "Lost", "predicted_center": [1106.5, 504.5], "miss_count": 2}
+{"timestamp": 10.027487999999979, "window_id": 333, "track_id": 57, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1090.5, 501.0], "miss_count": 3}
+{"timestamp": 10.327487999999972, "window_id": 343, "track_id": 56, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [272.5, 341.0], "miss_count": 1}
+{"timestamp": 10.357487999999972, "window_id": 344, "track_id": 56, "previous_state": "Lost", "state": "Lost", "predicted_center": [281.0, 341.0], "miss_count": 2}
+{"timestamp": 10.387487999999971, "window_id": 345, "track_id": 56, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 10.41748799999997, "window_id": 346, "track_id": 56, "previous_state": "Tentative", "state": "Lost", "predicted_center": [327.3333333333333, 341.0], "miss_count": 1}
+{"timestamp": 10.44748799999997, "window_id": 347, "track_id": 56, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 10.597487999999966, "window_id": 352, "track_id": 56, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [391.5, 333.5], "miss_count": 1}
+{"timestamp": 10.627487999999966, "window_id": 353, "track_id": 56, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 10.657487999999965, "window_id": 354, "track_id": 56, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 11.917487999999938, "window_id": 396, "track_id": 56, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [895.0, 280.5], "miss_count": 1}
+{"timestamp": 11.947487999999938, "window_id": 397, "track_id": 56, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 12.517487999999926, "window_id": 416, "track_id": 56, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1020.0, 302.0], "miss_count": 1}
+{"timestamp": 12.547487999999925, "window_id": 417, "track_id": 56, "previous_state": "Lost", "state": "Lost", "predicted_center": [1018.0, 305.0], "miss_count": 2}
+{"timestamp": 12.577487999999924, "window_id": 418, "track_id": 56, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1016.0, 308.0], "miss_count": 3}
+{"timestamp": 12.577487999999924, "window_id": 418, "track_id": 58, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 12.607487999999924, "window_id": 419, "track_id": 58, "previous_state": "Confirmed", "state": "Tentative", "miss_count": 0}
+{"timestamp": 12.637487999999923, "window_id": 420, "track_id": 58, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 12.697487999999922, "window_id": 422, "track_id": 58, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1030.5, 307.0], "miss_count": 1}
+{"timestamp": 12.727487999999921, "window_id": 423, "track_id": 58, "previous_state": "Lost", "state": "Lost", "predicted_center": [1027.0, 309.0], "miss_count": 2}
+{"timestamp": 12.727487999999921, "window_id": 423, "track_id": 59, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1170.0, 515.5], "miss_count": 1}
+{"timestamp": 12.75748799999992, "window_id": 424, "track_id": 58, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1023.5, 311.0], "miss_count": 3}
+{"timestamp": 12.75748799999992, "window_id": 424, "track_id": 59, "previous_state": "Lost", "state": "Lost", "predicted_center": [1170.0, 515.5], "miss_count": 2}
+{"timestamp": 12.78748799999992, "window_id": 425, "track_id": 59, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1170.0, 515.5], "miss_count": 3}
+{"timestamp": 12.847487999999919, "window_id": 427, "track_id": 61, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1040.0, 301.5], "miss_count": 1}
+{"timestamp": 12.877487999999918, "window_id": 428, "track_id": 61, "previous_state": "Lost", "state": "Lost", "predicted_center": [1040.0, 301.5], "miss_count": 2}
+{"timestamp": 12.907487999999917, "window_id": 429, "track_id": 61, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1040.0, 301.5], "miss_count": 3}
+{"timestamp": 12.907487999999917, "window_id": 429, "track_id": 62, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1266.0, 269.5], "miss_count": 1}
+{"timestamp": 12.907487999999917, "window_id": 429, "track_id": 60, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 12.937487999999917, "window_id": 430, "track_id": 62, "previous_state": "Lost", "state": "Lost", "predicted_center": [1266.0, 269.5], "miss_count": 2}
+{"timestamp": 12.967487999999916, "window_id": 431, "track_id": 62, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1266.0, 269.5], "miss_count": 3}
+{"timestamp": 13.147487999999912, "window_id": 437, "track_id": 63, "previous_state": "Tentative", "state": "Lost", "predicted_center": [975.5, 540.5], "miss_count": 1}
+{"timestamp": 13.177487999999911, "window_id": 438, "track_id": 63, "previous_state": "Lost", "state": "Lost", "predicted_center": [969.5, 543.0], "miss_count": 2}
+{"timestamp": 13.20748799999991, "window_id": 439, "track_id": 63, "previous_state": "Lost", "state": "Deleted", "predicted_center": [963.5, 545.5], "miss_count": 3}
+{"timestamp": 13.867487999999897, "window_id": 461, "track_id": 60, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [431.5, 314.5], "miss_count": 1}
+{"timestamp": 13.897487999999896, "window_id": 462, "track_id": 60, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 14.047487999999893, "window_id": 467, "track_id": 60, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [304.0, 312.0], "miss_count": 1}
+{"timestamp": 14.077487999999892, "window_id": 468, "track_id": 60, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 14.767487999999878, "window_id": 491, "track_id": 60, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [116.0, 342.0], "miss_count": 1}
+{"timestamp": 14.797487999999877, "window_id": 492, "track_id": 60, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 14.827487999999876, "window_id": 493, "track_id": 60, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [115.5, 341.75], "miss_count": 1}
+{"timestamp": 14.857487999999876, "window_id": 494, "track_id": 60, "previous_state": "Lost", "state": "Lost", "predicted_center": [117.0, 343.0], "miss_count": 2}
+{"timestamp": 14.887487999999875, "window_id": 495, "track_id": 60, "previous_state": "Lost", "state": "Deleted", "predicted_center": [118.5, 344.25], "miss_count": 3}
+{"timestamp": 15.15748799999987, "window_id": 504, "track_id": 64, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 15.57748799999986, "window_id": 518, "track_id": 64, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [331.0, 340.0], "miss_count": 1}
+{"timestamp": 15.60748799999986, "window_id": 519, "track_id": 64, "previous_state": "Lost", "state": "Lost", "predicted_center": [341.5, 339.0], "miss_count": 2}
+{"timestamp": 15.637487999999859, "window_id": 520, "track_id": 64, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 15.667487999999858, "window_id": 521, "track_id": 64, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 16.177487999999858, "window_id": 538, "track_id": 65, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 16.20748799999986, "window_id": 539, "track_id": 65, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 16.23748799999986, "window_id": 540, "track_id": 65, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 18.127487999999932, "window_id": 603, "track_id": 64, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [766.0, 89.5], "miss_count": 1}
+{"timestamp": 18.157487999999933, "window_id": 604, "track_id": 64, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 18.487487999999946, "window_id": 615, "track_id": 64, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [472.0, 71.5], "miss_count": 1}
+{"timestamp": 18.517487999999947, "window_id": 616, "track_id": 64, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 18.667487999999953, "window_id": 621, "track_id": 64, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [313.5, 87.0], "miss_count": 1}
+{"timestamp": 18.697487999999954, "window_id": 622, "track_id": 66, "previous_state": "Tentative", "state": "Lost", "predicted_center": [884.0, 519.0], "miss_count": 1}
+{"timestamp": 18.697487999999954, "window_id": 622, "track_id": 64, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 18.727487999999955, "window_id": 623, "track_id": 66, "previous_state": "Lost", "state": "Lost", "predicted_center": [884.0, 519.0], "miss_count": 2}
+{"timestamp": 18.757487999999956, "window_id": 624, "track_id": 66, "previous_state": "Lost", "state": "Deleted", "predicted_center": [884.0, 519.0], "miss_count": 3}
+{"timestamp": 18.81748799999996, "window_id": 626, "track_id": 67, "previous_state": "Tentative", "state": "Lost", "predicted_center": [847.5, 480.5], "miss_count": 1}
+{"timestamp": 18.84748799999996, "window_id": 627, "track_id": 67, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 18.937487999999963, "window_id": 630, "track_id": 67, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 18.997487999999965, "window_id": 632, "track_id": 67, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [848.5, 483.5], "miss_count": 1}
+{"timestamp": 19.027487999999966, "window_id": 633, "track_id": 67, "previous_state": "Lost", "state": "Lost", "predicted_center": [853.5, 483.0], "miss_count": 2}
+{"timestamp": 19.057487999999967, "window_id": 634, "track_id": 67, "previous_state": "Lost", "state": "Deleted", "predicted_center": [858.5, 482.5], "miss_count": 3}
+{"timestamp": 19.177487999999972, "window_id": 638, "track_id": 68, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 19.207487999999973, "window_id": 639, "track_id": 68, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [823.5, 492.0], "miss_count": 1}
+{"timestamp": 19.237487999999974, "window_id": 640, "track_id": 68, "previous_state": "Lost", "state": "Lost", "predicted_center": [819.0, 491.5], "miss_count": 2}
+{"timestamp": 19.267487999999975, "window_id": 641, "track_id": 64, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [0.5, 192.0], "miss_count": 1}
+{"timestamp": 19.267487999999975, "window_id": 641, "track_id": 68, "previous_state": "Lost", "state": "Deleted", "predicted_center": [814.5, 491.0], "miss_count": 3}
+{"timestamp": 19.297487999999976, "window_id": 642, "track_id": 64, "previous_state": "Lost", "state": "Lost", "predicted_center": [-1.5, 199.0], "miss_count": 2}
+{"timestamp": 19.327487999999978, "window_id": 643, "track_id": 64, "previous_state": "Lost", "state": "Deleted", "predicted_center": [-3.5, 206.0], "miss_count": 3}
+{"timestamp": 19.507487999999984, "window_id": 649, "track_id": 69, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 19.537487999999986, "window_id": 650, "track_id": 69, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 19.567487999999987, "window_id": 651, "track_id": 69, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 19.68748799999999, "window_id": 655, "track_id": 70, "previous_state": "Tentative", "state": "Lost", "predicted_center": [809.0, 484.5], "miss_count": 1}
+{"timestamp": 19.717487999999992, "window_id": 656, "track_id": 70, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 19.807487999999996, "window_id": 659, "track_id": 71, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 19.807487999999996, "window_id": 659, "track_id": 70, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 19.867487999999998, "window_id": 661, "track_id": 70, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [849.0, 492.0], "miss_count": 1}
+{"timestamp": 19.897488, "window_id": 662, "track_id": 70, "previous_state": "Lost", "state": "Lost", "predicted_center": [858.0, 495.5], "miss_count": 2}
+{"timestamp": 19.927488, "window_id": 663, "track_id": 70, "previous_state": "Lost", "state": "Deleted", "predicted_center": [867.0, 499.0], "miss_count": 3}
+{"timestamp": 19.927488, "window_id": 663, "track_id": 71, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [38.0, 295.0], "miss_count": 1}
+{"timestamp": 19.957488, "window_id": 664, "track_id": 71, "previous_state": "Lost", "state": "Lost", "predicted_center": [41.5, 298.5], "miss_count": 2}
+{"timestamp": 19.987488000000003, "window_id": 665, "track_id": 71, "previous_state": "Lost", "state": "Deleted", "predicted_center": [45.0, 302.0], "miss_count": 3}
+{"timestamp": 20.377488000000017, "window_id": 678, "track_id": 72, "previous_state": "Tentative", "state": "Lost", "predicted_center": [194.5, 335.5], "miss_count": 1}
+{"timestamp": 20.40748800000002, "window_id": 679, "track_id": 72, "previous_state": "Lost", "state": "Lost", "predicted_center": [194.5, 335.5], "miss_count": 2}
+{"timestamp": 20.43748800000002, "window_id": 680, "track_id": 72, "previous_state": "Lost", "state": "Deleted", "predicted_center": [194.5, 335.5], "miss_count": 3}
+{"timestamp": 20.527488000000023, "window_id": 683, "track_id": 73, "previous_state": "Tentative", "state": "Lost", "predicted_center": [255.5, 345.5], "miss_count": 1}
+{"timestamp": 20.557488000000024, "window_id": 684, "track_id": 73, "previous_state": "Lost", "state": "Lost", "predicted_center": [255.5, 345.5], "miss_count": 2}
+{"timestamp": 20.587488000000025, "window_id": 685, "track_id": 73, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 20.617488000000026, "window_id": 686, "track_id": 73, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 20.767488000000032, "window_id": 691, "track_id": 74, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 20.797488000000033, "window_id": 692, "track_id": 74, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [799.0, 308.0], "miss_count": 1}
+{"timestamp": 20.827488000000034, "window_id": 693, "track_id": 74, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 20.887488000000037, "window_id": 695, "track_id": 74, "previous_state": "Tentative", "state": "Lost", "predicted_center": [795.0, 321.0], "miss_count": 1}
+{"timestamp": 20.917488000000038, "window_id": 696, "track_id": 74, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 20.94748800000004, "window_id": 697, "track_id": 74, "previous_state": "Tentative", "state": "Lost", "predicted_center": [798.5, 349.5], "miss_count": 1}
+{"timestamp": 20.97748800000004, "window_id": 698, "track_id": 74, "previous_state": "Lost", "state": "Lost", "predicted_center": [799.5, 360.5], "miss_count": 2}
+{"timestamp": 21.00748800000004, "window_id": 699, "track_id": 74, "previous_state": "Lost", "state": "Deleted", "predicted_center": [800.5, 371.5], "miss_count": 3}
+{"timestamp": 21.75748800000007, "window_id": 724, "track_id": 73, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [739.0, 322.5], "miss_count": 1}
+{"timestamp": 21.78748800000007, "window_id": 725, "track_id": 73, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 23.227488000000125, "window_id": 773, "track_id": 75, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 23.257488000000127, "window_id": 774, "track_id": 73, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [613.5, 187.0], "miss_count": 1}
+{"timestamp": 23.257488000000127, "window_id": 774, "track_id": 75, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 23.287488000000128, "window_id": 775, "track_id": 75, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 23.287488000000128, "window_id": 775, "track_id": 73, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 23.31748800000013, "window_id": 776, "track_id": 73, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [570.5, 179.5], "miss_count": 1}
+{"timestamp": 23.34748800000013, "window_id": 777, "track_id": 73, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 23.467488000000134, "window_id": 781, "track_id": 73, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [454.0, 176.5], "miss_count": 1}
+{"timestamp": 23.497488000000136, "window_id": 782, "track_id": 73, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 23.527488000000137, "window_id": 783, "track_id": 73, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [406.25, 178.75], "miss_count": 1}
+{"timestamp": 23.557488000000138, "window_id": 784, "track_id": 73, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 24.067488000000157, "window_id": 801, "track_id": 73, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [-10.0, 228.5], "miss_count": 1}
+{"timestamp": 24.09748800000016, "window_id": 802, "track_id": 73, "previous_state": "Lost", "state": "Lost", "predicted_center": [-25.5, 236.0], "miss_count": 2}
+{"timestamp": 24.12748800000016, "window_id": 803, "track_id": 73, "previous_state": "Lost", "state": "Deleted", "predicted_center": [-41.0, 243.5], "miss_count": 3}
+{"timestamp": 25.1774880000002, "window_id": 838, "track_id": 76, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1257.5, 499.5], "miss_count": 1}
+{"timestamp": 25.2074880000002, "window_id": 839, "track_id": 76, "previous_state": "Lost", "state": "Lost", "predicted_center": [1257.5, 499.5], "miss_count": 2}
+{"timestamp": 25.2374880000002, "window_id": 840, "track_id": 76, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1257.5, 499.5], "miss_count": 3}
+{"timestamp": 25.41748800000021, "window_id": 846, "track_id": 77, "previous_state": "Tentative", "state": "Lost", "predicted_center": [816.0, 481.5], "miss_count": 1}
+{"timestamp": 25.44748800000021, "window_id": 847, "track_id": 77, "previous_state": "Lost", "state": "Lost", "predicted_center": [816.0, 481.5], "miss_count": 2}
+{"timestamp": 25.47748800000021, "window_id": 848, "track_id": 77, "previous_state": "Lost", "state": "Deleted", "predicted_center": [816.0, 481.5], "miss_count": 3}
+{"timestamp": 25.597488000000215, "window_id": 852, "track_id": 78, "previous_state": "Tentative", "state": "Lost", "predicted_center": [97.5, 402.5], "miss_count": 1}
+{"timestamp": 25.627488000000216, "window_id": 853, "track_id": 78, "previous_state": "Lost", "state": "Lost", "predicted_center": [97.5, 402.5], "miss_count": 2}
+{"timestamp": 25.657488000000217, "window_id": 854, "track_id": 78, "previous_state": "Lost", "state": "Deleted", "predicted_center": [97.5, 402.5], "miss_count": 3}
+{"timestamp": 25.68748800000022, "window_id": 855, "track_id": 79, "previous_state": "Tentative", "state": "Lost", "predicted_center": [137.5, 405.5], "miss_count": 1}
+{"timestamp": 25.71748800000022, "window_id": 856, "track_id": 79, "previous_state": "Lost", "state": "Lost", "predicted_center": [137.5, 405.5], "miss_count": 2}
+{"timestamp": 25.74748800000022, "window_id": 857, "track_id": 79, "previous_state": "Lost", "state": "Deleted", "predicted_center": [137.5, 405.5], "miss_count": 3}
+{"timestamp": 25.837488000000224, "window_id": 860, "track_id": 80, "previous_state": "Tentative", "state": "Lost", "predicted_center": [205.5, 408.5], "miss_count": 1}
+{"timestamp": 25.867488000000225, "window_id": 861, "track_id": 80, "previous_state": "Lost", "state": "Lost", "predicted_center": [205.5, 408.5], "miss_count": 2}
+{"timestamp": 25.897488000000227, "window_id": 862, "track_id": 80, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 25.927488000000228, "window_id": 863, "track_id": 80, "previous_state": "Tentative", "state": "Lost", "predicted_center": [247.5, 407.8333333333333], "miss_count": 1}
+{"timestamp": 25.95748800000023, "window_id": 864, "track_id": 80, "previous_state": "Lost", "state": "Lost", "predicted_center": [258.0, 407.6666666666667], "miss_count": 2}
+{"timestamp": 25.98748800000023, "window_id": 865, "track_id": 80, "previous_state": "Lost", "state": "Deleted", "predicted_center": [268.5, 407.5], "miss_count": 3}
+{"timestamp": 26.047488000000232, "window_id": 867, "track_id": 81, "previous_state": "Tentative", "state": "Lost", "predicted_center": [293.0, 407.0], "miss_count": 1}
+{"timestamp": 26.077488000000233, "window_id": 868, "track_id": 81, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 26.107488000000235, "window_id": 869, "track_id": 81, "previous_state": "Tentative", "state": "Lost", "predicted_center": [326.0, 404.75], "miss_count": 1}
+{"timestamp": 26.137488000000236, "window_id": 870, "track_id": 81, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 26.167488000000237, "window_id": 871, "track_id": 81, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [348.0, 403.25], "miss_count": 1}
+{"timestamp": 26.197488000000238, "window_id": 872, "track_id": 81, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 26.347488000000244, "window_id": 877, "track_id": 81, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [426.5, 401.5], "miss_count": 1}
+{"timestamp": 26.377488000000245, "window_id": 878, "track_id": 81, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 26.407488000000246, "window_id": 879, "track_id": 81, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 26.917488000000265, "window_id": 896, "track_id": 81, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [607.5, 373.0], "miss_count": 1}
+{"timestamp": 26.947488000000266, "window_id": 897, "track_id": 81, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 29.527488000000364, "window_id": 983, "track_id": 82, "previous_state": "Tentative", "state": "Lost", "predicted_center": [815.5, 278.0], "miss_count": 1}
+{"timestamp": 29.557488000000365, "window_id": 984, "track_id": 82, "previous_state": "Lost", "state": "Lost", "predicted_center": [815.5, 278.0], "miss_count": 2}
+{"timestamp": 29.587488000000366, "window_id": 985, "track_id": 82, "previous_state": "Lost", "state": "Deleted", "predicted_center": [815.5, 278.0], "miss_count": 3}
+{"timestamp": 29.70748800000037, "window_id": 989, "track_id": 83, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1174.0, 519.0], "miss_count": 1}
+{"timestamp": 29.737488000000372, "window_id": 990, "track_id": 83, "previous_state": "Lost", "state": "Lost", "predicted_center": [1174.0, 519.0], "miss_count": 2}
+{"timestamp": 29.767488000000373, "window_id": 991, "track_id": 83, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1174.0, 519.0], "miss_count": 3}
+{"timestamp": 30.007488000000382, "window_id": 999, "track_id": 84, "previous_state": "Tentative", "state": "Lost", "predicted_center": [173.5, 207.5], "miss_count": 1}
+{"timestamp": 30.037488000000383, "window_id": 1000, "track_id": 84, "previous_state": "Lost", "state": "Lost", "predicted_center": [173.5, 207.5], "miss_count": 2}
+{"timestamp": 30.067488000000385, "window_id": 1001, "track_id": 84, "previous_state": "Lost", "state": "Deleted", "predicted_center": [173.5, 207.5], "miss_count": 3}
+{"timestamp": 30.367488000000396, "window_id": 1011, "track_id": 85, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 30.397488000000397, "window_id": 1012, "track_id": 85, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 30.427488000000398, "window_id": 1013, "track_id": 85, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 30.937488000000418, "window_id": 1030, "track_id": 81, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [252.0, 405.0], "miss_count": 1}
+{"timestamp": 30.96748800000042, "window_id": 1031, "track_id": 81, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 31.207488000000428, "window_id": 1039, "track_id": 81, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [204.0, 423.0], "miss_count": 1}
+{"timestamp": 31.23748800000043, "window_id": 1040, "track_id": 81, "previous_state": "Lost", "state": "Lost", "predicted_center": [204.0, 424.5], "miss_count": 2}
+{"timestamp": 31.26748800000043, "window_id": 1041, "track_id": 81, "previous_state": "Lost", "state": "Deleted", "predicted_center": [204.0, 426.0], "miss_count": 3}
+{"timestamp": 32.13748800000046, "window_id": 1070, "track_id": 86, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 32.43748800000047, "window_id": 1080, "track_id": 86, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [277.0, 378.5], "miss_count": 1}
+{"timestamp": 32.46748800000047, "window_id": 1081, "track_id": 86, "previous_state": "Lost", "state": "Lost", "predicted_center": [285.0, 377.0], "miss_count": 2}
+{"timestamp": 32.49748800000047, "window_id": 1082, "track_id": 86, "previous_state": "Lost", "state": "Deleted", "predicted_center": [293.0, 375.5], "miss_count": 3}
+{"timestamp": 32.67748800000048, "window_id": 1088, "track_id": 87, "previous_state": "Tentative", "state": "Lost", "predicted_center": [341.5, 361.5], "miss_count": 1}
+{"timestamp": 32.70748800000048, "window_id": 1089, "track_id": 87, "previous_state": "Lost", "state": "Lost", "predicted_center": [348.0, 359.5], "miss_count": 2}
+{"timestamp": 32.73748800000048, "window_id": 1090, "track_id": 87, "previous_state": "Lost", "state": "Deleted", "predicted_center": [354.5, 357.5], "miss_count": 3}
+{"timestamp": 32.827488000000486, "window_id": 1093, "track_id": 88, "previous_state": "Tentative", "state": "Lost", "predicted_center": [378.0, 353.5], "miss_count": 1}
+{"timestamp": 32.85748800000049, "window_id": 1094, "track_id": 88, "previous_state": "Lost", "state": "Lost", "predicted_center": [378.0, 353.5], "miss_count": 2}
+{"timestamp": 32.88748800000049, "window_id": 1095, "track_id": 88, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 32.91748800000049, "window_id": 1096, "track_id": 88, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 33.067488000000495, "window_id": 1101, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [452.5, 335.5], "miss_count": 1}
+{"timestamp": 33.097488000000496, "window_id": 1102, "track_id": 88, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 34.23748800000054, "window_id": 1140, "track_id": 89, "previous_state": "Tentative", "state": "Lost", "predicted_center": [775.0, 303.5], "miss_count": 1}
+{"timestamp": 34.26748800000054, "window_id": 1141, "track_id": 89, "previous_state": "Lost", "state": "Lost", "predicted_center": [781.5, 316.5], "miss_count": 2}
+{"timestamp": 34.29748800000054, "window_id": 1142, "track_id": 89, "previous_state": "Lost", "state": "Deleted", "predicted_center": [788.0, 329.5], "miss_count": 3}
+{"timestamp": 34.387488000000545, "window_id": 1145, "track_id": 90, "previous_state": "Tentative", "state": "Lost", "predicted_center": [763.5, 293.0], "miss_count": 1}
+{"timestamp": 34.417488000000546, "window_id": 1146, "track_id": 90, "previous_state": "Lost", "state": "Lost", "predicted_center": [760.5, 289.5], "miss_count": 2}
+{"timestamp": 34.44748800000055, "window_id": 1147, "track_id": 90, "previous_state": "Lost", "state": "Deleted", "predicted_center": [757.5, 286.0], "miss_count": 3}
+{"timestamp": 34.59748800000055, "window_id": 1152, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [965.0, 278.5], "miss_count": 1}
+{"timestamp": 34.627488000000554, "window_id": 1153, "track_id": 88, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 34.687488000000556, "window_id": 1155, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [985.5, 271.5], "miss_count": 1}
+{"timestamp": 34.71748800000056, "window_id": 1156, "track_id": 88, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 34.74748800000056, "window_id": 1157, "track_id": 88, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 34.80748800000056, "window_id": 1159, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1003.5, 267.5], "miss_count": 1}
+{"timestamp": 34.83748800000056, "window_id": 1160, "track_id": 88, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 35.22748800000058, "window_id": 1173, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1023.5, 244.0], "miss_count": 1}
+{"timestamp": 35.25748800000058, "window_id": 1174, "track_id": 88, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 36.69748800000063, "window_id": 1222, "track_id": 91, "previous_state": "Tentative", "state": "Lost", "predicted_center": [680.0, 168.0], "miss_count": 1}
+{"timestamp": 36.72748800000063, "window_id": 1223, "track_id": 91, "previous_state": "Lost", "state": "Lost", "predicted_center": [680.0, 168.0], "miss_count": 2}
+{"timestamp": 36.757488000000635, "window_id": 1224, "track_id": 91, "previous_state": "Lost", "state": "Deleted", "predicted_center": [680.0, 168.0], "miss_count": 3}
+{"timestamp": 37.567488000000665, "window_id": 1251, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [116.5, 342.5], "miss_count": 1}
+{"timestamp": 37.597488000000666, "window_id": 1252, "track_id": 88, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 37.68748800000067, "window_id": 1255, "track_id": 88, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [81.0, 343.0], "miss_count": 1}
+{"timestamp": 37.71748800000067, "window_id": 1256, "track_id": 88, "previous_state": "Lost", "state": "Lost", "predicted_center": [68.0, 343.0], "miss_count": 2}
+{"timestamp": 37.74748800000067, "window_id": 1257, "track_id": 88, "previous_state": "Lost", "state": "Deleted", "predicted_center": [55.0, 343.0], "miss_count": 3}
+{"timestamp": 37.89748800000068, "window_id": 1262, "track_id": 92, "previous_state": "Tentative", "state": "Lost", "predicted_center": [78.5, 353.5], "miss_count": 1}
+{"timestamp": 37.92748800000068, "window_id": 1263, "track_id": 92, "previous_state": "Lost", "state": "Lost", "predicted_center": [78.5, 353.5], "miss_count": 2}
+{"timestamp": 37.95748800000068, "window_id": 1264, "track_id": 92, "previous_state": "Lost", "state": "Deleted", "predicted_center": [78.5, 353.5], "miss_count": 3}
+{"timestamp": 38.107488000000686, "window_id": 1269, "track_id": 93, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 38.19748800000069, "window_id": 1272, "track_id": 93, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [92.0, 362.0], "miss_count": 1}
+{"timestamp": 38.22748800000069, "window_id": 1273, "track_id": 93, "previous_state": "Lost", "state": "Lost", "predicted_center": [96.5, 363.5], "miss_count": 2}
+{"timestamp": 38.25748800000069, "window_id": 1274, "track_id": 93, "previous_state": "Lost", "state": "Deleted", "predicted_center": [101.0, 365.0], "miss_count": 3}
+{"timestamp": 38.67748800000071, "window_id": 1288, "track_id": 94, "previous_state": "Tentative", "state": "Lost", "predicted_center": [158.0, 360.0], "miss_count": 1}
+{"timestamp": 38.70748800000071, "window_id": 1289, "track_id": 94, "previous_state": "Lost", "state": "Lost", "predicted_center": [158.0, 360.0], "miss_count": 2}
+{"timestamp": 38.73748800000071, "window_id": 1290, "track_id": 94, "previous_state": "Lost", "state": "Deleted", "predicted_center": [158.0, 360.0], "miss_count": 3}
+{"timestamp": 39.18748800000073, "window_id": 1305, "track_id": 95, "previous_state": "Tentative", "state": "Lost", "predicted_center": [946.5, 342.5], "miss_count": 1}
+{"timestamp": 39.21748800000073, "window_id": 1306, "track_id": 95, "previous_state": "Lost", "state": "Lost", "predicted_center": [946.5, 342.5], "miss_count": 2}
+{"timestamp": 39.24748800000073, "window_id": 1307, "track_id": 95, "previous_state": "Lost", "state": "Deleted", "predicted_center": [946.5, 342.5], "miss_count": 3}
+{"timestamp": 39.30748800000073, "window_id": 1309, "track_id": 96, "previous_state": "Tentative", "state": "Lost", "predicted_center": [317.0, 367.0], "miss_count": 1}
+{"timestamp": 39.33748800000073, "window_id": 1310, "track_id": 96, "previous_state": "Lost", "state": "Lost", "predicted_center": [317.0, 367.0], "miss_count": 2}
+{"timestamp": 39.36748800000073, "window_id": 1311, "track_id": 96, "previous_state": "Lost", "state": "Deleted", "predicted_center": [317.0, 367.0], "miss_count": 3}
+{"timestamp": 39.57748800000074, "window_id": 1318, "track_id": 97, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 39.697488000000746, "window_id": 1322, "track_id": 97, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [439.0, 369.5], "miss_count": 1}
+{"timestamp": 39.72748800000075, "window_id": 1323, "track_id": 97, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 41.227488000000804, "window_id": 1373, "track_id": 98, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 41.257488000000805, "window_id": 1374, "track_id": 98, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 41.287488000000806, "window_id": 1375, "track_id": 98, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 41.767488000000824, "window_id": 1391, "track_id": 97, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [939.0, 319.5], "miss_count": 1}
+{"timestamp": 41.797488000000826, "window_id": 1392, "track_id": 97, "previous_state": "Lost", "state": "Lost", "predicted_center": [945.5, 315.0], "miss_count": 2}
+{"timestamp": 41.797488000000826, "window_id": 1392, "track_id": 99, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 41.82748800000083, "window_id": 1393, "track_id": 97, "previous_state": "Lost", "state": "Deleted", "predicted_center": [952.0, 310.5], "miss_count": 3}
+{"timestamp": 41.82748800000083, "window_id": 1393, "track_id": 99, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [923.5, 322.0], "miss_count": 1}
+{"timestamp": 41.85748800000083, "window_id": 1394, "track_id": 99, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 41.91748800000083, "window_id": 1396, "track_id": 100, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 41.94748800000083, "window_id": 1397, "track_id": 100, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 41.97748800000083, "window_id": 1398, "track_id": 100, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 43.357488000000885, "window_id": 1444, "track_id": 99, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [406.5, 336.0], "miss_count": 1}
+{"timestamp": 43.387488000000886, "window_id": 1445, "track_id": 99, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 44.137488000000914, "window_id": 1470, "track_id": 99, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [124.0, 400.5], "miss_count": 1}
+{"timestamp": 44.167488000000915, "window_id": 1471, "track_id": 99, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 44.19748800000092, "window_id": 1472, "track_id": 99, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [120.0, 409.0], "miss_count": 1}
+{"timestamp": 44.22748800000092, "window_id": 1473, "track_id": 99, "previous_state": "Lost", "state": "Lost", "predicted_center": [115.5, 412.0], "miss_count": 2}
+{"timestamp": 44.25748800000092, "window_id": 1474, "track_id": 99, "previous_state": "Lost", "state": "Deleted", "predicted_center": [111.0, 415.0], "miss_count": 3}
+{"timestamp": 44.677488000000935, "window_id": 1488, "track_id": 101, "previous_state": "Tentative", "state": "Lost", "predicted_center": [124.5, 421.5], "miss_count": 1}
+{"timestamp": 44.707488000000936, "window_id": 1489, "track_id": 101, "previous_state": "Lost", "state": "Lost", "predicted_center": [124.5, 421.5], "miss_count": 2}
+{"timestamp": 44.73748800000094, "window_id": 1490, "track_id": 101, "previous_state": "Lost", "state": "Deleted", "predicted_center": [124.5, 421.5], "miss_count": 3}
+{"timestamp": 44.88748800000094, "window_id": 1495, "track_id": 102, "previous_state": "Tentative", "state": "Lost", "predicted_center": [166.0, 414.5], "miss_count": 1}
+{"timestamp": 44.917488000000944, "window_id": 1496, "track_id": 102, "previous_state": "Lost", "state": "Lost", "predicted_center": [172.5, 411.5], "miss_count": 2}
+{"timestamp": 44.947488000000945, "window_id": 1497, "track_id": 102, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 44.977488000000946, "window_id": 1498, "track_id": 102, "previous_state": "Tentative", "state": "Lost", "predicted_center": [180.16666666666666, 408.1666666666667], "miss_count": 1}
+{"timestamp": 45.00748800000095, "window_id": 1499, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 45.36748800000096, "window_id": 1511, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [279.5, 369.5], "miss_count": 1}
+{"timestamp": 45.39748800000096, "window_id": 1512, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 45.51748800000097, "window_id": 1516, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [332.5, 357.5], "miss_count": 1}
+{"timestamp": 45.54748800000097, "window_id": 1517, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 45.69748800000097, "window_id": 1522, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [384.5, 343.5], "miss_count": 1}
+{"timestamp": 45.727488000000974, "window_id": 1523, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 45.81748800000098, "window_id": 1526, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [429.5, 337.0], "miss_count": 1}
+{"timestamp": 45.84748800000098, "window_id": 1527, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 45.90748800000098, "window_id": 1529, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [461.5, 334.0], "miss_count": 1}
+{"timestamp": 45.93748800000098, "window_id": 1530, "track_id": 102, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 45.967488000000984, "window_id": 1531, "track_id": 102, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 46.297488000000996, "window_id": 1542, "track_id": 103, "previous_state": "Tentative", "state": "Lost", "predicted_center": [905.0, 160.5], "miss_count": 1}
+{"timestamp": 46.327488000001, "window_id": 1543, "track_id": 103, "previous_state": "Lost", "state": "Lost", "predicted_center": [905.0, 160.5], "miss_count": 2}
+{"timestamp": 46.357488000001, "window_id": 1544, "track_id": 103, "previous_state": "Lost", "state": "Deleted", "predicted_center": [905.0, 160.5], "miss_count": 3}
+{"timestamp": 47.76748800000105, "window_id": 1591, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [953.5, 365.0], "miss_count": 1}
+{"timestamp": 47.79748800000105, "window_id": 1592, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 47.887488000001056, "window_id": 1595, "track_id": 104, "previous_state": "Tentative", "state": "Lost", "predicted_center": [951.5, 365.0], "miss_count": 1}
+{"timestamp": 47.91748800000106, "window_id": 1596, "track_id": 104, "previous_state": "Lost", "state": "Lost", "predicted_center": [951.5, 365.0], "miss_count": 2}
+{"timestamp": 47.94748800000106, "window_id": 1597, "track_id": 104, "previous_state": "Lost", "state": "Deleted", "predicted_center": [951.5, 365.0], "miss_count": 3}
+{"timestamp": 48.18748800000107, "window_id": 1605, "track_id": 105, "previous_state": "Tentative", "state": "Lost", "predicted_center": [457.5, 138.0], "miss_count": 1}
+{"timestamp": 48.21748800000107, "window_id": 1606, "track_id": 105, "previous_state": "Lost", "state": "Lost", "predicted_center": [457.5, 138.0], "miss_count": 2}
+{"timestamp": 48.24748800000107, "window_id": 1607, "track_id": 105, "previous_state": "Lost", "state": "Deleted", "predicted_center": [457.5, 138.0], "miss_count": 3}
+{"timestamp": 48.48748800000108, "window_id": 1615, "track_id": 106, "previous_state": "Tentative", "state": "Lost", "predicted_center": [683.5, 457.0], "miss_count": 1}
+{"timestamp": 48.51748800000108, "window_id": 1616, "track_id": 106, "previous_state": "Lost", "state": "Lost", "predicted_center": [687.0, 446.5], "miss_count": 2}
+{"timestamp": 48.54748800000108, "window_id": 1617, "track_id": 106, "previous_state": "Lost", "state": "Deleted", "predicted_center": [690.5, 436.0], "miss_count": 3}
+{"timestamp": 48.57748800000108, "window_id": 1618, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [722.0, 323.0], "miss_count": 1}
+{"timestamp": 48.607488000001084, "window_id": 1619, "track_id": 107, "previous_state": "Tentative", "state": "Lost", "predicted_center": [679.0, 434.0], "miss_count": 1}
+{"timestamp": 48.607488000001084, "window_id": 1619, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 48.637488000001085, "window_id": 1620, "track_id": 107, "previous_state": "Lost", "state": "Lost", "predicted_center": [679.0, 434.0], "miss_count": 2}
+{"timestamp": 48.667488000001086, "window_id": 1621, "track_id": 107, "previous_state": "Lost", "state": "Deleted", "predicted_center": [679.0, 434.0], "miss_count": 3}
+{"timestamp": 48.78748800000109, "window_id": 1625, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [578.5, 335.5], "miss_count": 1}
+{"timestamp": 48.78748800000109, "window_id": 1625, "track_id": 108, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 48.81748800000109, "window_id": 1626, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 48.81748800000109, "window_id": 1626, "track_id": 108, "previous_state": "Confirmed", "state": "Tentative", "miss_count": 0}
+{"timestamp": 48.84748800000109, "window_id": 1627, "track_id": 108, "previous_state": "Tentative", "state": "Lost", "predicted_center": [846.5, 154.0], "miss_count": 1}
+{"timestamp": 48.877488000001094, "window_id": 1628, "track_id": 108, "previous_state": "Lost", "state": "Lost", "predicted_center": [856.0, 154.5], "miss_count": 2}
+{"timestamp": 48.907488000001095, "window_id": 1629, "track_id": 108, "previous_state": "Lost", "state": "Deleted", "predicted_center": [865.5, 155.0], "miss_count": 3}
+{"timestamp": 49.0274880000011, "window_id": 1633, "track_id": 109, "previous_state": "Tentative", "state": "Lost", "predicted_center": [915.5, 110.5], "miss_count": 1}
+{"timestamp": 49.0574880000011, "window_id": 1634, "track_id": 109, "previous_state": "Lost", "state": "Lost", "predicted_center": [915.5, 110.5], "miss_count": 2}
+{"timestamp": 49.0874880000011, "window_id": 1635, "track_id": 109, "previous_state": "Lost", "state": "Deleted", "predicted_center": [915.5, 110.5], "miss_count": 3}
+{"timestamp": 49.26748800000111, "window_id": 1641, "track_id": 110, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1071.0, 181.0], "miss_count": 1}
+{"timestamp": 49.29748800000111, "window_id": 1642, "track_id": 110, "previous_state": "Lost", "state": "Lost", "predicted_center": [1071.0, 181.0], "miss_count": 2}
+{"timestamp": 49.32748800000111, "window_id": 1643, "track_id": 110, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1071.0, 181.0], "miss_count": 3}
+{"timestamp": 49.417488000001114, "window_id": 1646, "track_id": 111, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1071.5, 187.5], "miss_count": 1}
+{"timestamp": 49.447488000001115, "window_id": 1647, "track_id": 111, "previous_state": "Lost", "state": "Lost", "predicted_center": [1071.5, 187.5], "miss_count": 2}
+{"timestamp": 49.47748800000112, "window_id": 1648, "track_id": 111, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1071.5, 187.5], "miss_count": 3}
+{"timestamp": 49.50748800000112, "window_id": 1649, "track_id": 112, "previous_state": "Tentative", "state": "Lost", "predicted_center": [106.5, 410.5], "miss_count": 1}
+{"timestamp": 49.53748800000112, "window_id": 1650, "track_id": 112, "previous_state": "Lost", "state": "Lost", "predicted_center": [106.5, 410.5], "miss_count": 2}
+{"timestamp": 49.56748800000112, "window_id": 1651, "track_id": 112, "previous_state": "Lost", "state": "Deleted", "predicted_center": [106.5, 410.5], "miss_count": 3}
+{"timestamp": 49.59748800000112, "window_id": 1652, "track_id": 113, "previous_state": "Tentative", "state": "Lost", "predicted_center": [163.5, 592.5], "miss_count": 1}
+{"timestamp": 49.62748800000112, "window_id": 1653, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [44.5, 408.5], "miss_count": 1}
+{"timestamp": 49.62748800000112, "window_id": 1653, "track_id": 113, "previous_state": "Lost", "state": "Lost", "predicted_center": [163.5, 592.5], "miss_count": 2}
+{"timestamp": 49.62748800000112, "window_id": 1653, "track_id": 114, "previous_state": "Tentative", "state": "Lost", "predicted_center": [302.0, 578.0], "miss_count": 1}
+{"timestamp": 49.65748800000112, "window_id": 1654, "track_id": 113, "previous_state": "Lost", "state": "Deleted", "predicted_center": [163.5, 592.5], "miss_count": 3}
+{"timestamp": 49.65748800000112, "window_id": 1654, "track_id": 114, "previous_state": "Lost", "state": "Lost", "predicted_center": [302.0, 578.0], "miss_count": 2}
+{"timestamp": 49.65748800000112, "window_id": 1654, "track_id": 115, "previous_state": "Tentative", "state": "Lost", "predicted_center": [441.5, 495.5], "miss_count": 1}
+{"timestamp": 49.65748800000112, "window_id": 1654, "track_id": 116, "previous_state": "Tentative", "state": "Lost", "predicted_center": [462.5, 478.5], "miss_count": 1}
+{"timestamp": 49.65748800000112, "window_id": 1654, "track_id": 102, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 49.687488000001125, "window_id": 1655, "track_id": 102, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [6.5, 411.25], "miss_count": 1}
+{"timestamp": 49.687488000001125, "window_id": 1655, "track_id": 114, "previous_state": "Lost", "state": "Deleted", "predicted_center": [302.0, 578.0], "miss_count": 3}
+{"timestamp": 49.687488000001125, "window_id": 1655, "track_id": 115, "previous_state": "Lost", "state": "Lost", "predicted_center": [441.5, 495.5], "miss_count": 2}
+{"timestamp": 49.687488000001125, "window_id": 1655, "track_id": 116, "previous_state": "Lost", "state": "Lost", "predicted_center": [462.5, 478.5], "miss_count": 2}
+{"timestamp": 49.687488000001125, "window_id": 1655, "track_id": 117, "previous_state": "Tentative", "state": "Lost", "predicted_center": [493.0, 428.0], "miss_count": 1}
+{"timestamp": 49.717488000001126, "window_id": 1656, "track_id": 102, "previous_state": "Lost", "state": "Lost", "predicted_center": [-8.5, 412.0], "miss_count": 2}
+{"timestamp": 49.717488000001126, "window_id": 1656, "track_id": 115, "previous_state": "Lost", "state": "Deleted", "predicted_center": [441.5, 495.5], "miss_count": 3}
+{"timestamp": 49.717488000001126, "window_id": 1656, "track_id": 116, "previous_state": "Lost", "state": "Deleted", "predicted_center": [462.5, 478.5], "miss_count": 3}
+{"timestamp": 49.717488000001126, "window_id": 1656, "track_id": 117, "previous_state": "Lost", "state": "Lost", "predicted_center": [493.0, 428.0], "miss_count": 2}
+{"timestamp": 49.74748800000113, "window_id": 1657, "track_id": 102, "previous_state": "Lost", "state": "Deleted", "predicted_center": [-23.5, 412.75], "miss_count": 3}
+{"timestamp": 49.74748800000113, "window_id": 1657, "track_id": 117, "previous_state": "Lost", "state": "Deleted", "predicted_center": [493.0, 428.0], "miss_count": 3}
+{"timestamp": 49.74748800000113, "window_id": 1657, "track_id": 118, "previous_state": "Tentative", "state": "Lost", "predicted_center": [590.5, 181.5], "miss_count": 1}
+{"timestamp": 49.77748800000113, "window_id": 1658, "track_id": 118, "previous_state": "Lost", "state": "Lost", "predicted_center": [590.5, 181.5], "miss_count": 2}
+{"timestamp": 49.80748800000113, "window_id": 1659, "track_id": 118, "previous_state": "Lost", "state": "Deleted", "predicted_center": [590.5, 181.5], "miss_count": 3}
+{"timestamp": 50.197488000001144, "window_id": 1672, "track_id": 119, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 50.85748800000117, "window_id": 1694, "track_id": 120, "previous_state": "Tentative", "state": "Lost", "predicted_center": [387.5, 493.0], "miss_count": 1}
+{"timestamp": 50.88748800000117, "window_id": 1695, "track_id": 120, "previous_state": "Lost", "state": "Lost", "predicted_center": [388.5, 493.0], "miss_count": 2}
+{"timestamp": 50.91748800000117, "window_id": 1696, "track_id": 120, "previous_state": "Lost", "state": "Deleted", "predicted_center": [389.5, 493.0], "miss_count": 3}
+{"timestamp": 50.94748800000117, "window_id": 1697, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [285.5, 335.0], "miss_count": 1}
+{"timestamp": 50.97748800000117, "window_id": 1698, "track_id": 121, "previous_state": "Tentative", "state": "Lost", "predicted_center": [402.0, 494.0], "miss_count": 1}
+{"timestamp": 50.97748800000117, "window_id": 1698, "track_id": 119, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 51.007488000001175, "window_id": 1699, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [319.75, 338.25], "miss_count": 1}
+{"timestamp": 51.007488000001175, "window_id": 1699, "track_id": 121, "previous_state": "Lost", "state": "Lost", "predicted_center": [402.0, 494.0], "miss_count": 2}
+{"timestamp": 51.037488000001176, "window_id": 1700, "track_id": 121, "previous_state": "Lost", "state": "Deleted", "predicted_center": [402.0, 494.0], "miss_count": 3}
+{"timestamp": 51.037488000001176, "window_id": 1700, "track_id": 119, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 51.06748800000118, "window_id": 1701, "track_id": 119, "previous_state": "Tentative", "state": "Lost", "predicted_center": [340.0, 334.5], "miss_count": 1}
+{"timestamp": 51.09748800000118, "window_id": 1702, "track_id": 119, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 51.12748800000118, "window_id": 1703, "track_id": 119, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 51.517488000001194, "window_id": 1716, "track_id": 122, "previous_state": "Tentative", "state": "Lost", "predicted_center": [396.5, 489.5], "miss_count": 1}
+{"timestamp": 51.547488000001195, "window_id": 1717, "track_id": 122, "previous_state": "Lost", "state": "Lost", "predicted_center": [392.0, 487.5], "miss_count": 2}
+{"timestamp": 51.577488000001196, "window_id": 1718, "track_id": 122, "previous_state": "Lost", "state": "Deleted", "predicted_center": [387.5, 485.5], "miss_count": 3}
+{"timestamp": 52.71748800000124, "window_id": 1756, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1007.0, 312.0], "miss_count": 1}
+{"timestamp": 52.74748800000124, "window_id": 1757, "track_id": 119, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 53.137488000001255, "window_id": 1770, "track_id": 123, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1157.0, 449.5], "miss_count": 1}
+{"timestamp": 53.137488000001255, "window_id": 1770, "track_id": 124, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1180.5, 459.5], "miss_count": 1}
+{"timestamp": 53.167488000001256, "window_id": 1771, "track_id": 123, "previous_state": "Lost", "state": "Lost", "predicted_center": [1157.0, 449.5], "miss_count": 2}
+{"timestamp": 53.167488000001256, "window_id": 1771, "track_id": 124, "previous_state": "Lost", "state": "Lost", "predicted_center": [1180.5, 459.5], "miss_count": 2}
+{"timestamp": 53.167488000001256, "window_id": 1771, "track_id": 125, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1089.5, 428.0], "miss_count": 1}
+{"timestamp": 53.19748800000126, "window_id": 1772, "track_id": 123, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1157.0, 449.5], "miss_count": 3}
+{"timestamp": 53.19748800000126, "window_id": 1772, "track_id": 124, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1180.5, 459.5], "miss_count": 3}
+{"timestamp": 53.19748800000126, "window_id": 1772, "track_id": 125, "previous_state": "Lost", "state": "Lost", "predicted_center": [1089.5, 428.0], "miss_count": 2}
+{"timestamp": 53.19748800000126, "window_id": 1772, "track_id": 126, "previous_state": "Tentative", "state": "Lost", "predicted_center": [974.5, 387.5], "miss_count": 1}
+{"timestamp": 53.19748800000126, "window_id": 1772, "track_id": 127, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1000.0, 396.5], "miss_count": 1}
+{"timestamp": 53.22748800000126, "window_id": 1773, "track_id": 125, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1089.5, 428.0], "miss_count": 3}
+{"timestamp": 53.22748800000126, "window_id": 1773, "track_id": 126, "previous_state": "Lost", "state": "Lost", "predicted_center": [974.5, 387.5], "miss_count": 2}
+{"timestamp": 53.22748800000126, "window_id": 1773, "track_id": 127, "previous_state": "Lost", "state": "Lost", "predicted_center": [1000.0, 396.5], "miss_count": 2}
+{"timestamp": 53.25748800000126, "window_id": 1774, "track_id": 126, "previous_state": "Lost", "state": "Deleted", "predicted_center": [974.5, 387.5], "miss_count": 3}
+{"timestamp": 53.25748800000126, "window_id": 1774, "track_id": 127, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1000.0, 396.5], "miss_count": 3}
+{"timestamp": 53.25748800000126, "window_id": 1774, "track_id": 128, "previous_state": "Tentative", "state": "Lost", "predicted_center": [807.0, 329.0], "miss_count": 1}
+{"timestamp": 53.28748800000126, "window_id": 1775, "track_id": 128, "previous_state": "Lost", "state": "Lost", "predicted_center": [807.0, 329.0], "miss_count": 2}
+{"timestamp": 53.28748800000126, "window_id": 1775, "track_id": 129, "previous_state": "Tentative", "state": "Lost", "predicted_center": [735.5, 307.5], "miss_count": 1}
+{"timestamp": 53.31748800000126, "window_id": 1776, "track_id": 128, "previous_state": "Lost", "state": "Deleted", "predicted_center": [807.0, 329.0], "miss_count": 3}
+{"timestamp": 53.31748800000126, "window_id": 1776, "track_id": 129, "previous_state": "Lost", "state": "Lost", "predicted_center": [735.5, 307.5], "miss_count": 2}
+{"timestamp": 53.34748800000126, "window_id": 1777, "track_id": 129, "previous_state": "Lost", "state": "Deleted", "predicted_center": [735.5, 307.5], "miss_count": 3}
+{"timestamp": 53.43748800000127, "window_id": 1780, "track_id": 130, "previous_state": "Tentative", "state": "Lost", "predicted_center": [308.0, 195.5], "miss_count": 1}
+{"timestamp": 53.46748800000127, "window_id": 1781, "track_id": 130, "previous_state": "Lost", "state": "Lost", "predicted_center": [308.0, 195.5], "miss_count": 2}
+{"timestamp": 53.46748800000127, "window_id": 1781, "track_id": 131, "previous_state": "Tentative", "state": "Lost", "predicted_center": [198.0, 165.0], "miss_count": 1}
+{"timestamp": 53.46748800000127, "window_id": 1781, "track_id": 132, "previous_state": "Tentative", "state": "Lost", "predicted_center": [210.5, 172.5], "miss_count": 1}
+{"timestamp": 53.46748800000127, "window_id": 1781, "track_id": 133, "previous_state": "Tentative", "state": "Lost", "predicted_center": [235.0, 175.5], "miss_count": 1}
+{"timestamp": 53.49748800000127, "window_id": 1782, "track_id": 130, "previous_state": "Lost", "state": "Deleted", "predicted_center": [308.0, 195.5], "miss_count": 3}
+{"timestamp": 53.49748800000127, "window_id": 1782, "track_id": 131, "previous_state": "Lost", "state": "Lost", "predicted_center": [198.0, 165.0], "miss_count": 2}
+{"timestamp": 53.49748800000127, "window_id": 1782, "track_id": 132, "previous_state": "Lost", "state": "Lost", "predicted_center": [210.5, 172.5], "miss_count": 2}
+{"timestamp": 53.49748800000127, "window_id": 1782, "track_id": 133, "previous_state": "Lost", "state": "Lost", "predicted_center": [235.0, 175.5], "miss_count": 2}
+{"timestamp": 53.49748800000127, "window_id": 1782, "track_id": 134, "previous_state": "Tentative", "state": "Lost", "predicted_center": [131.5, 150.0], "miss_count": 1}
+{"timestamp": 53.52748800000127, "window_id": 1783, "track_id": 131, "previous_state": "Lost", "state": "Deleted", "predicted_center": [198.0, 165.0], "miss_count": 3}
+{"timestamp": 53.52748800000127, "window_id": 1783, "track_id": 132, "previous_state": "Lost", "state": "Deleted", "predicted_center": [210.5, 172.5], "miss_count": 3}
+{"timestamp": 53.52748800000127, "window_id": 1783, "track_id": 133, "previous_state": "Lost", "state": "Deleted", "predicted_center": [235.0, 175.5], "miss_count": 3}
+{"timestamp": 53.52748800000127, "window_id": 1783, "track_id": 134, "previous_state": "Lost", "state": "Lost", "predicted_center": [131.5, 150.0], "miss_count": 2}
+{"timestamp": 53.52748800000127, "window_id": 1783, "track_id": 135, "previous_state": "Tentative", "state": "Lost", "predicted_center": [38.0, 123.0], "miss_count": 1}
+{"timestamp": 53.55748800000127, "window_id": 1784, "track_id": 134, "previous_state": "Lost", "state": "Deleted", "predicted_center": [131.5, 150.0], "miss_count": 3}
+{"timestamp": 53.55748800000127, "window_id": 1784, "track_id": 135, "previous_state": "Lost", "state": "Lost", "predicted_center": [38.0, 123.0], "miss_count": 2}
+{"timestamp": 53.58748800000127, "window_id": 1785, "track_id": 135, "previous_state": "Lost", "state": "Deleted", "predicted_center": [38.0, 123.0], "miss_count": 3}
+{"timestamp": 53.70748800000128, "window_id": 1789, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [749.5, 236.0], "miss_count": 1}
+{"timestamp": 53.73748800000128, "window_id": 1790, "track_id": 119, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 54.06748800000129, "window_id": 1801, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [455.0, 238.5], "miss_count": 1}
+{"timestamp": 54.09748800000129, "window_id": 1802, "track_id": 119, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 54.12748800000129, "window_id": 1803, "track_id": 136, "previous_state": "Tentative", "state": "Lost", "predicted_center": [935.5, 4.0], "miss_count": 1}
+{"timestamp": 54.157488000001294, "window_id": 1804, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [385.5, 243.5], "miss_count": 1}
+{"timestamp": 54.157488000001294, "window_id": 1804, "track_id": 136, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 54.187488000001295, "window_id": 1805, "track_id": 136, "previous_state": "Tentative", "state": "Lost", "predicted_center": [904.0, 3.25], "miss_count": 1}
+{"timestamp": 54.187488000001295, "window_id": 1805, "track_id": 119, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 54.217488000001296, "window_id": 1806, "track_id": 136, "previous_state": "Lost", "state": "Lost", "predicted_center": [893.5, 3.0], "miss_count": 2}
+{"timestamp": 54.2474880000013, "window_id": 1807, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [323.5, 250.5], "miss_count": 1}
+{"timestamp": 54.2474880000013, "window_id": 1807, "track_id": 136, "previous_state": "Lost", "state": "Deleted", "predicted_center": [883.0, 2.75], "miss_count": 3}
+{"timestamp": 54.2774880000013, "window_id": 1808, "track_id": 119, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 54.93748800000132, "window_id": 1830, "track_id": 119, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [155.0, 320.0], "miss_count": 1}
+{"timestamp": 54.967488000001325, "window_id": 1831, "track_id": 119, "previous_state": "Lost", "state": "Lost", "predicted_center": [166.0, 326.0], "miss_count": 2}
+{"timestamp": 54.997488000001326, "window_id": 1832, "track_id": 119, "previous_state": "Lost", "state": "Deleted", "predicted_center": [177.0, 332.0], "miss_count": 3}
+{"timestamp": 55.237488000001335, "window_id": 1840, "track_id": 137, "previous_state": "Tentative", "state": "Lost", "predicted_center": [207.5, 348.0], "miss_count": 1}
+{"timestamp": 55.267488000001336, "window_id": 1841, "track_id": 137, "previous_state": "Lost", "state": "Lost", "predicted_center": [207.5, 348.0], "miss_count": 2}
+{"timestamp": 55.29748800000134, "window_id": 1842, "track_id": 137, "previous_state": "Lost", "state": "Deleted", "predicted_center": [207.5, 348.0], "miss_count": 3}
+{"timestamp": 55.477488000001344, "window_id": 1848, "track_id": 138, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 55.65748800000135, "window_id": 1854, "track_id": 139, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 55.80748800000136, "window_id": 1859, "track_id": 139, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [893.5, 161.5], "miss_count": 1}
+{"timestamp": 55.83748800000136, "window_id": 1860, "track_id": 139, "previous_state": "Lost", "state": "Lost", "predicted_center": [886.5, 161.0], "miss_count": 2}
+{"timestamp": 55.86748800000136, "window_id": 1861, "track_id": 138, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [438.0, 406.0], "miss_count": 1}
+{"timestamp": 55.86748800000136, "window_id": 1861, "track_id": 139, "previous_state": "Lost", "state": "Deleted", "predicted_center": [879.5, 160.5], "miss_count": 3}
+{"timestamp": 55.89748800000136, "window_id": 1862, "track_id": 138, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 55.98748800000136, "window_id": 1865, "track_id": 140, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 56.017488000001364, "window_id": 1866, "track_id": 141, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 56.047488000001366, "window_id": 1867, "track_id": 140, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [818.0, 148.5], "miss_count": 1}
+{"timestamp": 56.047488000001366, "window_id": 1867, "track_id": 141, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 56.07748800000137, "window_id": 1868, "track_id": 140, "previous_state": "Lost", "state": "Lost", "predicted_center": [811.0, 146.5], "miss_count": 2}
+{"timestamp": 56.07748800000137, "window_id": 1868, "track_id": 141, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 56.10748800000137, "window_id": 1869, "track_id": 140, "previous_state": "Lost", "state": "Deleted", "predicted_center": [804.0, 144.5], "miss_count": 3}
+{"timestamp": 56.287488000001375, "window_id": 1875, "track_id": 138, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [499.5, 445.0], "miss_count": 1}
+{"timestamp": 56.287488000001375, "window_id": 1875, "track_id": 142, "previous_state": "Tentative", "state": "Lost", "predicted_center": [725.5, 139.0], "miss_count": 1}
+{"timestamp": 56.317488000001376, "window_id": 1876, "track_id": 138, "previous_state": "Lost", "state": "Lost", "predicted_center": [497.5, 448.5], "miss_count": 2}
+{"timestamp": 56.317488000001376, "window_id": 1876, "track_id": 142, "previous_state": "Lost", "state": "Lost", "predicted_center": [725.5, 139.0], "miss_count": 2}
+{"timestamp": 56.34748800000138, "window_id": 1877, "track_id": 138, "previous_state": "Lost", "state": "Deleted", "predicted_center": [495.5, 452.0], "miss_count": 3}
+{"timestamp": 56.34748800000138, "window_id": 1877, "track_id": 142, "previous_state": "Lost", "state": "Deleted", "predicted_center": [725.5, 139.0], "miss_count": 3}
+{"timestamp": 56.43748800000138, "window_id": 1880, "track_id": 143, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 56.827488000001395, "window_id": 1893, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [368.5, 405.5], "miss_count": 1}
+{"timestamp": 56.857488000001396, "window_id": 1894, "track_id": 143, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 56.9174880000014, "window_id": 1896, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [337.5, 403.0], "miss_count": 1}
+{"timestamp": 56.9474880000014, "window_id": 1897, "track_id": 143, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 57.0074880000014, "window_id": 1899, "track_id": 144, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 57.0374880000014, "window_id": 1900, "track_id": 144, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 57.067488000001404, "window_id": 1901, "track_id": 144, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 57.067488000001404, "window_id": 1901, "track_id": 145, "previous_state": "Tentative", "state": "Lost", "predicted_center": [362.5, 127.5], "miss_count": 1}
+{"timestamp": 57.097488000001405, "window_id": 1902, "track_id": 145, "previous_state": "Lost", "state": "Lost", "predicted_center": [357.0, 127.5], "miss_count": 2}
+{"timestamp": 57.12748800000141, "window_id": 1903, "track_id": 145, "previous_state": "Lost", "state": "Deleted", "predicted_center": [351.5, 127.5], "miss_count": 3}
+{"timestamp": 57.24748800000141, "window_id": 1907, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [261.5, 451.5], "miss_count": 1}
+{"timestamp": 57.27748800000141, "window_id": 1908, "track_id": 143, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 57.99748800000144, "window_id": 1932, "track_id": 146, "previous_state": "Tentative", "state": "Lost", "predicted_center": [674.5, 301.5], "miss_count": 1}
+{"timestamp": 58.02748800000144, "window_id": 1933, "track_id": 146, "previous_state": "Lost", "state": "Lost", "predicted_center": [674.5, 301.5], "miss_count": 2}
+{"timestamp": 58.05748800000144, "window_id": 1934, "track_id": 146, "previous_state": "Lost", "state": "Deleted", "predicted_center": [674.5, 301.5], "miss_count": 3}
+{"timestamp": 58.23748800000145, "window_id": 1940, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [853.5, 356.0], "miss_count": 1}
+{"timestamp": 58.26748800000145, "window_id": 1941, "track_id": 143, "previous_state": "Lost", "state": "Lost", "predicted_center": [880.5, 356.5], "miss_count": 2}
+{"timestamp": 58.29748800000145, "window_id": 1942, "track_id": 143, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 58.62748800000146, "window_id": 1953, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1084.5, 363.5], "miss_count": 1}
+{"timestamp": 58.62748800000146, "window_id": 1953, "track_id": 147, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 58.657488000001464, "window_id": 1954, "track_id": 147, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 58.657488000001464, "window_id": 1954, "track_id": 143, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 58.687488000001466, "window_id": 1955, "track_id": 147, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 58.77748800000147, "window_id": 1958, "track_id": 148, "previous_state": "Tentative", "state": "Lost", "predicted_center": [645.5, 611.5], "miss_count": 1}
+{"timestamp": 58.80748800000147, "window_id": 1959, "track_id": 148, "previous_state": "Lost", "state": "Lost", "predicted_center": [645.5, 611.5], "miss_count": 2}
+{"timestamp": 58.83748800000147, "window_id": 1960, "track_id": 148, "previous_state": "Lost", "state": "Deleted", "predicted_center": [645.5, 611.5], "miss_count": 3}
+{"timestamp": 58.86748800000147, "window_id": 1961, "track_id": 149, "previous_state": "Tentative", "state": "Lost", "predicted_center": [742.5, 552.0], "miss_count": 1}
+{"timestamp": 58.89748800000147, "window_id": 1962, "track_id": 149, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 58.927488000001475, "window_id": 1963, "track_id": 149, "previous_state": "Tentative", "state": "Lost", "predicted_center": [786.75, 514.25], "miss_count": 1}
+{"timestamp": 58.957488000001476, "window_id": 1964, "track_id": 150, "previous_state": "Tentative", "state": "Lost", "predicted_center": [814.5, 491.5], "miss_count": 1}
+{"timestamp": 58.957488000001476, "window_id": 1964, "track_id": 149, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 58.98748800000148, "window_id": 1965, "track_id": 149, "previous_state": "Tentative", "state": "Lost", "predicted_center": [819.0, 489.25], "miss_count": 1}
+{"timestamp": 58.98748800000148, "window_id": 1965, "track_id": 150, "previous_state": "Lost", "state": "Lost", "predicted_center": [832.5, 476.0], "miss_count": 2}
+{"timestamp": 59.01748800000148, "window_id": 1966, "track_id": 149, "previous_state": "Lost", "state": "Lost", "predicted_center": [836.0, 476.0], "miss_count": 2}
+{"timestamp": 59.01748800000148, "window_id": 1966, "track_id": 150, "previous_state": "Lost", "state": "Deleted", "predicted_center": [850.5, 460.5], "miss_count": 3}
+{"timestamp": 59.04748800000148, "window_id": 1967, "track_id": 149, "previous_state": "Lost", "state": "Deleted", "predicted_center": [853.0, 462.75], "miss_count": 3}
+{"timestamp": 59.497488000001496, "window_id": 1982, "track_id": 151, "previous_state": "Tentative", "state": "Lost", "predicted_center": [921.0, 30.0], "miss_count": 1}
+{"timestamp": 59.5274880000015, "window_id": 1983, "track_id": 151, "previous_state": "Lost", "state": "Lost", "predicted_center": [916.0, 38.0], "miss_count": 2}
+{"timestamp": 59.5574880000015, "window_id": 1984, "track_id": 151, "previous_state": "Lost", "state": "Deleted", "predicted_center": [911.0, 46.0], "miss_count": 3}
+{"timestamp": 60.03748800000152, "window_id": 2000, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [490.0, 397.0], "miss_count": 1}
+{"timestamp": 60.06748800000152, "window_id": 2001, "track_id": 143, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 60.57748800000154, "window_id": 2018, "track_id": 143, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [289.0, 388.0], "miss_count": 1}
+{"timestamp": 60.60748800000154, "window_id": 2019, "track_id": 143, "previous_state": "Lost", "state": "Lost", "predicted_center": [286.0, 386.5], "miss_count": 2}
+{"timestamp": 60.63748800000154, "window_id": 2020, "track_id": 143, "previous_state": "Lost", "state": "Deleted", "predicted_center": [283.0, 385.0], "miss_count": 3}
+{"timestamp": 60.72748800000154, "window_id": 2023, "track_id": 152, "previous_state": "Tentative", "state": "Lost", "predicted_center": [803.0, 148.5], "miss_count": 1}
+{"timestamp": 60.757488000001544, "window_id": 2024, "track_id": 152, "previous_state": "Lost", "state": "Lost", "predicted_center": [803.0, 148.5], "miss_count": 2}
+{"timestamp": 60.787488000001545, "window_id": 2025, "track_id": 152, "previous_state": "Lost", "state": "Deleted", "predicted_center": [803.0, 148.5], "miss_count": 3}
+{"timestamp": 60.817488000001546, "window_id": 2026, "track_id": 153, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 62.82748800000162, "window_id": 2093, "track_id": 153, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1208.0, 269.0], "miss_count": 1}
+{"timestamp": 62.82748800000162, "window_id": 2093, "track_id": 154, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1078.5, 235.0], "miss_count": 1}
+{"timestamp": 62.82748800000162, "window_id": 2093, "track_id": 155, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1190.5, 280.5], "miss_count": 1}
+{"timestamp": 62.857488000001624, "window_id": 2094, "track_id": 153, "previous_state": "Lost", "state": "Lost", "predicted_center": [1213.5, 265.0], "miss_count": 2}
+{"timestamp": 62.857488000001624, "window_id": 2094, "track_id": 154, "previous_state": "Lost", "state": "Lost", "predicted_center": [1078.5, 235.0], "miss_count": 2}
+{"timestamp": 62.857488000001624, "window_id": 2094, "track_id": 155, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 62.887488000001625, "window_id": 2095, "track_id": 153, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1219.0, 261.0], "miss_count": 3}
+{"timestamp": 62.887488000001625, "window_id": 2095, "track_id": 154, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1078.5, 235.0], "miss_count": 3}
+{"timestamp": 62.917488000001626, "window_id": 2096, "track_id": 155, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 63.397488000001644, "window_id": 2112, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [902.5, 252.5], "miss_count": 1}
+{"timestamp": 63.427488000001645, "window_id": 2113, "track_id": 155, "previous_state": "Lost", "state": "Lost", "predicted_center": [878.0, 253.5], "miss_count": 2}
+{"timestamp": 63.457488000001646, "window_id": 2114, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 63.57748800000165, "window_id": 2118, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [742.5, 272.5], "miss_count": 1}
+{"timestamp": 63.60748800000165, "window_id": 2119, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 63.84748800000166, "window_id": 2127, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [474.0, 311.0], "miss_count": 1}
+{"timestamp": 63.87748800000166, "window_id": 2128, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 63.937488000001665, "window_id": 2130, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [397.0, 326.5], "miss_count": 1}
+{"timestamp": 63.967488000001666, "window_id": 2131, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 63.99748800000167, "window_id": 2132, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [348.5, 342.5], "miss_count": 1}
+{"timestamp": 64.02748800000167, "window_id": 2133, "track_id": 155, "previous_state": "Lost", "state": "Lost", "predicted_center": [324.0, 349.5], "miss_count": 2}
+{"timestamp": 64.05748800000167, "window_id": 2134, "track_id": 156, "previous_state": "Tentative", "state": "Lost", "predicted_center": [758.5, 306.0], "miss_count": 1}
+{"timestamp": 64.05748800000167, "window_id": 2134, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 64.08748800000167, "window_id": 2135, "track_id": 156, "previous_state": "Lost", "state": "Lost", "predicted_center": [758.5, 306.0], "miss_count": 2}
+{"timestamp": 64.11748800000167, "window_id": 2136, "track_id": 156, "previous_state": "Lost", "state": "Deleted", "predicted_center": [758.5, 306.0], "miss_count": 3}
+{"timestamp": 64.17748800000167, "window_id": 2138, "track_id": 157, "previous_state": "Tentative", "state": "Lost", "predicted_center": [779.5, 297.0], "miss_count": 1}
+{"timestamp": 64.20748800000167, "window_id": 2139, "track_id": 157, "previous_state": "Lost", "state": "Lost", "predicted_center": [779.5, 297.0], "miss_count": 2}
+{"timestamp": 64.23748800000168, "window_id": 2140, "track_id": 157, "previous_state": "Lost", "state": "Deleted", "predicted_center": [779.5, 297.0], "miss_count": 3}
+{"timestamp": 64.26748800000168, "window_id": 2141, "track_id": 158, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1138.5, 404.5], "miss_count": 1}
+{"timestamp": 64.29748800000168, "window_id": 2142, "track_id": 158, "previous_state": "Lost", "state": "Lost", "predicted_center": [1141.5, 408.0], "miss_count": 2}
+{"timestamp": 64.32748800000168, "window_id": 2143, "track_id": 158, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1144.5, 411.5], "miss_count": 3}
+{"timestamp": 64.47748800000169, "window_id": 2148, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [315.0, 486.5], "miss_count": 1}
+{"timestamp": 64.50748800000169, "window_id": 2149, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 64.56748800000169, "window_id": 2151, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [364.5, 510.5], "miss_count": 1}
+{"timestamp": 64.59748800000169, "window_id": 2152, "track_id": 155, "previous_state": "Lost", "state": "Lost", "predicted_center": [379.0, 519.0], "miss_count": 2}
+{"timestamp": 64.62748800000169, "window_id": 2153, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 64.8074880000017, "window_id": 2159, "track_id": 159, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1128.5, 376.5], "miss_count": 1}
+{"timestamp": 64.8374880000017, "window_id": 2160, "track_id": 159, "previous_state": "Lost", "state": "Lost", "predicted_center": [1128.5, 376.5], "miss_count": 2}
+{"timestamp": 64.8674880000017, "window_id": 2161, "track_id": 159, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1128.5, 376.5], "miss_count": 3}
+{"timestamp": 65.0474880000017, "window_id": 2167, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [535.5, 583.0], "miss_count": 1}
+{"timestamp": 65.07748800000171, "window_id": 2168, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 65.61748800000173, "window_id": 2186, "track_id": 160, "previous_state": "Tentative", "state": "Lost", "predicted_center": [431.5, 492.5], "miss_count": 1}
+{"timestamp": 65.64748800000173, "window_id": 2187, "track_id": 160, "previous_state": "Lost", "state": "Lost", "predicted_center": [431.5, 492.5], "miss_count": 2}
+{"timestamp": 65.67748800000173, "window_id": 2188, "track_id": 160, "previous_state": "Lost", "state": "Deleted", "predicted_center": [431.5, 492.5], "miss_count": 3}
+{"timestamp": 66.03748800000174, "window_id": 2200, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [254.0, 347.5], "miss_count": 1}
+{"timestamp": 66.06748800000175, "window_id": 2201, "track_id": 155, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 66.21748800000175, "window_id": 2206, "track_id": 155, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [246.0, 342.0], "miss_count": 1}
+{"timestamp": 66.24748800000175, "window_id": 2207, "track_id": 155, "previous_state": "Lost", "state": "Lost", "predicted_center": [245.5, 341.5], "miss_count": 2}
+{"timestamp": 66.27748800000175, "window_id": 2208, "track_id": 155, "previous_state": "Lost", "state": "Deleted", "predicted_center": [245.0, 341.0], "miss_count": 3}
+{"timestamp": 66.96748800000178, "window_id": 2231, "track_id": 161, "previous_state": "Tentative", "state": "Lost", "predicted_center": [350.5, 358.0], "miss_count": 1}
+{"timestamp": 66.99748800000178, "window_id": 2232, "track_id": 161, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 67.05748800000178, "window_id": 2234, "track_id": 161, "previous_state": "Tentative", "state": "Lost", "predicted_center": [376.0, 354.0], "miss_count": 1}
+{"timestamp": 67.08748800000178, "window_id": 2235, "track_id": 161, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 67.11748800000179, "window_id": 2236, "track_id": 161, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 67.3274880000018, "window_id": 2243, "track_id": 162, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 67.3574880000018, "window_id": 2244, "track_id": 162, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 67.3874880000018, "window_id": 2245, "track_id": 162, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 68.49748800000184, "window_id": 2282, "track_id": 161, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [819.0, 305.5], "miss_count": 1}
+{"timestamp": 68.52748800000184, "window_id": 2283, "track_id": 161, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 68.55748800000184, "window_id": 2284, "track_id": 161, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [848.75, 301.5], "miss_count": 1}
+{"timestamp": 68.58748800000184, "window_id": 2285, "track_id": 161, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 68.61748800000184, "window_id": 2286, "track_id": 161, "previous_state": "Tentative", "state": "Lost", "predicted_center": [859.0, 303.25], "miss_count": 1}
+{"timestamp": 68.64748800000184, "window_id": 2287, "track_id": 161, "previous_state": "Lost", "state": "Lost", "predicted_center": [866.0, 303.5], "miss_count": 2}
+{"timestamp": 68.67748800000184, "window_id": 2288, "track_id": 161, "previous_state": "Lost", "state": "Deleted", "predicted_center": [873.0, 303.75], "miss_count": 3}
+{"timestamp": 68.73748800000185, "window_id": 2290, "track_id": 163, "previous_state": "Tentative", "state": "Lost", "predicted_center": [880.5, 307.5], "miss_count": 1}
+{"timestamp": 68.76748800000185, "window_id": 2291, "track_id": 163, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 68.79748800000185, "window_id": 2292, "track_id": 163, "previous_state": "Tentative", "state": "Lost", "predicted_center": [897.0, 309.0], "miss_count": 1}
+{"timestamp": 68.82748800000185, "window_id": 2293, "track_id": 163, "previous_state": "Lost", "state": "Lost", "predicted_center": [902.5, 309.5], "miss_count": 2}
+{"timestamp": 68.85748800000185, "window_id": 2294, "track_id": 163, "previous_state": "Lost", "state": "Deleted", "predicted_center": [908.0, 310.0], "miss_count": 3}
+{"timestamp": 68.91748800000185, "window_id": 2296, "track_id": 164, "previous_state": "Tentative", "state": "Lost", "predicted_center": [912.5, 311.0], "miss_count": 1}
+{"timestamp": 68.94748800000185, "window_id": 2297, "track_id": 164, "previous_state": "Lost", "state": "Lost", "predicted_center": [912.5, 311.0], "miss_count": 2}
+{"timestamp": 68.97748800000186, "window_id": 2298, "track_id": 164, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 69.00748800000186, "window_id": 2299, "track_id": 164, "previous_state": "Tentative", "state": "Lost", "predicted_center": [929.1666666666666, 314.3333333333333], "miss_count": 1}
+{"timestamp": 69.03748800000186, "window_id": 2300, "track_id": 164, "previous_state": "Lost", "state": "Lost", "predicted_center": [933.3333333333334, 315.1666666666667], "miss_count": 2}
+{"timestamp": 69.06748800000186, "window_id": 2301, "track_id": 164, "previous_state": "Lost", "state": "Deleted", "predicted_center": [937.5, 316.0], "miss_count": 3}
+{"timestamp": 69.06748800000186, "window_id": 2301, "track_id": 165, "previous_state": "Tentative", "state": "Lost", "predicted_center": [816.0, 330.0], "miss_count": 1}
+{"timestamp": 69.09748800000186, "window_id": 2302, "track_id": 165, "previous_state": "Lost", "state": "Lost", "predicted_center": [820.5, 335.0], "miss_count": 2}
+{"timestamp": 69.12748800000186, "window_id": 2303, "track_id": 165, "previous_state": "Lost", "state": "Deleted", "predicted_center": [825.0, 340.0], "miss_count": 3}
+{"timestamp": 69.21748800000186, "window_id": 2306, "track_id": 166, "previous_state": "Tentative", "state": "Lost", "predicted_center": [931.5, 311.0], "miss_count": 1}
+{"timestamp": 69.24748800000187, "window_id": 2307, "track_id": 166, "previous_state": "Lost", "state": "Lost", "predicted_center": [931.5, 311.0], "miss_count": 2}
+{"timestamp": 69.27748800000187, "window_id": 2308, "track_id": 166, "previous_state": "Lost", "state": "Deleted", "predicted_center": [931.5, 311.0], "miss_count": 3}
+{"timestamp": 69.27748800000187, "window_id": 2308, "track_id": 167, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 69.63748800000188, "window_id": 2320, "track_id": 168, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1008.0, 500.0], "miss_count": 1}
+{"timestamp": 69.66748800000188, "window_id": 2321, "track_id": 168, "previous_state": "Lost", "state": "Lost", "predicted_center": [1008.0, 500.0], "miss_count": 2}
+{"timestamp": 69.69748800000188, "window_id": 2322, "track_id": 168, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1008.0, 500.0], "miss_count": 3}
+{"timestamp": 70.92748800000193, "window_id": 2363, "track_id": 167, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [284.0, 340.0], "miss_count": 1}
+{"timestamp": 70.95748800000193, "window_id": 2364, "track_id": 167, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 71.01748800000193, "window_id": 2366, "track_id": 167, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [277.5, 343.0], "miss_count": 1}
+{"timestamp": 71.04748800000193, "window_id": 2367, "track_id": 167, "previous_state": "Lost", "state": "Lost", "predicted_center": [276.5, 347.0], "miss_count": 2}
+{"timestamp": 71.07748800000194, "window_id": 2368, "track_id": 167, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 71.16748800000194, "window_id": 2371, "track_id": 167, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 71.25748800000194, "window_id": 2374, "track_id": 167, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [350.0, 374.0], "miss_count": 1}
+{"timestamp": 71.28748800000194, "window_id": 2375, "track_id": 167, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 71.61748800000196, "window_id": 2386, "track_id": 169, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1270.5, 576.0], "miss_count": 1}
+{"timestamp": 71.64748800000196, "window_id": 2387, "track_id": 169, "previous_state": "Lost", "state": "Lost", "predicted_center": [1270.5, 576.0], "miss_count": 2}
+{"timestamp": 71.67748800000196, "window_id": 2388, "track_id": 169, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1270.5, 576.0], "miss_count": 3}
+{"timestamp": 71.79748800000196, "window_id": 2392, "track_id": 170, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 71.85748800000196, "window_id": 2394, "track_id": 170, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [985.0, 490.0], "miss_count": 1}
+{"timestamp": 71.85748800000196, "window_id": 2394, "track_id": 171, "previous_state": "Tentative", "state": "Lost", "predicted_center": [996.0, 494.0], "miss_count": 1}
+{"timestamp": 71.88748800000197, "window_id": 2395, "track_id": 170, "previous_state": "Lost", "state": "Lost", "predicted_center": [956.0, 479.0], "miss_count": 2}
+{"timestamp": 71.88748800000197, "window_id": 2395, "track_id": 171, "previous_state": "Lost", "state": "Lost", "predicted_center": [961.5, 481.0], "miss_count": 2}
+{"timestamp": 71.91748800000197, "window_id": 2396, "track_id": 170, "previous_state": "Lost", "state": "Deleted", "predicted_center": [927.0, 468.0], "miss_count": 3}
+{"timestamp": 71.91748800000197, "window_id": 2396, "track_id": 171, "previous_state": "Lost", "state": "Deleted", "predicted_center": [927.0, 468.0], "miss_count": 3}
+{"timestamp": 72.06748800000197, "window_id": 2401, "track_id": 172, "previous_state": "Tentative", "state": "Lost", "predicted_center": [740.5, 427.5], "miss_count": 1}
+{"timestamp": 72.09748800000197, "window_id": 2402, "track_id": 172, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 72.15748800000198, "window_id": 2404, "track_id": 172, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 72.18748800000198, "window_id": 2405, "track_id": 173, "previous_state": "Tentative", "state": "Lost", "predicted_center": [653.5, 402.5], "miss_count": 1}
+{"timestamp": 72.21748800000198, "window_id": 2406, "track_id": 172, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [579.0, 382.5], "miss_count": 1}
+{"timestamp": 72.21748800000198, "window_id": 2406, "track_id": 173, "previous_state": "Lost", "state": "Lost", "predicted_center": [653.5, 402.5], "miss_count": 2}
+{"timestamp": 72.24748800000198, "window_id": 2407, "track_id": 172, "previous_state": "Lost", "state": "Lost", "predicted_center": [548.0, 374.0], "miss_count": 2}
+{"timestamp": 72.24748800000198, "window_id": 2407, "track_id": 173, "previous_state": "Lost", "state": "Deleted", "predicted_center": [653.5, 402.5], "miss_count": 3}
+{"timestamp": 72.27748800000198, "window_id": 2408, "track_id": 172, "previous_state": "Lost", "state": "Deleted", "predicted_center": [517.0, 365.5], "miss_count": 3}
+{"timestamp": 72.36748800000198, "window_id": 2411, "track_id": 174, "previous_state": "Tentative", "state": "Lost", "predicted_center": [437.0, 360.5], "miss_count": 1}
+{"timestamp": 72.39748800000199, "window_id": 2412, "track_id": 174, "previous_state": "Lost", "state": "Lost", "predicted_center": [437.0, 360.5], "miss_count": 2}
+{"timestamp": 72.39748800000199, "window_id": 2412, "track_id": 175, "previous_state": "Tentative", "state": "Lost", "predicted_center": [394.5, 353.5], "miss_count": 1}
+{"timestamp": 72.42748800000199, "window_id": 2413, "track_id": 174, "previous_state": "Lost", "state": "Deleted", "predicted_center": [437.0, 360.5], "miss_count": 3}
+{"timestamp": 72.42748800000199, "window_id": 2413, "track_id": 175, "previous_state": "Lost", "state": "Lost", "predicted_center": [394.5, 353.5], "miss_count": 2}
+{"timestamp": 72.45748800000199, "window_id": 2414, "track_id": 175, "previous_state": "Lost", "state": "Deleted", "predicted_center": [394.5, 353.5], "miss_count": 3}
+{"timestamp": 72.667488000002, "window_id": 2421, "track_id": 176, "previous_state": "Tentative", "state": "Lost", "predicted_center": [138.0, 194.0], "miss_count": 1}
+{"timestamp": 72.697488000002, "window_id": 2422, "track_id": 176, "previous_state": "Lost", "state": "Lost", "predicted_center": [138.0, 194.0], "miss_count": 2}
+{"timestamp": 72.727488000002, "window_id": 2423, "track_id": 176, "previous_state": "Lost", "state": "Deleted", "predicted_center": [138.0, 194.0], "miss_count": 3}
+{"timestamp": 72.817488000002, "window_id": 2426, "track_id": 167, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [432.0, 358.0], "miss_count": 1}
+{"timestamp": 72.847488000002, "window_id": 2427, "track_id": 167, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 73.14748800000201, "window_id": 2437, "track_id": 167, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [277.0, 382.0], "miss_count": 1}
+{"timestamp": 73.17748800000201, "window_id": 2438, "track_id": 167, "previous_state": "Lost", "state": "Lost", "predicted_center": [266.0, 382.5], "miss_count": 2}
+{"timestamp": 73.20748800000202, "window_id": 2439, "track_id": 177, "previous_state": "Tentative", "state": "Lost", "predicted_center": [174.0, 184.0], "miss_count": 1}
+{"timestamp": 73.20748800000202, "window_id": 2439, "track_id": 167, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 73.23748800000202, "window_id": 2440, "track_id": 167, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [239.33333333333334, 374.8333333333333], "miss_count": 1}
+{"timestamp": 73.23748800000202, "window_id": 2440, "track_id": 177, "previous_state": "Lost", "state": "Lost", "predicted_center": [174.0, 184.0], "miss_count": 2}
+{"timestamp": 73.26748800000202, "window_id": 2441, "track_id": 167, "previous_state": "Lost", "state": "Lost", "predicted_center": [227.16666666666666, 373.1666666666667], "miss_count": 2}
+{"timestamp": 73.26748800000202, "window_id": 2441, "track_id": 177, "previous_state": "Lost", "state": "Deleted", "predicted_center": [174.0, 184.0], "miss_count": 3}
+{"timestamp": 73.29748800000202, "window_id": 2442, "track_id": 167, "previous_state": "Lost", "state": "Deleted", "predicted_center": [215.0, 371.5], "miss_count": 3}
+{"timestamp": 73.35748800000202, "window_id": 2444, "track_id": 178, "previous_state": "Tentative", "state": "Lost", "predicted_center": [128.0, 155.0], "miss_count": 1}
+{"timestamp": 73.38748800000202, "window_id": 2445, "track_id": 178, "previous_state": "Lost", "state": "Lost", "predicted_center": [122.5, 152.0], "miss_count": 2}
+{"timestamp": 73.41748800000202, "window_id": 2446, "track_id": 178, "previous_state": "Lost", "state": "Deleted", "predicted_center": [117.0, 149.0], "miss_count": 3}
+{"timestamp": 73.41748800000202, "window_id": 2446, "track_id": 179, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 73.50748800000203, "window_id": 2449, "track_id": 179, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [201.0, 342.5], "miss_count": 1}
+{"timestamp": 73.53748800000203, "window_id": 2450, "track_id": 179, "previous_state": "Lost", "state": "Lost", "predicted_center": [199.0, 339.0], "miss_count": 2}
+{"timestamp": 73.56748800000203, "window_id": 2451, "track_id": 179, "previous_state": "Lost", "state": "Deleted", "predicted_center": [197.0, 335.5], "miss_count": 3}
+{"timestamp": 73.62748800000203, "window_id": 2453, "track_id": 180, "previous_state": "Tentative", "state": "Lost", "predicted_center": [59.5, 124.5], "miss_count": 1}
+{"timestamp": 73.65748800000203, "window_id": 2454, "track_id": 180, "previous_state": "Lost", "state": "Lost", "predicted_center": [59.5, 124.5], "miss_count": 2}
+{"timestamp": 73.68748800000203, "window_id": 2455, "track_id": 180, "previous_state": "Lost", "state": "Deleted", "predicted_center": [59.5, 124.5], "miss_count": 3}
+{"timestamp": 73.77748800000204, "window_id": 2458, "track_id": 181, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 74.82748800000208, "window_id": 2493, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [634.5, 321.5], "miss_count": 1}
+{"timestamp": 74.85748800000208, "window_id": 2494, "track_id": 181, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 75.4574880000021, "window_id": 2514, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [718.5, 300.5], "miss_count": 1}
+{"timestamp": 75.4874880000021, "window_id": 2515, "track_id": 182, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1266.0, 213.5], "miss_count": 1}
+{"timestamp": 75.4874880000021, "window_id": 2515, "track_id": 181, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 75.5174880000021, "window_id": 2516, "track_id": 182, "previous_state": "Lost", "state": "Lost", "predicted_center": [1266.0, 213.5], "miss_count": 2}
+{"timestamp": 75.5474880000021, "window_id": 2517, "track_id": 182, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1266.0, 213.5], "miss_count": 3}
+{"timestamp": 75.5774880000021, "window_id": 2518, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [720.0, 296.0], "miss_count": 1}
+{"timestamp": 75.6074880000021, "window_id": 2519, "track_id": 181, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 75.63748800000211, "window_id": 2520, "track_id": 181, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 75.72748800000211, "window_id": 2523, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [725.5, 296.0], "miss_count": 1}
+{"timestamp": 75.75748800000211, "window_id": 2524, "track_id": 181, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 75.78748800000211, "window_id": 2525, "track_id": 181, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 76.02748800000212, "window_id": 2533, "track_id": 184, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 76.05748800000212, "window_id": 2534, "track_id": 184, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 76.05748800000212, "window_id": 2534, "track_id": 183, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 76.08748800000212, "window_id": 2535, "track_id": 183, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [935.5, 22.5], "miss_count": 1}
+{"timestamp": 76.08748800000212, "window_id": 2535, "track_id": 184, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 76.11748800000213, "window_id": 2536, "track_id": 183, "previous_state": "Lost", "state": "Lost", "predicted_center": [940.5, 26.0], "miss_count": 2}
+{"timestamp": 76.14748800000213, "window_id": 2537, "track_id": 183, "previous_state": "Lost", "state": "Deleted", "predicted_center": [945.5, 29.5], "miss_count": 3}
+{"timestamp": 76.23748800000213, "window_id": 2540, "track_id": 185, "previous_state": "Tentative", "state": "Lost", "predicted_center": [959.5, 38.0], "miss_count": 1}
+{"timestamp": 76.26748800000213, "window_id": 2541, "track_id": 185, "previous_state": "Lost", "state": "Lost", "predicted_center": [959.5, 38.0], "miss_count": 2}
+{"timestamp": 76.29748800000213, "window_id": 2542, "track_id": 185, "previous_state": "Lost", "state": "Deleted", "predicted_center": [959.5, 38.0], "miss_count": 3}
+{"timestamp": 76.47748800000214, "window_id": 2548, "track_id": 186, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1003.5, 54.5], "miss_count": 1}
+{"timestamp": 76.50748800000214, "window_id": 2549, "track_id": 186, "previous_state": "Lost", "state": "Lost", "predicted_center": [1003.5, 54.5], "miss_count": 2}
+{"timestamp": 76.53748800000214, "window_id": 2550, "track_id": 186, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1003.5, 54.5], "miss_count": 3}
+{"timestamp": 76.59748800000214, "window_id": 2552, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [604.0, 311.5], "miss_count": 1}
+{"timestamp": 76.59748800000214, "window_id": 2552, "track_id": 187, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1019.0, 55.5], "miss_count": 1}
+{"timestamp": 76.62748800000215, "window_id": 2553, "track_id": 181, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 76.62748800000215, "window_id": 2553, "track_id": 187, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 76.65748800000215, "window_id": 2554, "track_id": 187, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1025.75, 57.75], "miss_count": 1}
+{"timestamp": 76.68748800000215, "window_id": 2555, "track_id": 187, "previous_state": "Lost", "state": "Lost", "predicted_center": [1028.0, 58.5], "miss_count": 2}
+{"timestamp": 76.71748800000215, "window_id": 2556, "track_id": 187, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1030.25, 59.25], "miss_count": 3}
+{"timestamp": 76.80748800000215, "window_id": 2559, "track_id": 188, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 76.83748800000215, "window_id": 2560, "track_id": 188, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 76.86748800000215, "window_id": 2561, "track_id": 188, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 77.64748800000218, "window_id": 2587, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [230.5, 369.5], "miss_count": 1}
+{"timestamp": 77.67748800000219, "window_id": 2588, "track_id": 181, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 77.79748800000219, "window_id": 2592, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [255.5, 378.5], "miss_count": 1}
+{"timestamp": 77.82748800000219, "window_id": 2593, "track_id": 181, "previous_state": "Lost", "state": "Lost", "predicted_center": [258.5, 379.0], "miss_count": 2}
+{"timestamp": 77.85748800000219, "window_id": 2594, "track_id": 181, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 77.8874880000022, "window_id": 2595, "track_id": 181, "previous_state": "Tentative", "state": "Lost", "predicted_center": [272.5, 376.6666666666667], "miss_count": 1}
+{"timestamp": 77.9174880000022, "window_id": 2596, "track_id": 181, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 77.9474880000022, "window_id": 2597, "track_id": 181, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 77.9774880000022, "window_id": 2598, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [304.5, 383.5], "miss_count": 1}
+{"timestamp": 78.0074880000022, "window_id": 2599, "track_id": 181, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 78.48748800000222, "window_id": 2615, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [504.0, 400.0], "miss_count": 1}
+{"timestamp": 78.51748800000222, "window_id": 2616, "track_id": 181, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 79.08748800000224, "window_id": 2635, "track_id": 181, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [821.5, 394.5], "miss_count": 1}
+{"timestamp": 79.11748800000224, "window_id": 2636, "track_id": 181, "previous_state": "Lost", "state": "Lost", "predicted_center": [835.5, 395.5], "miss_count": 2}
+{"timestamp": 79.14748800000224, "window_id": 2637, "track_id": 181, "previous_state": "Lost", "state": "Deleted", "predicted_center": [849.5, 396.5], "miss_count": 3}
+{"timestamp": 79.23748800000224, "window_id": 2640, "track_id": 189, "previous_state": "Tentative", "state": "Lost", "predicted_center": [860.0, 396.0], "miss_count": 1}
+{"timestamp": 79.26748800000225, "window_id": 2641, "track_id": 189, "previous_state": "Lost", "state": "Lost", "predicted_center": [867.5, 396.5], "miss_count": 2}
+{"timestamp": 79.29748800000225, "window_id": 2642, "track_id": 189, "previous_state": "Lost", "state": "Deleted", "predicted_center": [875.0, 397.0], "miss_count": 3}
+{"timestamp": 80.19748800000228, "window_id": 2672, "track_id": 190, "previous_state": "Tentative", "state": "Lost", "predicted_center": [837.0, 371.0], "miss_count": 1}
+{"timestamp": 80.22748800000228, "window_id": 2673, "track_id": 190, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 80.25748800000228, "window_id": 2674, "track_id": 190, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 80.43748800000229, "window_id": 2680, "track_id": 190, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [794.0, 391.0], "miss_count": 1}
+{"timestamp": 80.46748800000229, "window_id": 2681, "track_id": 190, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 80.7074880000023, "window_id": 2689, "track_id": 191, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 80.7374880000023, "window_id": 2690, "track_id": 191, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 80.7674880000023, "window_id": 2691, "track_id": 191, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 81.42748800000233, "window_id": 2713, "track_id": 192, "previous_state": "Tentative", "state": "Lost", "predicted_center": [792.5, 661.5], "miss_count": 1}
+{"timestamp": 81.45748800000233, "window_id": 2714, "track_id": 192, "previous_state": "Lost", "state": "Lost", "predicted_center": [792.5, 661.5], "miss_count": 2}
+{"timestamp": 81.48748800000233, "window_id": 2715, "track_id": 190, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [390.0, 377.5], "miss_count": 1}
+{"timestamp": 81.48748800000233, "window_id": 2715, "track_id": 192, "previous_state": "Lost", "state": "Deleted", "predicted_center": [792.5, 661.5], "miss_count": 3}
+{"timestamp": 81.51748800000233, "window_id": 2716, "track_id": 190, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 81.78748800000234, "window_id": 2725, "track_id": 193, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 81.81748800000234, "window_id": 2726, "track_id": 193, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 81.84748800000234, "window_id": 2727, "track_id": 193, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 82.08748800000235, "window_id": 2735, "track_id": 190, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [102.0, 348.5], "miss_count": 1}
+{"timestamp": 82.11748800000235, "window_id": 2736, "track_id": 190, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 82.14748800000235, "window_id": 2737, "track_id": 190, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [91.75, 352.5], "miss_count": 1}
+{"timestamp": 82.17748800000236, "window_id": 2738, "track_id": 190, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 82.20748800000236, "window_id": 2739, "track_id": 190, "previous_state": "Tentative", "state": "Lost", "predicted_center": [75.0, 343.75], "miss_count": 1}
+{"timestamp": 82.23748800000236, "window_id": 2740, "track_id": 190, "previous_state": "Lost", "state": "Lost", "predicted_center": [67.0, 341.0], "miss_count": 2}
+{"timestamp": 82.26748800000236, "window_id": 2741, "track_id": 190, "previous_state": "Lost", "state": "Deleted", "predicted_center": [59.0, 338.25], "miss_count": 3}
+{"timestamp": 82.35748800000236, "window_id": 2744, "track_id": 194, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 82.41748800000236, "window_id": 2746, "track_id": 194, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [60.5, 340.5], "miss_count": 1}
+{"timestamp": 82.44748800000237, "window_id": 2747, "track_id": 194, "previous_state": "Lost", "state": "Lost", "predicted_center": [60.0, 340.0], "miss_count": 2}
+{"timestamp": 82.47748800000237, "window_id": 2748, "track_id": 194, "previous_state": "Lost", "state": "Deleted", "predicted_center": [59.5, 339.5], "miss_count": 3}
+{"timestamp": 82.59748800000237, "window_id": 2752, "track_id": 195, "previous_state": "Tentative", "state": "Lost", "predicted_center": [75.5, 343.5], "miss_count": 1}
+{"timestamp": 82.62748800000237, "window_id": 2753, "track_id": 195, "previous_state": "Lost", "state": "Lost", "predicted_center": [79.0, 343.5], "miss_count": 2}
+{"timestamp": 82.65748800000237, "window_id": 2754, "track_id": 195, "previous_state": "Lost", "state": "Deleted", "predicted_center": [82.5, 343.5], "miss_count": 3}
+{"timestamp": 82.77748800000238, "window_id": 2758, "track_id": 196, "previous_state": "Tentative", "state": "Lost", "predicted_center": [96.0, 347.0], "miss_count": 1}
+{"timestamp": 82.80748800000238, "window_id": 2759, "track_id": 196, "previous_state": "Lost", "state": "Lost", "predicted_center": [96.0, 347.0], "miss_count": 2}
+{"timestamp": 82.83748800000238, "window_id": 2760, "track_id": 196, "previous_state": "Lost", "state": "Deleted", "predicted_center": [96.0, 347.0], "miss_count": 3}
+{"timestamp": 83.4074880000024, "window_id": 2779, "track_id": 197, "previous_state": "Tentative", "state": "Lost", "predicted_center": [272.0, 363.5], "miss_count": 1}
+{"timestamp": 83.4374880000024, "window_id": 2780, "track_id": 197, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 83.4974880000024, "window_id": 2782, "track_id": 197, "previous_state": "Tentative", "state": "Lost", "predicted_center": [308.0, 365.5], "miss_count": 1}
+{"timestamp": 83.5274880000024, "window_id": 2783, "track_id": 197, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 83.55748800000241, "window_id": 2784, "track_id": 197, "previous_state": "Tentative", "state": "Lost", "predicted_center": [329.0, 366.75], "miss_count": 1}
+{"timestamp": 83.58748800000241, "window_id": 2785, "track_id": 197, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 83.61748800000241, "window_id": 2786, "track_id": 197, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [351.25, 365.0], "miss_count": 1}
+{"timestamp": 83.64748800000241, "window_id": 2787, "track_id": 197, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 83.67748800000241, "window_id": 2788, "track_id": 197, "previous_state": "Confirmed", "state": "Tentative", "miss_count": 0}
+{"timestamp": 83.73748800000241, "window_id": 2790, "track_id": 197, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 85.47748800000248, "window_id": 2848, "track_id": 197, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [974.5, 361.5], "miss_count": 1}
+{"timestamp": 85.50748800000248, "window_id": 2849, "track_id": 197, "previous_state": "Lost", "state": "Lost", "predicted_center": [983.5, 358.0], "miss_count": 2}
+{"timestamp": 85.50748800000248, "window_id": 2849, "track_id": 198, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 85.53748800000248, "window_id": 2850, "track_id": 197, "previous_state": "Lost", "state": "Deleted", "predicted_center": [992.5, 354.5], "miss_count": 3}
+{"timestamp": 85.53748800000248, "window_id": 2850, "track_id": 198, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [951.5, 372.0], "miss_count": 1}
+{"timestamp": 85.56748800000248, "window_id": 2851, "track_id": 198, "previous_state": "Lost", "state": "Lost", "predicted_center": [951.5, 372.5], "miss_count": 2}
+{"timestamp": 85.59748800000249, "window_id": 2852, "track_id": 198, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 85.62748800000249, "window_id": 2853, "track_id": 198, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [952.8333333333334, 373.5], "miss_count": 1}
+{"timestamp": 85.62748800000249, "window_id": 2853, "track_id": 199, "previous_state": "Tentative", "state": "Lost", "predicted_center": [964.0, 367.5], "miss_count": 1}
+{"timestamp": 85.65748800000249, "window_id": 2854, "track_id": 199, "previous_state": "Lost", "state": "Lost", "predicted_center": [964.0, 367.5], "miss_count": 2}
+{"timestamp": 85.65748800000249, "window_id": 2854, "track_id": 198, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 85.68748800000249, "window_id": 2855, "track_id": 199, "previous_state": "Lost", "state": "Deleted", "predicted_center": [964.0, 367.5], "miss_count": 3}
+{"timestamp": 85.71748800000249, "window_id": 2856, "track_id": 198, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 85.74748800000249, "window_id": 2857, "track_id": 198, "previous_state": "Confirmed", "state": "Tentative", "miss_count": 0}
+{"timestamp": 85.77748800000249, "window_id": 2858, "track_id": 198, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 85.9274880000025, "window_id": 2863, "track_id": 200, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 85.9574880000025, "window_id": 2864, "track_id": 200, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 85.9874880000025, "window_id": 2865, "track_id": 200, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 86.55748800000252, "window_id": 2884, "track_id": 201, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1116.0, 346.5], "miss_count": 1}
+{"timestamp": 86.58748800000252, "window_id": 2885, "track_id": 201, "previous_state": "Lost", "state": "Lost", "predicted_center": [1116.0, 346.5], "miss_count": 2}
+{"timestamp": 86.61748800000252, "window_id": 2886, "track_id": 201, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1116.0, 346.5], "miss_count": 3}
+{"timestamp": 86.76748800000253, "window_id": 2891, "track_id": 202, "previous_state": "Tentative", "state": "Lost", "predicted_center": [976.0, 351.5], "miss_count": 1}
+{"timestamp": 86.79748800000253, "window_id": 2892, "track_id": 202, "previous_state": "Lost", "state": "Lost", "predicted_center": [976.0, 351.5], "miss_count": 2}
+{"timestamp": 86.82748800000253, "window_id": 2893, "track_id": 202, "previous_state": "Lost", "state": "Deleted", "predicted_center": [976.0, 351.5], "miss_count": 3}
+{"timestamp": 86.82748800000253, "window_id": 2893, "track_id": 203, "previous_state": "Tentative", "state": "Lost", "predicted_center": [506.5, 226.5], "miss_count": 1}
+{"timestamp": 86.85748800000253, "window_id": 2894, "track_id": 203, "previous_state": "Lost", "state": "Lost", "predicted_center": [506.5, 226.5], "miss_count": 2}
+{"timestamp": 86.88748800000253, "window_id": 2895, "track_id": 203, "previous_state": "Lost", "state": "Deleted", "predicted_center": [506.5, 226.5], "miss_count": 3}
+{"timestamp": 87.18748800000255, "window_id": 2905, "track_id": 204, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1168.0, 525.0], "miss_count": 1}
+{"timestamp": 87.21748800000255, "window_id": 2906, "track_id": 204, "previous_state": "Lost", "state": "Lost", "predicted_center": [1168.0, 525.0], "miss_count": 2}
+{"timestamp": 87.24748800000255, "window_id": 2907, "track_id": 204, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1168.0, 525.0], "miss_count": 3}
+{"timestamp": 87.39748800000255, "window_id": 2912, "track_id": 198, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [277.5, 341.5], "miss_count": 1}
+{"timestamp": 87.42748800000255, "window_id": 2913, "track_id": 198, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 87.45748800000256, "window_id": 2914, "track_id": 198, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [247.0, 333.75], "miss_count": 1}
+{"timestamp": 87.48748800000256, "window_id": 2915, "track_id": 198, "previous_state": "Lost", "state": "Lost", "predicted_center": [233.5, 330.5], "miss_count": 2}
+{"timestamp": 87.51748800000256, "window_id": 2916, "track_id": 198, "previous_state": "Lost", "state": "Deleted", "predicted_center": [220.0, 327.25], "miss_count": 3}
+{"timestamp": 87.69748800000256, "window_id": 2922, "track_id": 205, "previous_state": "Tentative", "state": "Lost", "predicted_center": [187.5, 321.5], "miss_count": 1}
+{"timestamp": 87.72748800000257, "window_id": 2923, "track_id": 205, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 87.75748800000257, "window_id": 2924, "track_id": 205, "previous_state": "Tentative", "state": "Lost", "predicted_center": [171.75, 317.75], "miss_count": 1}
+{"timestamp": 87.78748800000257, "window_id": 2925, "track_id": 205, "previous_state": "Lost", "state": "Lost", "predicted_center": [166.5, 316.5], "miss_count": 2}
+{"timestamp": 87.81748800000257, "window_id": 2926, "track_id": 205, "previous_state": "Lost", "state": "Deleted", "predicted_center": [161.25, 315.25], "miss_count": 3}
+{"timestamp": 88.23748800000259, "window_id": 2940, "track_id": 206, "previous_state": "Tentative", "state": "Lost", "predicted_center": [200.5, 321.5], "miss_count": 1}
+{"timestamp": 88.26748800000259, "window_id": 2941, "track_id": 206, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 88.5074880000026, "window_id": 2949, "track_id": 206, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [289.0, 309.5], "miss_count": 1}
+{"timestamp": 88.5374880000026, "window_id": 2950, "track_id": 206, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 88.6574880000026, "window_id": 2954, "track_id": 207, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 88.7174880000026, "window_id": 2956, "track_id": 207, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [959.0, 37.0], "miss_count": 1}
+{"timestamp": 88.7474880000026, "window_id": 2957, "track_id": 207, "previous_state": "Lost", "state": "Lost", "predicted_center": [968.0, 44.5], "miss_count": 2}
+{"timestamp": 88.7774880000026, "window_id": 2958, "track_id": 207, "previous_state": "Lost", "state": "Deleted", "predicted_center": [977.0, 52.0], "miss_count": 3}
+{"timestamp": 88.83748800000261, "window_id": 2960, "track_id": 208, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 88.86748800000261, "window_id": 2961, "track_id": 208, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [832.0, 340.5], "miss_count": 1}
+{"timestamp": 88.89748800000261, "window_id": 2962, "track_id": 208, "previous_state": "Lost", "state": "Lost", "predicted_center": [859.0, 359.5], "miss_count": 2}
+{"timestamp": 88.92748800000261, "window_id": 2963, "track_id": 208, "previous_state": "Lost", "state": "Deleted", "predicted_center": [886.0, 378.5], "miss_count": 3}
+{"timestamp": 89.13748800000262, "window_id": 2970, "track_id": 209, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1139.5, 488.5], "miss_count": 1}
+{"timestamp": 89.16748800000262, "window_id": 2971, "track_id": 209, "previous_state": "Lost", "state": "Lost", "predicted_center": [1139.5, 488.5], "miss_count": 2}
+{"timestamp": 89.19748800000262, "window_id": 2972, "track_id": 209, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1139.5, 488.5], "miss_count": 3}
+{"timestamp": 89.22748800000262, "window_id": 2973, "track_id": 210, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1247.5, 534.5], "miss_count": 1}
+{"timestamp": 89.25748800000262, "window_id": 2974, "track_id": 210, "previous_state": "Lost", "state": "Lost", "predicted_center": [1247.5, 534.5], "miss_count": 2}
+{"timestamp": 89.28748800000263, "window_id": 2975, "track_id": 210, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1247.5, 534.5], "miss_count": 3}
+{"timestamp": 89.85748800000265, "window_id": 2994, "track_id": 211, "previous_state": "Tentative", "state": "Lost", "predicted_center": [928.0, 534.0], "miss_count": 1}
+{"timestamp": 89.88748800000265, "window_id": 2995, "track_id": 211, "previous_state": "Lost", "state": "Lost", "predicted_center": [928.0, 534.0], "miss_count": 2}
+{"timestamp": 89.91748800000265, "window_id": 2996, "track_id": 211, "previous_state": "Lost", "state": "Deleted", "predicted_center": [928.0, 534.0], "miss_count": 3}
+{"timestamp": 90.03748800000265, "window_id": 3000, "track_id": 206, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [987.5, 416.5], "miss_count": 1}
+{"timestamp": 90.06748800000265, "window_id": 3001, "track_id": 206, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 90.54748800000267, "window_id": 3017, "track_id": 206, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1023.0, 522.0], "miss_count": 1}
+{"timestamp": 90.57748800000267, "window_id": 3018, "track_id": 206, "previous_state": "Lost", "state": "Lost", "predicted_center": [1018.0, 527.0], "miss_count": 2}
+{"timestamp": 90.60748800000268, "window_id": 3019, "track_id": 206, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1013.0, 532.0], "miss_count": 3}
+{"timestamp": 90.75748800000268, "window_id": 3024, "track_id": 212, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 90.81748800000268, "window_id": 3026, "track_id": 212, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [980.5, 515.5], "miss_count": 1}
+{"timestamp": 90.84748800000268, "window_id": 3027, "track_id": 212, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 90.87748800000269, "window_id": 3028, "track_id": 212, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [971.0, 505.25], "miss_count": 1}
+{"timestamp": 90.90748800000269, "window_id": 3029, "track_id": 212, "previous_state": "Lost", "state": "Lost", "predicted_center": [965.0, 501.0], "miss_count": 2}
+{"timestamp": 90.93748800000269, "window_id": 3030, "track_id": 212, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 91.47748800000271, "window_id": 3048, "track_id": 213, "previous_state": "Tentative", "state": "Lost", "predicted_center": [990.5, 53.0], "miss_count": 1}
+{"timestamp": 91.50748800000271, "window_id": 3049, "track_id": 213, "previous_state": "Lost", "state": "Lost", "predicted_center": [990.5, 53.0], "miss_count": 2}
+{"timestamp": 91.53748800000271, "window_id": 3050, "track_id": 213, "previous_state": "Lost", "state": "Deleted", "predicted_center": [990.5, 53.0], "miss_count": 3}
+{"timestamp": 91.62748800000271, "window_id": 3053, "track_id": 214, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1071.0, 75.5], "miss_count": 1}
+{"timestamp": 91.65748800000272, "window_id": 3054, "track_id": 214, "previous_state": "Lost", "state": "Lost", "predicted_center": [1071.0, 75.5], "miss_count": 2}
+{"timestamp": 91.65748800000272, "window_id": 3054, "track_id": 215, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 91.68748800000272, "window_id": 3055, "track_id": 214, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1071.0, 75.5], "miss_count": 3}
+{"timestamp": 91.68748800000272, "window_id": 3055, "track_id": 215, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 91.71748800000272, "window_id": 3056, "track_id": 215, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 91.77748800000272, "window_id": 3058, "track_id": 216, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 91.80748800000272, "window_id": 3059, "track_id": 216, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 91.83748800000272, "window_id": 3060, "track_id": 216, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 92.25748800000274, "window_id": 3074, "track_id": 217, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1243.0, 131.0], "miss_count": 1}
+{"timestamp": 92.28748800000274, "window_id": 3075, "track_id": 217, "previous_state": "Lost", "state": "Lost", "predicted_center": [1243.0, 131.0], "miss_count": 2}
+{"timestamp": 92.31748800000274, "window_id": 3076, "track_id": 217, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1243.0, 131.0], "miss_count": 3}
+{"timestamp": 92.55748800000275, "window_id": 3084, "track_id": 212, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [213.0, 401.5], "miss_count": 1}
+{"timestamp": 92.58748800000275, "window_id": 3085, "track_id": 212, "previous_state": "Lost", "state": "Lost", "predicted_center": [198.0, 404.5], "miss_count": 2}
+{"timestamp": 92.61748800000275, "window_id": 3086, "track_id": 218, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 92.61748800000275, "window_id": 3086, "track_id": 212, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 92.64748800000275, "window_id": 3087, "track_id": 212, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [187.33333333333334, 410.5], "miss_count": 1}
+{"timestamp": 92.64748800000275, "window_id": 3087, "track_id": 218, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 92.67748800000275, "window_id": 3088, "track_id": 218, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 92.67748800000275, "window_id": 3088, "track_id": 212, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 92.70748800000275, "window_id": 3089, "track_id": 212, "previous_state": "Tentative", "state": "Lost", "predicted_center": [160.75, 403.75], "miss_count": 1}
+{"timestamp": 92.73748800000276, "window_id": 3090, "track_id": 212, "previous_state": "Lost", "state": "Lost", "predicted_center": [148.5, 402.5], "miss_count": 2}
+{"timestamp": 92.76748800000276, "window_id": 3091, "track_id": 212, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 92.79748800000276, "window_id": 3092, "track_id": 212, "previous_state": "Tentative", "state": "Lost", "predicted_center": [146.33333333333334, 405.0], "miss_count": 1}
+{"timestamp": 92.82748800000276, "window_id": 3093, "track_id": 212, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 92.85748800000276, "window_id": 3094, "track_id": 212, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [138.0, 403.5], "miss_count": 1}
+{"timestamp": 92.88748800000276, "window_id": 3095, "track_id": 212, "previous_state": "Lost", "state": "Lost", "predicted_center": [133.0, 403.0], "miss_count": 2}
+{"timestamp": 92.91748800000276, "window_id": 3096, "track_id": 212, "previous_state": "Lost", "state": "Deleted", "predicted_center": [128.0, 402.5], "miss_count": 3}
+{"timestamp": 93.00748800000277, "window_id": 3099, "track_id": 219, "previous_state": "Tentative", "state": "Lost", "predicted_center": [121.0, 388.5], "miss_count": 1}
+{"timestamp": 93.03748800000277, "window_id": 3100, "track_id": 219, "previous_state": "Lost", "state": "Lost", "predicted_center": [120.0, 385.5], "miss_count": 2}
+{"timestamp": 93.06748800000277, "window_id": 3101, "track_id": 219, "previous_state": "Lost", "state": "Deleted", "predicted_center": [119.0, 382.5], "miss_count": 3}
+{"timestamp": 93.12748800000277, "window_id": 3103, "track_id": 220, "previous_state": "Tentative", "state": "Lost", "predicted_center": [127.5, 384.0], "miss_count": 1}
+{"timestamp": 93.15748800000277, "window_id": 3104, "track_id": 220, "previous_state": "Lost", "state": "Lost", "predicted_center": [127.5, 384.0], "miss_count": 2}
+{"timestamp": 93.18748800000277, "window_id": 3105, "track_id": 220, "previous_state": "Lost", "state": "Deleted", "predicted_center": [127.5, 384.0], "miss_count": 3}
+{"timestamp": 93.27748800000278, "window_id": 3108, "track_id": 221, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 93.42748800000278, "window_id": 3113, "track_id": 222, "previous_state": "Tentative", "state": "Lost", "predicted_center": [833.5, 474.0], "miss_count": 1}
+{"timestamp": 93.45748800000278, "window_id": 3114, "track_id": 222, "previous_state": "Lost", "state": "Lost", "predicted_center": [833.5, 474.0], "miss_count": 2}
+{"timestamp": 93.48748800000278, "window_id": 3115, "track_id": 222, "previous_state": "Lost", "state": "Deleted", "predicted_center": [833.5, 474.0], "miss_count": 3}
+{"timestamp": 94.29748800000282, "window_id": 3142, "track_id": 221, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [850.5, 392.0], "miss_count": 1}
+{"timestamp": 94.32748800000282, "window_id": 3143, "track_id": 221, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 94.92748800000284, "window_id": 3163, "track_id": 221, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [1032.0, 430.5], "miss_count": 1}
+{"timestamp": 94.95748800000284, "window_id": 3164, "track_id": 221, "previous_state": "Lost", "state": "Lost", "predicted_center": [1031.0, 430.5], "miss_count": 2}
+{"timestamp": 94.98748800000284, "window_id": 3165, "track_id": 221, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1030.0, 430.5], "miss_count": 3}
+{"timestamp": 94.98748800000284, "window_id": 3165, "track_id": 223, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1011.0, 442.0], "miss_count": 1}
+{"timestamp": 95.01748800000284, "window_id": 3166, "track_id": 223, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 95.04748800000284, "window_id": 3167, "track_id": 223, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1006.75, 438.25], "miss_count": 1}
+{"timestamp": 95.07748800000284, "window_id": 3168, "track_id": 223, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 95.13748800000285, "window_id": 3170, "track_id": 223, "previous_state": "Tentative", "state": "Lost", "predicted_center": [982.5, 428.5], "miss_count": 1}
+{"timestamp": 95.16748800000285, "window_id": 3171, "track_id": 223, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 95.19748800000285, "window_id": 3172, "track_id": 223, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 95.22748800000285, "window_id": 3173, "track_id": 224, "previous_state": "Tentative", "state": "Lost", "predicted_center": [794.0, 362.5], "miss_count": 1}
+{"timestamp": 95.25748800000285, "window_id": 3174, "track_id": 224, "previous_state": "Lost", "state": "Lost", "predicted_center": [794.0, 362.5], "miss_count": 2}
+{"timestamp": 95.28748800000285, "window_id": 3175, "track_id": 224, "previous_state": "Lost", "state": "Deleted", "predicted_center": [794.0, 362.5], "miss_count": 3}
+{"timestamp": 95.37748800000286, "window_id": 3178, "track_id": 223, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [891.5, 433.5], "miss_count": 1}
+{"timestamp": 95.40748800000286, "window_id": 3179, "track_id": 223, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 95.46748800000286, "window_id": 3181, "track_id": 225, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1085.0, 97.0], "miss_count": 1}
+{"timestamp": 95.49748800000286, "window_id": 3182, "track_id": 225, "previous_state": "Lost", "state": "Lost", "predicted_center": [1085.0, 97.0], "miss_count": 2}
+{"timestamp": 95.52748800000286, "window_id": 3183, "track_id": 225, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1085.0, 97.0], "miss_count": 3}
+{"timestamp": 95.64748800000287, "window_id": 3187, "track_id": 226, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1056.5, 298.5], "miss_count": 1}
+{"timestamp": 95.67748800000287, "window_id": 3188, "track_id": 226, "previous_state": "Lost", "state": "Lost", "predicted_center": [1055.5, 303.5], "miss_count": 2}
+{"timestamp": 95.70748800000287, "window_id": 3189, "track_id": 226, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1054.5, 308.5], "miss_count": 3}
+{"timestamp": 95.82748800000287, "window_id": 3193, "track_id": 227, "previous_state": "Tentative", "state": "Lost", "predicted_center": [927.5, 79.0], "miss_count": 1}
+{"timestamp": 95.85748800000287, "window_id": 3194, "track_id": 227, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 95.88748800000288, "window_id": 3195, "track_id": 227, "previous_state": "Tentative", "state": "Lost", "predicted_center": [903.5, 42.25], "miss_count": 1}
+{"timestamp": 95.91748800000288, "window_id": 3196, "track_id": 227, "previous_state": "Lost", "state": "Lost", "predicted_center": [895.5, 30.0], "miss_count": 2}
+{"timestamp": 95.94748800000288, "window_id": 3197, "track_id": 227, "previous_state": "Lost", "state": "Deleted", "predicted_center": [887.5, 17.75], "miss_count": 3}
+{"timestamp": 96.12748800000288, "window_id": 3203, "track_id": 228, "previous_state": "Tentative", "state": "Lost", "predicted_center": [576.5, 390.0], "miss_count": 1}
+{"timestamp": 96.15748800000289, "window_id": 3204, "track_id": 228, "previous_state": "Lost", "state": "Lost", "predicted_center": [576.5, 390.0], "miss_count": 2}
+{"timestamp": 96.18748800000289, "window_id": 3205, "track_id": 228, "previous_state": "Lost", "state": "Deleted", "predicted_center": [576.5, 390.0], "miss_count": 3}
+{"timestamp": 96.24748800000289, "window_id": 3207, "track_id": 229, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 96.27748800000289, "window_id": 3208, "track_id": 229, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 96.30748800000289, "window_id": 3209, "track_id": 229, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 96.78748800000291, "window_id": 3225, "track_id": 223, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [264.0, 346.0], "miss_count": 1}
+{"timestamp": 96.81748800000291, "window_id": 3226, "track_id": 223, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 96.87748800000291, "window_id": 3228, "track_id": 223, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [213.5, 334.5], "miss_count": 1}
+{"timestamp": 96.90748800000291, "window_id": 3229, "track_id": 223, "previous_state": "Lost", "state": "Lost", "predicted_center": [195.0, 329.0], "miss_count": 2}
+{"timestamp": 96.93748800000292, "window_id": 3230, "track_id": 223, "previous_state": "Lost", "state": "Deleted", "predicted_center": [176.5, 323.5], "miss_count": 3}
+{"timestamp": 97.02748800000292, "window_id": 3233, "track_id": 230, "previous_state": "Tentative", "state": "Lost", "predicted_center": [177.5, 316.5], "miss_count": 1}
+{"timestamp": 97.05748800000292, "window_id": 3234, "track_id": 230, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 97.08748800000292, "window_id": 3235, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [160.75, 307.5], "miss_count": 1}
+{"timestamp": 97.11748800000292, "window_id": 3236, "track_id": 230, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 97.95748800000295, "window_id": 3264, "track_id": 231, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1123.0, 392.0], "miss_count": 1}
+{"timestamp": 97.98748800000295, "window_id": 3265, "track_id": 231, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 98.01748800000296, "window_id": 3266, "track_id": 231, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1095.25, 413.0], "miss_count": 1}
+{"timestamp": 98.04748800000296, "window_id": 3267, "track_id": 231, "previous_state": "Lost", "state": "Lost", "predicted_center": [1086.0, 420.0], "miss_count": 2}
+{"timestamp": 98.07748800000296, "window_id": 3268, "track_id": 231, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1076.75, 427.0], "miss_count": 3}
+{"timestamp": 98.34748800000297, "window_id": 3277, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [788.5, 156.5], "miss_count": 1}
+{"timestamp": 98.37748800000297, "window_id": 3278, "track_id": 230, "previous_state": "Lost", "state": "Lost", "predicted_center": [815.0, 159.5], "miss_count": 2}
+{"timestamp": 98.40748800000297, "window_id": 3279, "track_id": 230, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 98.43748800000297, "window_id": 3280, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [860.0, 168.83333333333334], "miss_count": 1}
+{"timestamp": 98.46748800000297, "window_id": 3281, "track_id": 230, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 98.49748800000297, "window_id": 3282, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [903.75, 181.5], "miss_count": 1}
+{"timestamp": 98.52748800000298, "window_id": 3283, "track_id": 230, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 98.70748800000298, "window_id": 3289, "track_id": 232, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 98.73748800000298, "window_id": 3290, "track_id": 232, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 98.76748800000298, "window_id": 3291, "track_id": 232, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 98.82748800000299, "window_id": 3293, "track_id": 233, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1127.0, 329.0], "miss_count": 1}
+{"timestamp": 98.85748800000299, "window_id": 3294, "track_id": 233, "previous_state": "Lost", "state": "Lost", "predicted_center": [1127.0, 329.0], "miss_count": 2}
+{"timestamp": 98.88748800000299, "window_id": 3295, "track_id": 233, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1127.0, 329.0], "miss_count": 3}
+{"timestamp": 99.78748800000302, "window_id": 3325, "track_id": 234, "previous_state": "Tentative", "state": "Lost", "predicted_center": [603.0, 250.0], "miss_count": 1}
+{"timestamp": 99.81748800000302, "window_id": 3326, "track_id": 234, "previous_state": "Lost", "state": "Lost", "predicted_center": [603.0, 250.0], "miss_count": 2}
+{"timestamp": 99.84748800000303, "window_id": 3327, "track_id": 234, "previous_state": "Lost", "state": "Deleted", "predicted_center": [603.0, 250.0], "miss_count": 3}
+{"timestamp": 99.87748800000303, "window_id": 3328, "track_id": 235, "previous_state": "Tentative", "state": "Lost", "predicted_center": [809.5, 328.0], "miss_count": 1}
+{"timestamp": 99.90748800000303, "window_id": 3329, "track_id": 235, "previous_state": "Lost", "state": "Lost", "predicted_center": [809.5, 328.0], "miss_count": 2}
+{"timestamp": 99.93748800000303, "window_id": 3330, "track_id": 235, "previous_state": "Lost", "state": "Deleted", "predicted_center": [809.5, 328.0], "miss_count": 3}
+{"timestamp": 99.99748800000303, "window_id": 3332, "track_id": 236, "previous_state": "Tentative", "state": "Lost", "predicted_center": [816.5, 300.0], "miss_count": 1}
+{"timestamp": 100.02748800000303, "window_id": 3333, "track_id": 236, "previous_state": "Lost", "state": "Lost", "predicted_center": [816.5, 300.0], "miss_count": 2}
+{"timestamp": 100.05748800000303, "window_id": 3334, "track_id": 236, "previous_state": "Lost", "state": "Deleted", "predicted_center": [816.5, 300.0], "miss_count": 3}
+{"timestamp": 100.20748800000304, "window_id": 3339, "track_id": 237, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 100.23748800000304, "window_id": 3340, "track_id": 237, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 100.26748800000304, "window_id": 3341, "track_id": 237, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 100.50748800000305, "window_id": 3349, "track_id": 238, "previous_state": "Tentative", "state": "Lost", "predicted_center": [870.5, 9.5], "miss_count": 1}
+{"timestamp": 100.53748800000305, "window_id": 3350, "track_id": 238, "previous_state": "Lost", "state": "Lost", "predicted_center": [870.5, 9.5], "miss_count": 2}
+{"timestamp": 100.56748800000305, "window_id": 3351, "track_id": 238, "previous_state": "Lost", "state": "Deleted", "predicted_center": [870.5, 9.5], "miss_count": 3}
+{"timestamp": 100.68748800000306, "window_id": 3355, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [254.0, 406.5], "miss_count": 1}
+{"timestamp": 100.68748800000306, "window_id": 3355, "track_id": 239, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 100.71748800000306, "window_id": 3356, "track_id": 239, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 100.71748800000306, "window_id": 3356, "track_id": 230, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 100.74748800000306, "window_id": 3357, "track_id": 239, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 100.83748800000306, "window_id": 3360, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [215.0, 401.0], "miss_count": 1}
+{"timestamp": 100.86748800000306, "window_id": 3361, "track_id": 230, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 100.89748800000307, "window_id": 3362, "track_id": 230, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 103.68748800000317, "window_id": 3455, "track_id": 240, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 103.71748800000317, "window_id": 3456, "track_id": 240, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 103.74748800000317, "window_id": 3457, "track_id": 240, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 103.80748800000318, "window_id": 3459, "track_id": 230, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [281.5, 354.5], "miss_count": 1}
+{"timestamp": 103.83748800000318, "window_id": 3460, "track_id": 230, "previous_state": "Lost", "state": "Lost", "predicted_center": [271.5, 351.5], "miss_count": 2}
+{"timestamp": 103.86748800000318, "window_id": 3461, "track_id": 230, "previous_state": "Lost", "state": "Deleted", "predicted_center": [261.5, 348.5], "miss_count": 3}
+{"timestamp": 103.98748800000318, "window_id": 3465, "track_id": 241, "previous_state": "Tentative", "state": "Lost", "predicted_center": [293.5, 339.5], "miss_count": 1}
+{"timestamp": 104.01748800000318, "window_id": 3466, "track_id": 241, "previous_state": "Lost", "state": "Tentative", "miss_count": 0}
+{"timestamp": 104.04748800000318, "window_id": 3467, "track_id": 241, "previous_state": "Tentative", "state": "Lost", "predicted_center": [286.5, 333.5], "miss_count": 1}
+{"timestamp": 104.07748800000319, "window_id": 3468, "track_id": 241, "previous_state": "Lost", "state": "Lost", "predicted_center": [286.5, 331.0], "miss_count": 2}
+{"timestamp": 104.10748800000319, "window_id": 3469, "track_id": 241, "previous_state": "Lost", "state": "Deleted", "predicted_center": [286.5, 328.5], "miss_count": 3}
+{"timestamp": 104.22748800000319, "window_id": 3473, "track_id": 242, "previous_state": "Tentative", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 104.3774880000032, "window_id": 3478, "track_id": 243, "previous_state": "Tentative", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 1}
+{"timestamp": 104.4074880000032, "window_id": 3479, "track_id": 243, "previous_state": "Lost", "state": "Lost", "predicted_center": [1191.5, 304.5], "miss_count": 2}
+{"timestamp": 104.4374880000032, "window_id": 3480, "track_id": 243, "previous_state": "Lost", "state": "Deleted", "predicted_center": [1191.5, 304.5], "miss_count": 3}
+{"timestamp": 104.5274880000032, "window_id": 3483, "track_id": 242, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [492.0, 320.0], "miss_count": 1}
+{"timestamp": 104.5574880000032, "window_id": 3484, "track_id": 242, "previous_state": "Lost", "state": "Confirmed", "miss_count": 0}
+{"timestamp": 104.73227899999999, "window_id": 3490, "track_id": 242, "previous_state": "Confirmed", "state": "Lost", "predicted_center": [625.6141499979075, 320.82636666655935], "miss_count": 1}

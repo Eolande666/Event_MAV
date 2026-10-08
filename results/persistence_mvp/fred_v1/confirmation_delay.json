@@ -1,0 +1,23 @@
+[
+  {
+    "sequence": "51",
+    "created_tracks": 564,
+    "ever_accepted_tracks": 230,
+    "first_accept_delay_median_ms": 90.00000000000341,
+    "first_accept_delay_max_ms": 420.0000000000159
+  },
+  {
+    "sequence": "65",
+    "created_tracks": 595,
+    "ever_accepted_tracks": 150,
+    "first_accept_delay_median_ms": 60.000000000002274,
+    "first_accept_delay_max_ms": 360.00000000001364
+  },
+  {
+    "sequence": "93",
+    "created_tracks": 658,
+    "ever_accepted_tracks": 218,
+    "first_accept_delay_median_ms": 90.00000000000341,
+    "first_accept_delay_max_ms": 390.0000000000148
+  }
+]

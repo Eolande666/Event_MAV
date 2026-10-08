@@ -1,12 +1,31 @@
 """Native-resolution event rendering; Songti Chinese and Times New Roman Latin."""
 from pathlib import Path
+import os
 import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
-LATIN=ImageFont.truetype('/System/Library/Fonts/Supplemental/Times New Roman.ttf',20)
-TITLE=ImageFont.truetype('/System/Library/Fonts/Supplemental/Times New Roman.ttf',24)
-CHINESE=ImageFont.truetype(str(ROOT/'figures/fonts/SongtiSC-Regular.ttf'),24)
+def load_font(size, chinese=False):
+    """Use installed fonts instead of requiring a previous author's font files."""
+    candidates = ([os.environ.get('EVDETMAV_CHINESE_FONT'),
+                   str(ROOT/'figures/fonts/SongtiSC-Regular.ttf'),
+                   '/System/Library/Fonts/Supplemental/Songti.ttc',
+                   '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc']
+                  if chinese else
+                  [os.environ.get('EVDETMAV_LATIN_FONT'),
+                   '/System/Library/Fonts/Supplemental/Times New Roman.ttf',
+                   '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'])
+    for candidate in candidates:
+        if candidate:
+            try:
+                return ImageFont.truetype(candidate, size)
+            except OSError:
+                pass
+    return ImageFont.load_default(size=size)
+
+LATIN=load_font(20)
+TITLE=load_font(24)
+CHINESE=load_font(24, chinese=True)
 
 
 def event_image(events,width=1280,height=720):

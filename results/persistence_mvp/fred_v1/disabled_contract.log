@@ -1,0 +1,6 @@
+EvDetMAV files: 1
+fixture.h5: events=412154 size=1280x720 time_unit=us windows=1
+  window=000000 t=[0.007488,0.037488] events=412154 candidates=2 detections=2
+
+Done. Batch detections: 2
+Outputs: /var/folders/85/0wcz8vkd2w524v5r7g41hb340000gn/T/persistence_contract_35bo4s1g/disabled

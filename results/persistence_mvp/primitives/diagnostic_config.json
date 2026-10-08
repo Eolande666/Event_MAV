@@ -1,0 +1,24 @@
+{
+  "purpose": "Synthetic formula checks only; scales are not calibrated on FRED",
+  "trajectory": {
+    "weights": {
+      "position": 0.5,
+      "direction": 0.25,
+      "acceleration": 0.25
+    },
+    "sigmas": {
+      "position": 1.0,
+      "direction": 1.0,
+      "acceleration": 1.0
+    },
+    "normalize_position": true
+  },
+  "min_speed": 0.5,
+  "epsilon": 1e-09,
+  "neighborhood": {
+    "length": 8,
+    "mode": "weighted",
+    "decay": 0.85,
+    "cold_start": "fixed"
+  }
+}

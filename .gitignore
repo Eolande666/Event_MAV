@@ -1,40 +1,12 @@
-# Local datasets and runtime environments
-/FRED/
-/tmp/
-.venv/
-venv/
-
-# Generated data and videos
-*.mp4
-*.mov
-*.avi
-*.zip
-*.h5
-*.hdf5
-*.npy
-*.npz
-*.pkl
-
-# Local fonts and compiled libraries
-*.ttf
-*.ttc
-*.otf
-*.dylib
-*.so
-
-# Keep experiment scripts and documentation, not generated outputs
-/output/*
-!/output/FRED_current/
-/output/FRED_current/*
-!/output/FRED_current/source/
-!/output/FRED_current/README.md
-!/output/FRED_current/FRED.bib
-!/output/FRED_current/FRED_GBT7714.md
-
-# OS, Python caches, and local secrets
 .DS_Store
 __pycache__/
 *.py[cod]
+.venv/
+venv/
 .env
 .env.*
 !.env.example
+/tmp/
+/runs/
+/lib/
+# Data and retained results are intentionally included in this handoff branch.

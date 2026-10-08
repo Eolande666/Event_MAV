@@ -1,0 +1,144 @@
+REEVALUATING 8
+COMPLETE 8 3141 evaluation frames
+REEVALUATING 20
+COMPLETE 20 3380 evaluation frames
+REEVALUATING 51
+COMPLETE 51 3220 evaluation frames
+REEVALUATING 65
+COMPLETE 65 3433 evaluation frames
+REEVALUATING 93
+COMPLETE 93 3336 evaluation frames
+[
+  {
+    "split": "calibration",
+    "method": "baseline",
+    "frames": 6521,
+    "tp": 4883,
+    "fp": 1358,
+    "fn": 928,
+    "precision": 0.7824066655984618,
+    "recall": 0.8403028738599209,
+    "f1": 0.8103219382675074
+  },
+  {
+    "split": "calibration",
+    "method": "persistence",
+    "frames": 6521,
+    "tp": 4617,
+    "fp": 256,
+    "fn": 1194,
+    "precision": 0.9474656269238662,
+    "recall": 0.7945276200309758,
+    "f1": 0.8642830400599026
+  },
+  {
+    "split": "calibration",
+    "method": "area9",
+    "frames": 6521,
+    "tp": 4102,
+    "fp": 256,
+    "fn": 1709,
+    "precision": 0.9412574575493345,
+    "recall": 0.7059025985200482,
+    "f1": 0.8067656603402498
+  },
+  {
+    "split": "calibration",
+    "method": "raw3",
+    "frames": 6521,
+    "tp": 4614,
+    "fp": 55,
+    "fn": 1197,
+    "precision": 0.9882201756264725,
+    "recall": 0.7940113577697471,
+    "f1": 0.8805343511450382
+  },
+  {
+    "split": "holdout",
+    "method": "baseline",
+    "frames": 9989,
+    "tp": 11268,
+    "fp": 5059,
+    "fn": 3694,
+    "precision": 0.6901451583266981,
+    "recall": 0.7531078732789734,
+    "f1": 0.7202531241011219
+  },
+  {
+    "split": "holdout",
+    "method": "persistence",
+    "frames": 9989,
+    "tp": 10499,
+    "fp": 2538,
+    "fn": 4463,
+    "precision": 0.8053233105775869,
+    "recall": 0.7017110012030477,
+    "f1": 0.7499553555484124
+  },
+  {
+    "split": "holdout",
+    "method": "area9",
+    "frames": 9989,
+    "tp": 9489,
+    "fp": 1871,
+    "fn": 5473,
+    "precision": 0.8352992957746479,
+    "recall": 0.6342066568640556,
+    "f1": 0.7209938454524732
+  },
+  {
+    "split": "holdout",
+    "method": "raw3",
+    "frames": 9989,
+    "tp": 10349,
+    "fp": 2573,
+    "fn": 4613,
+    "precision": 0.8008822163751741,
+    "recall": 0.6916856035289399,
+    "f1": 0.7422894850093243
+  },
+  {
+    "split": "all",
+    "method": "baseline",
+    "frames": 16510,
+    "tp": 16151,
+    "fp": 6417,
+    "fn": 4622,
+    "precision": 0.7156593406593407,
+    "recall": 0.777499638954412,
+    "f1": 0.7452989086546227
+  },
+  {
+    "split": "all",
+    "method": "persistence",
+    "frames": 16510,
+    "tp": 15116,
+    "fp": 2794,
+    "fn": 5657,
+    "precision": 0.8439977666108319,
+    "recall": 0.7276753478072499,
+    "f1": 0.7815319390946928
+  },
+  {
+    "split": "all",
+    "method": "area9",
+    "frames": 16510,
+    "tp": 13591,
+    "fp": 2127,
+    "fn": 7182,
+    "precision": 0.8646774398778471,
+    "recall": 0.6542627449092572,
+    "f1": 0.7448960017538571
+  },
+  {
+    "split": "all",
+    "method": "raw3",
+    "frames": 16510,
+    "tp": 14963,
+    "fp": 2628,
+    "fn": 5810,
+    "precision": 0.850605423227787,
+    "recall": 0.7203100178115823,
+    "f1": 0.7800542174955688
+  }
+]

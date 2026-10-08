@@ -1,0 +1,16 @@
+test_current_does_not_leak_into_prediction (test_persistence_primitives.PersistenceTests.test_current_does_not_leak_into_prediction) ... ok
+test_disabled_config_needs_no_scales (test_persistence_primitives.PersistenceTests.test_disabled_config_needs_no_scales) ... ok
+test_fusion_missing (test_persistence_primitives.PersistenceTests.test_fusion_missing) ... ok
+test_invalid_observation (test_persistence_primitives.PersistenceTests.test_invalid_observation) ... ok
+test_invalid_times (test_persistence_primitives.PersistenceTests.test_invalid_times) ... ok
+test_irregular_constant_velocity (test_persistence_primitives.PersistenceTests.test_irregular_constant_velocity) ... ok
+test_missing_scale_is_error (test_persistence_primitives.PersistenceTests.test_missing_scale_is_error) ... ok
+test_neighborhood (test_persistence_primitives.PersistenceTests.test_neighborhood) ... ok
+test_stationary_disables_direction (test_persistence_primitives.PersistenceTests.test_stationary_disables_direction) ... ok
+test_turn_soft_penalty (test_persistence_primitives.PersistenceTests.test_turn_soft_penalty) ... ok
+test_warmup (test_persistence_primitives.PersistenceTests.test_warmup) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.005s
+
+OK

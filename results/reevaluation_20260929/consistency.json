@@ -1,0 +1,102 @@
+[
+  {
+    "sequence": "8",
+    "method": "baseline",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "8",
+    "method": "persistence",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "8",
+    "method": "area9",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "8",
+    "method": "raw3",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "20",
+    "method": "baseline",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "20",
+    "method": "persistence",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "20",
+    "method": "area9",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "20",
+    "method": "raw3",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "51",
+    "method": "baseline",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "51",
+    "method": "persistence",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "51",
+    "method": "area9",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "51",
+    "method": "raw3",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "65",
+    "method": "baseline",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "65",
+    "method": "persistence",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "65",
+    "method": "area9",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "65",
+    "method": "raw3",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "93",
+    "method": "baseline",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "93",
+    "method": "persistence",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "93",
+    "method": "area9",
+    "saved_frame_counts_reproduced": true
+  },
+  {
+    "sequence": "93",
+    "method": "raw3",
+    "saved_frame_counts_reproduced": true
+  }
+]

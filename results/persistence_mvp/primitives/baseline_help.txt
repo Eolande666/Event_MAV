@@ -1,0 +1,146 @@
+usage: evdetmav_persistence.py [-h] --input INPUT [--out OUT] [--width WIDTH]
+                               [--height HEIGHT]
+                               [--time-unit {auto,s,ms,us,ns}]
+                               [--max-events MAX_EVENTS]
+                               [--limit-files LIMIT_FILES]
+                               [--max-windows MAX_WINDOWS]
+                               [--window-ms WINDOW_MS] [--step-ms STEP_MS]
+                               [--min-window-ms MIN_WINDOW_MS]
+                               [--min-window-events MIN_WINDOW_EVENTS]
+                               [--saliency-slices SALIENCY_SLICES]
+                               [--intersection-radius INTERSECTION_RADIUS]
+                               [--saliency-sigma SALIENCY_SIGMA]
+                               [--tau-s TAU_S] [--tau-p TAU_P] [--top-k TOP_K]
+                               [--init-dilate-px INIT_DILATE_PX]
+                               [--min-component-area MIN_COMPONENT_AREA]
+                               [--cluster-gap-px CLUSTER_GAP_PX]
+                               [--candidate-pad-px CANDIDATE_PAD_PX]
+                               [--periodicity-slices PERIODICITY_SLICES]
+                               [--min-candidate-events MIN_CANDIDATE_EVENTS]
+                               [--feature-ma-window FEATURE_MA_WINDOW]
+                               [--feature-prominence FEATURE_PROMINENCE]
+                               [--feature-min-amplitude FEATURE_MIN_AMPLITUDE]
+                               [--principal-min-events PRINCIPAL_MIN_EVENTS]
+                               [--fine-threshold FINE_THRESHOLD]
+                               [--fine-min-area FINE_MIN_AREA]
+                               [--gaussian-consistency-threshold GAUSSIAN_CONSISTENCY_THRESHOLD]
+                               [--fine-box-pad-px FINE_BOX_PAD_PX]
+                               [--fine-fallback-to-coarse | --no-fine-fallback-to-coarse]
+                               [--merge-propellers | --no-merge-propellers]
+                               [--max-detections-per-window MAX_DETECTIONS_PER_WINDOW]
+                               [--save-saliency | --no-save-saliency]
+                               [--save-event-frames | --no-save-event-frames]
+                               [--save-segmentation | --no-save-segmentation]
+                               [--save-per-file-csv | --no-save-per-file-csv]
+                               [--event-vis-percentile EVENT_VIS_PERCENTILE]
+                               [--save-every SAVE_EVERY]
+                               [--progress-every PROGRESS_EVERY]
+
+Reproduce EvDetMAV: density-aware saliency + spatio-temporal periodicity +
+clustering.
+
+options:
+  -h, --help            show this help message and exit
+  --input INPUT         Input event file or directory of
+                        .h5/.hdf5/.npz/.csv/.txt files. (default: None)
+  --out OUT             Output directory. (default: outputs/evdetmav)
+  --width WIDTH         Sensor width. 0 infers from events. (default: 0)
+  --height HEIGHT       Sensor height. 0 infers from events. (default: 0)
+  --time-unit {auto,s,ms,us,ns}
+                        Timestamp unit. (default: auto)
+  --max-events MAX_EVENTS
+                        Load at most this many events from each file.
+                        (default: None)
+  --limit-files LIMIT_FILES
+                        Process at most this many files from a directory. 0
+                        keeps all. (default: 0)
+  --max-windows MAX_WINDOWS
+                        Process at most this many windows per file. 0 keeps
+                        all. (default: 0)
+  --window-ms WINDOW_MS
+                        Sliding window duration. 0 treats each file as one
+                        EventMAV period. (default: 0.0)
+  --step-ms STEP_MS     Sliding window step. 0 uses --window-ms. (default:
+                        0.0)
+  --min-window-ms MIN_WINDOW_MS
+                        Drop windows shorter than this duration. (default:
+                        1.0)
+  --min-window-events MIN_WINDOW_EVENTS
+                        Drop windows with fewer events. (default: 20)
+  --saliency-slices SALIENCY_SLICES
+                        n in the density-aware saliency stage. (default: 10)
+  --intersection-radius INTERSECTION_RADIUS
+                        Spatial tolerance for positive/negative intersection.
+                        0 is the strict paper rule. (default: 1)
+  --saliency-sigma SALIENCY_SIGMA
+                        Optional Gaussian smoothing on saliency map. (default:
+                        0.0)
+  --tau-s TAU_S         Paper saliency threshold tau_s. (default: 50.0)
+  --tau-p TAU_P         Paper periodicity threshold tau_p. (default: 3)
+  --top-k TOP_K         K top salient areas evaluated with periodicity
+                        features. (default: 4)
+  --init-dilate-px INIT_DILATE_PX
+                        Optional dilation before initial connected components.
+                        (default: 0)
+  --min-component-area MIN_COMPONENT_AREA
+                        Minimum saliency component area. (default: 3)
+  --cluster-gap-px CLUSTER_GAP_PX
+                        Merge saliency rectangles whose minimum rectangle
+                        distance is below this. (default: 8.0)
+  --candidate-pad-px CANDIDATE_PAD_PX
+                        Padding around initialized clustering areas. (default:
+                        4)
+  --periodicity-slices PERIODICITY_SLICES
+                        m temporal slices for local spatio-temporal features.
+                        (default: 12)
+  --min-candidate-events MIN_CANDIDATE_EVENTS
+                        Minimum events in candidate before periodicity
+                        scoring. (default: 10)
+  --feature-ma-window FEATURE_MA_WINDOW
+                        Moving-average window for fd, fs and fp. (default: 3)
+  --feature-prominence FEATURE_PROMINENCE
+                        Prominence threshold after feature normalization.
+                        (default: 0.15)
+  --feature-min-amplitude FEATURE_MIN_AMPLITUDE
+                        Minimum normalized-feature amplitude needed for
+                        extrema. (default: 0.05)
+  --principal-min-events PRINCIPAL_MIN_EVENTS
+                        Minimum slice events for principal direction
+                        extraction. (default: 4)
+  --fine-threshold FINE_THRESHOLD
+                        Fine saliency threshold. 0 reuses --tau-s. (default:
+                        0.0)
+  --fine-min-area FINE_MIN_AREA
+                        Minimum fine-stage connected area. (default: 3)
+  --gaussian-consistency-threshold GAUSSIAN_CONSISTENCY_THRESHOLD
+                        Minimum cosine match to a fitted 2D Gaussian.
+                        (default: 0.25)
+  --fine-box-pad-px FINE_BOX_PAD_PX
+                        Padding around refined boxes. (default: 0)
+  --fine-fallback-to-coarse, --no-fine-fallback-to-coarse
+                        Use coarse mask if no component passes Gaussian
+                        consistency. (default: True)
+  --merge-propellers, --no-merge-propellers
+                        Merge accepted propeller regions into one MAV
+                        detection box. Default keeps refined cyan boxes as
+                        final results. (default: False)
+  --max-detections-per-window MAX_DETECTIONS_PER_WINDOW
+                        Keep top N detections. 0 keeps all refined final
+                        boxes. (default: 0)
+  --save-saliency, --no-save-saliency
+                        Save saliency map visualizations. (default: True)
+  --save-event-frames, --no-save-event-frames
+                        Save event-frame visualizations with boxes. (default:
+                        True)
+  --save-segmentation, --no-save-segmentation
+                        Save fine segmentation overlays. (default: True)
+  --save-per-file-csv, --no-save-per-file-csv
+                        Save one detection CSV for every input file in
+                        addition to the batch CSV. (default: True)
+  --event-vis-percentile EVENT_VIS_PERCENTILE
+                        Event frame normalization percentile. (default: 99.0)
+  --save-every SAVE_EVERY
+                        Save every Nth processed window. (default: 1)
+  --progress-every PROGRESS_EVERY
+                        Print progress every N windows. 0 disables. (default:
+                        20)

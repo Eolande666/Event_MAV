@@ -1,0 +1,110 @@
+[
+  {
+    "sequence": "65",
+    "method": "baseline",
+    "protocol": "iou40",
+    "tp": 8,
+    "fp": 4858,
+    "fn": 5896,
+    "precision": 0.0016440608302507192,
+    "recall": 0.0013550135501355014,
+    "f1": 0.0014856081708449396,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "baseline",
+    "protocol": "iou50",
+    "tp": 4,
+    "fp": 4862,
+    "fn": 5900,
+    "precision": 0.0008220304151253596,
+    "recall": 0.0006775067750677507,
+    "f1": 0.0007428040854224698,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "baseline",
+    "protocol": "center",
+    "tp": 3947,
+    "fp": 919,
+    "fn": 1957,
+    "precision": 0.8111385121249486,
+    "recall": 0.668529810298103,
+    "f1": 0.7329619312906221,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "persistence",
+    "protocol": "iou40",
+    "tp": 7,
+    "fp": 3904,
+    "fn": 5897,
+    "precision": 0.0017898235745333673,
+    "recall": 0.0011856368563685636,
+    "f1": 0.0014263881813550688,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "persistence",
+    "protocol": "iou50",
+    "tp": 4,
+    "fp": 3907,
+    "fn": 5900,
+    "precision": 0.0010227563283047815,
+    "recall": 0.0006775067750677507,
+    "f1": 0.000815078960774325,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "persistence",
+    "protocol": "center",
+    "tp": 3656,
+    "fp": 255,
+    "fn": 2248,
+    "precision": 0.9347992840705702,
+    "recall": 0.6192411924119241,
+    "f1": 0.744982170147733,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "script",
+    "protocol": "iou40",
+    "tp": 5,
+    "fp": 972,
+    "fn": 5899,
+    "precision": 0.00511770726714432,
+    "recall": 0.0008468834688346884,
+    "f1": 0.0014532771399505887,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "script",
+    "protocol": "iou50",
+    "tp": 1,
+    "fp": 976,
+    "fn": 5903,
+    "precision": 0.0010235414534288639,
+    "recall": 0.00016937669376693767,
+    "f1": 0.0002906554279901177,
+    "frames": 3433
+  },
+  {
+    "sequence": "65",
+    "method": "script",
+    "protocol": "center",
+    "tp": 934,
+    "fp": 43,
+    "fn": 4970,
+    "precision": 0.9559877175025588,
+    "recall": 0.15819783197831977,
+    "f1": 0.27147216974276994,
+    "frames": 3433
+  }
+]

@@ -2,7 +2,7 @@
 import json,time,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'results/script_comparison_20260924'
-SEQS=['8','20','51','65','93','114'];TOTAL={'8':3491,'20':3757,'51':3579,'65':3816,'93':3708,'114':3737}
+SEQS=['8','20','51','65','93'];TOTAL={'8':3491,'20':3757,'51':3579,'65':3816,'93':3708}
 while True:
  states=[]
  for seq in SEQS:

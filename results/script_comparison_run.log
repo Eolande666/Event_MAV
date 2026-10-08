@@ -1,0 +1,85 @@
+8 1 / 3491 elapsed 1
+8 101 / 3491 elapsed 25
+8 201 / 3491 elapsed 38
+8 301 / 3491 elapsed 52
+8 401 / 3491 elapsed 66
+8 501 / 3491 elapsed 81
+8 601 / 3491 elapsed 96
+8 701 / 3491 elapsed 111
+8 801 / 3491 elapsed 126
+8 901 / 3491 elapsed 141
+8 1001 / 3491 elapsed 156
+8 1101 / 3491 elapsed 171
+8 1201 / 3491 elapsed 186
+8 1301 / 3491 elapsed 203
+8 1401 / 3491 elapsed 219
+8 1501 / 3491 elapsed 236
+8 1601 / 3491 elapsed 253
+8 1701 / 3491 elapsed 270
+8 1801 / 3491 elapsed 288
+8 1901 / 3491 elapsed 305
+8 2001 / 3491 elapsed 322
+8 2101 / 3491 elapsed 338
+8 2201 / 3491 elapsed 355
+8 2301 / 3491 elapsed 372
+8 2401 / 3491 elapsed 388
+8 2501 / 3491 elapsed 405
+8 2601 / 3491 elapsed 422
+8 2701 / 3491 elapsed 438
+8 2801 / 3491 elapsed 454
+8 2901 / 3491 elapsed 473
+8 3001 / 3491 elapsed 489
+8 3101 / 3491 elapsed 506
+8 3201 / 3491 elapsed 522
+8 3301 / 3491 elapsed 539
+8 3401 / 3491 elapsed 555
+COMPLETE 8 {"status": "complete", "sequence": "8", "windows": 3491, "video_duration_s": 104.72999999999999, "boundary_events_excluded": 370, "script_detections": 681, "baseline_detections": 2896, "persistence_detections": 2502, "candidates": 5261, "observable_candidates": 648, "accepted_observable": 568, "budget_deferred": 298, "elapsed_s": 570.514230966568, "preview_window": 1769, "baseline_ms": {"mean": 127.06895004615771, "p95": 135.73929149424657}, "persistence_ms": {"mean": 0.05290174380049378, "p95": 0.0858540297485888}, "script_ms": {"mean": 21.177020968995514, "p95": 22.662083560135216}}
+20 1 / 3757 elapsed 1
+20 101 / 3757 elapsed 21
+20 201 / 3757 elapsed 39
+20 301 / 3757 elapsed 55
+20 401 / 3757 elapsed 71
+20 501 / 3757 elapsed 88
+20 601 / 3757 elapsed 104
+20 701 / 3757 elapsed 121
+20 801 / 3757 elapsed 137
+20 901 / 3757 elapsed 154
+20 1001 / 3757 elapsed 170
+20 1101 / 3757 elapsed 187
+20 1201 / 3757 elapsed 204
+20 1301 / 3757 elapsed 222
+20 1401 / 3757 elapsed 238
+20 1501 / 3757 elapsed 255
+20 1601 / 3757 elapsed 272
+20 1701 / 3757 elapsed 288
+20 1801 / 3757 elapsed 305
+20 1901 / 3757 elapsed 322
+20 2001 / 3757 elapsed 338
+20 2101 / 3757 elapsed 355
+20 2201 / 3757 elapsed 372
+20 2301 / 3757 elapsed 388
+20 2401 / 3757 elapsed 405
+20 2501 / 3757 elapsed 421
+20 2601 / 3757 elapsed 438
+20 2701 / 3757 elapsed 454
+20 2801 / 3757 elapsed 472
+20 2901 / 3757 elapsed 489
+20 3001 / 3757 elapsed 506
+20 3101 / 3757 elapsed 522
+20 3201 / 3757 elapsed 539
+20 3301 / 3757 elapsed 556
+20 3401 / 3757 elapsed 572
+20 3501 / 3757 elapsed 589
+20 3601 / 3757 elapsed 606
+20 3701 / 3757 elapsed 622
+COMPLETE 20 {"status": "complete", "sequence": "20", "windows": 3757, "video_duration_s": 112.71, "boundary_events_excluded": 309, "script_detections": 525, "baseline_detections": 4024, "persistence_detections": 2912, "candidates": 8168, "observable_candidates": 481, "accepted_observable": 426, "budget_deferred": 338, "elapsed_s": 632.1137380599976, "preview_window": 440, "baseline_ms": {"mean": 130.67579133227733, "p95": 135.5568332131952}, "persistence_ms": {"mean": 0.06255675606738943, "p95": 0.09963335469365107}, "script_ms": {"mean": 21.985061652363456, "p95": 23.42875855974853}}
+Traceback (most recent call last):
+  File "/Users/eolande/EventMAV/experiments/compare_script_fred.py", line 96, in <module>
+    for seq in a.sequences:run(seq,a.max_windows)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eolande/EventMAV/experiments/compare_script_fred.py", line 33, in run
+    dest=OUT/seq;dest.mkdir(parents=True,exist_ok=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/eolande/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: '/Users/eolande/EventMAV/results/script_comparison_20260924/51'

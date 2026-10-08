@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "sequence": "20",
+  "windows": 3757,
+  "video_duration_s": 112.71,
+  "boundary_events_excluded": 309,
+  "script_detections": 525,
+  "baseline_detections": 4024,
+  "persistence_detections": 2912,
+  "candidates": 8168,
+  "observable_candidates": 481,
+  "accepted_observable": 426,
+  "budget_deferred": 338,
+  "elapsed_s": 632.1137380599976,
+  "preview_window": 440,
+  "baseline_ms": {
+    "mean": 130.67579133227733,
+    "p95": 135.5568332131952
+  },
+  "persistence_ms": {
+    "mean": 0.06255675606738943,
+    "p95": 0.09963335469365107
+  },
+  "script_ms": {
+    "mean": 21.985061652363456,
+    "p95": 23.42875855974853
+  }
+}

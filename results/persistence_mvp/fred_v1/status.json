@@ -1,0 +1,29 @@
+{
+  "stage": "complete",
+  "sequences": [
+    "8",
+    "20",
+    "51",
+    "65",
+    "93"
+  ],
+  "calibration": [
+    "8",
+    "20"
+  ],
+  "holdout": [
+    "51",
+    "65",
+    "93"
+  ],
+  "unit_tests_passed": 29,
+  "total_windows": 18351,
+  "video_duration_sec": 550.53,
+  "baseline_core_unchanged": true,
+  "report": "REPORT.md",
+  "videos": [
+    "results/persistence_mvp/fred_v1/videos/Persistence_all.mp4",
+    "results/persistence_mvp/fred_v1/videos/Debug_all.mp4",
+    "results/persistence_mvp/fred_v1/videos/Comparison_all.mp4"
+  ]
+}

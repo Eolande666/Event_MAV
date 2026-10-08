@@ -1,0 +1,13 @@
+{
+  "evdetmav_detector.py": "4b05878b48a9d340f3da8adb928a5850e9a6d6e5d58a382e71655c5ead8f5215",
+  "evdetmav/__init__.py": "945f8dfe32820d488c33a4739a0fd98ba1b512a0d7f04f31e4fd6e0a36d4cac6",
+  "evdetmav/cli.py": "029d8ee1f98793109f6315e5194e2e25eb19cd5426c453053ee88f2b6d2329a5",
+  "evdetmav/clustering.py": "001c38c823683231dcc7ea9e7c7577886ca062c53f2e6f591f9eac66bb5b980a",
+  "evdetmav/io.py": "75d5841332f4b7a884dff2c0ea9f21b5f2191daee725f400fcafe20c94e2e874",
+  "evdetmav/models.py": "54bf6142350ed3dcf9e93a8ad3f060e9e6387aba2bc4cfd56690b9f2b4b5e650",
+  "evdetmav/output.py": "6079d41ef771cc40412b1f2426cf41d3405ed2dcbf674467dfe19c40e489ff19",
+  "evdetmav/periodicity.py": "29249bfc64b4fab980fc6cd7942b66afd8f62e5d0a2f53ba377d95d6aacf746e",
+  "evdetmav/pipeline.py": "7d20a035683ae9d024d0ec893585775db9ce35966842ef1a00b03588620cc746",
+  "evdetmav/saliency.py": "161cfa700e321969d54f19cfa270d4319b9b27baf885dcc9ebfac5bce577eda0",
+  "evdetmav/visualization.py": "cf9034727549a2e7a99a5fd4d569a4f67a703a05ccdb32963326730d13f41699"
+}

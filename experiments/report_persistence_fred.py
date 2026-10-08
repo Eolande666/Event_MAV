@@ -58,7 +58,7 @@ def main():
         ax.set_title(title,fontproperties=chinese,fontsize=16,pad=16)
         ax.set_xticks(x,labels,fontproperties=latin);ax.set_ylabel('Percent (%)',fontproperties=latin)
         ax.set_ylim(0,1 if protocol=='iou50' else 100)
-        ax.text(.01,1.015,'IoU >= 0.50 | Local holdout: 51, 65, 93, 114' if protocol=='iou50' else 'Center containment, one-to-one | NOT box detection AP',transform=ax.transAxes,fontproperties=latin,fontsize=10)
+        ax.text(.01,1.015,'IoU >= 0.50 | Local holdout: 51, 65, 93' if protocol=='iou50' else 'Center containment, one-to-one | NOT box detection AP',transform=ax.transAxes,fontproperties=latin,fontsize=10)
         ax.legend(prop=latin,loc='upper right',ncol=3);ax.grid(axis='y',alpha=.2);ax.set_axisbelow(True)
         for tick in ax.get_yticklabels():tick.set_fontproperties(latin)
         fig.tight_layout();fig.savefig(figures/(protocol+'_metrics.png'),dpi=180);fig.savefig(figures/(protocol+'_metrics.svg'));plt.close(fig)
@@ -124,7 +124,7 @@ def main():
 
 ## 实验范围与真实性
 
-当前 FRED 文件夹保留的 8、20、51、65、93、114 六段均完成持续性处理。第一、二级使用 comparison/ 中此前由真实 evdetmav_detector.py 从原始 ZIP/H5 生成的完整检测结果，核验源代码 SHA-256 后冻结复用；本轮没有重复计算全部序列的前两级，也没有使用旧 RGB 检测或 GT 生成候选。第三级对每一个窗口重新运行，包括没有候选的窗口。
+当前 FRED 文件夹保留的 8、20、51、65、93 五段均完成持续性处理。第一、二级使用 comparison/ 中此前由真实 evdetmav_detector.py 从原始 ZIP/H5 生成的完整检测结果，核验源代码 SHA-256 后冻结复用；本轮没有重复计算全部序列的前两级，也没有使用旧 RGB 检测或 GT 生成候选。第三级对每一个窗口重新运行，包括没有候选的窗口。
 
 另从原始 8.zip 直接运行新入口 12 个窗口：43 个 baseline 检测与缓存逐字段一致（源路径、计时除外），持续性逐行结果也一致。关闭模块后用同一 H5 fixture 调用原入口与新入口，结果一致。证据见 integration_contract.json。
 
@@ -132,7 +132,7 @@ def main():
 
 ## 数据划分与评估口径
 
-官方 canonical split 表明本地六段全部属于官方 test。此次从中取 8、20 作本地校准，51、65、93、114 作本地留出；这不是官方完整 benchmark，也不是论文 EventMAV 数据集结果。校准完成并保存配置后才载入留出标注，未用留出成绩选择参数。数据量只有四个留出序列，未证明统计显著性和跨数据集泛化。
+官方 canonical split 表明本地五段全部属于官方 test。此次从中取 8、20 作本地校准，51、65、93 作本地留出；这不是官方完整 benchmark，也不是论文 EventMAV 数据集结果。校准完成并保存配置后才载入留出标注，未用留出成绩选择参数。数据量只有三个留出序列，未证明统计显著性和跨数据集泛化。
 
 GT 使用 ZIP 内 coordinates.txt（整架无人机），按官方 Event/Frames 文件名中的微秒时间戳建立帧网格。无标注的已有帧按官方 loader 语义视为无目标。扩展标注裁到 1280×720 可见范围；完全出界框不计。每个 GT 时刻使用此前最近已完成的 30 ms baseline 窗口，最大允许年龄 30.001 ms；不拿未来检测匹配过去标注。两种算法完全相同的匹配时刻；开头没有已完成窗口的帧不参与比较。留出合计 {b['frames']} 帧、{b['tp']+b['fn']} 个 GT 目标实例。
 
@@ -176,7 +176,6 @@ GT 使用 ZIP 内 coordinates.txt（整架无人机），按官方 Event/Frames 
 - 51：联合 F1 基本不变，Precision 的增加由 Recall 下降抵消。不能宣称所有场景都明显改善。
 - 65：联合优于 baseline，但仅邻域/仅轨迹的 F1 反而更高，融合不是处处最优。
 - 93：baseline 召回已经很高，第三级主要减少额外候选，同时仍丢失部分真候选。
-- 114：联合定位 Precision 仍只有约 26.5%，保留大量持续出现的背景误检，说明“持续存在”并不等于“无人机”。
 - 拒绝阶段只能删框；冷启动、目标突然出现、关联门外快速移动、短轨迹均可能产生额外漏检。当前逐旋翼候选关联还可能在多旋翼或近邻无人机之间切换，不等于已验证稳定 UAV 身份跟踪。
 - IoU≥0.5 的 TP 由 125 降为 123，主要改善来自删除更多 FP，不是框定位能力提高。
 

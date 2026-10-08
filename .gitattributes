@@ -1,0 +1,15 @@
+"FRED/20.zip" filter=lfs diff=lfs merge=lfs -text
+"FRED/51.zip" filter=lfs diff=lfs merge=lfs -text
+"FRED/65.zip" filter=lfs diff=lfs merge=lfs -text
+"FRED/8.zip" filter=lfs diff=lfs merge=lfs -text
+"FRED/93.zip" filter=lfs diff=lfs merge=lfs -text
+"comparison/Detection_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"output/FRED_current/combined/Events_original_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"output/FRED_current/combined/RGB_original_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"results/persistence_mvp/fred_v1/videos/Comparison_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"results/persistence_mvp/fred_v1/videos/Debug_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"results/persistence_mvp/fred_v1/videos/Persistence_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"results/raw_pixel3_20260928/51/persistence_debug.jsonl" filter=lfs diff=lfs merge=lfs -text
+"results/raw_pixel3_20260928/Detection_compare_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"results/saliency_area9_20260928/Detection_compare_all.mp4" filter=lfs diff=lfs merge=lfs -text
+"results/saliency_area9_20260928/Saliency_compare_all.mp4" filter=lfs diff=lfs merge=lfs -text
