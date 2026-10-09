@@ -1,7 +1,0 @@
-{
-  "state": "complete",
-  "source_zip": "/Users/eolande/EventMAV/FRED/20.zip",
-  "entrypoint": "evdetmav_detector.py",
-  "reused_detections": false,
-  "video_frames": 3757
-}

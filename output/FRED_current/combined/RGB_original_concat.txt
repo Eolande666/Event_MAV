@@ -1,5 +1,0 @@
-file '/Users/eolande/EventMAV/output/FRED_current/8/RGB_original.mp4'
-file '/Users/eolande/EventMAV/output/FRED_current/20/RGB_original.mp4'
-file '/Users/eolande/EventMAV/output/FRED_current/51/RGB_original.mp4'
-file '/Users/eolande/EventMAV/output/FRED_current/65/RGB_original.mp4'
-file '/Users/eolande/EventMAV/output/FRED_current/93/RGB_original.mp4'

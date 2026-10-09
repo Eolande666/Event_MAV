@@ -1,5 +1,0 @@
-file '/Users/eolande/EventMAV/comparison/8/Detection.mp4'
-file '/Users/eolande/EventMAV/comparison/20/Detection.mp4'
-file '/Users/eolande/EventMAV/comparison/51/Detection.mp4'
-file '/Users/eolande/EventMAV/comparison/65/Detection.mp4'
-file '/Users/eolande/EventMAV/comparison/93/Detection.mp4'

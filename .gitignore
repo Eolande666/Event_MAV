@@ -1,12 +1,27 @@
+# Local data, results and environments
+/FRED/*
+!/FRED/.gitkeep
+/results/
+/comparison/
+/output/
+/outputs/
+/runs/
+/tmp/
+/lib/
+.venv/
+venv/
 .DS_Store
 __pycache__/
 *.py[cod]
-.venv/
-venv/
 .env
 .env.*
-!.env.example
-/tmp/
-/runs/
-/lib/
-# Data and retained results are intentionally included in this handoff branch.
+*.zip
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.mp4
+*.avi
+*.mov
+*.dylib
+*.so

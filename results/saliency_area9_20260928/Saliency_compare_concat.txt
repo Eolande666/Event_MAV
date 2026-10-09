@@ -1,5 +1,0 @@
-file '8/Saliency_compare.mp4'
-file '20/Saliency_compare.mp4'
-file '51/Saliency_compare.mp4'
-file '65/Saliency_compare.mp4'
-file '93/Saliency_compare.mp4'

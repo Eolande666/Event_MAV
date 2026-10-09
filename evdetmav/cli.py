@@ -12,7 +12,6 @@ from .io import iter_input_files, load_events, prepare_events
 from .models import Detection
 from .output import write_csv, write_manifest
 from .pipeline import process_window
-from .visualization import save_event_frame, save_saliency_image, save_segmentation_image
 
 
 def build_windows(t: np.ndarray, args: argparse.Namespace) -> list[tuple[int, float, float]]:
@@ -56,9 +55,6 @@ def process_file(input_file: Path, out_root: Path, output_prefix: str, args: arg
         f"windows={len(windows)}"
     )
 
-    saliency_dir = out_root / "saliency"
-    event_dir = out_root / "event_boxes_evdetmav"
-    segmentation_dir = out_root / "segmentation"
     stats_path = out_root / f"{output_prefix}_saliency_filter.jsonl"
     if args.saliency_min_area > 0 or args.min_raw_component_pixels > 0:
         out_root.mkdir(parents=True, exist_ok=True)
@@ -76,15 +72,6 @@ def process_file(input_file: Path, out_root: Path, output_prefix: str, args: arg
             with stats_path.open('a') as log:
                 log.write(json.dumps(dict(window_id=local_window_id, start_sec=start_t, end_sec=end_t,
                                           **result.saliency_filter_stats)) + '\n')
-
-        if local_window_id % int(args.save_every) == 0:
-            image_stem = f"{output_prefix}__win_{local_window_id:06d}"
-            if args.save_saliency:
-                save_saliency_image(saliency_dir / f"{image_stem}.png", result)
-            if args.save_event_frames:
-                save_event_frame(event_dir / f"{image_stem}.png", xw, yw, pw, height, width, result, args)
-            if args.save_segmentation:
-                save_segmentation_image(segmentation_dir / f"{image_stem}.png", xw, yw, pw, height, width, result, args)
 
         if args.progress_every > 0 and local_window_id % int(args.progress_every) == 0:
             print(
@@ -144,12 +131,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--merge-propellers", action=argparse.BooleanOptionalAction, default=False, help="Merge accepted propeller regions into one MAV detection box. Default keeps refined cyan boxes as final results.")
     parser.add_argument("--max-detections-per-window", type=int, default=0, help="Keep top N detections. 0 keeps all refined final boxes.")
 
-    parser.add_argument("--save-saliency", action=argparse.BooleanOptionalAction, default=True, help="Save saliency map visualizations.")
-    parser.add_argument("--save-event-frames", action=argparse.BooleanOptionalAction, default=True, help="Save event-frame visualizations with boxes.")
-    parser.add_argument("--save-segmentation", action=argparse.BooleanOptionalAction, default=True, help="Save fine segmentation overlays.")
     parser.add_argument("--save-per-file-csv", action=argparse.BooleanOptionalAction, default=True, help="Save one detection CSV for every input file in addition to the batch CSV.")
-    parser.add_argument("--event-vis-percentile", type=float, default=99.0, help="Event frame normalization percentile.")
-    parser.add_argument("--save-every", type=int, default=1, help="Save every Nth processed window.")
     parser.add_argument("--progress-every", type=int, default=20, help="Print progress every N windows. 0 disables.")
     return parser
 

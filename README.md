@@ -1,85 +1,68 @@
-# EventMAV 同事交接版
+# EventMAV 处理代码
 
-整理日期：2026-10-08。包含可运行代码、FRED 五段原始数据、保存的处理结果与复现说明。
-从现有工作区复制整理，原项目未移动或删除。算法代码以本次实际文件为准，基础 Git 提交为 `72c3254`，并包含原工作区尚未提交的五段素材更新。
+只包含事件数据读取、无人机检测、持续性筛选和离线评估代码。数据集目录 `FRED/` 为空（仅 `.gitkeep` 占位），不包含数据、结果、绘图或视频生成代码。当前版本不需要 Git LFS。
 
-## 先看这里
+## 安装
 
-1. 查看 [交接说明](docs/HANDOFF.md)，了解当前结论及复现边界。
-2. 查看 [最新五段重新评估报告](results/reevaluation_20260929/REPORT.md)。
-3. 播放 [持续性检测视频](results/persistence_mvp/fred_v1/videos/Persistence_all.mp4) 和 [对比视频](results/persistence_mvp/fred_v1/videos/Comparison_all.mp4)。
-4. 按下方命令安装、运行测试和小样本检测。
-
-## 目录导航
-
-保留代码依赖的相对路径，解压后不必移动数据或修改脚本。
-
-| 类别 | 目录 / 文件 | 用途 |
-|---|---|---|
-| 核心代码 | `evdetmav/`、`evdetmav_detector.py`、`main.py` | 显著性、周期性、聚类和精细定位 |
-| 核心代码 | `persistence/`、`evdetmav_persistence.py` | 邻域关联和轨迹持续性后处理 |
-| 配置与测试 | `configs/`、`tests/` | 推荐配置、关闭持续性配置、单元测试 |
-| 实验代码 | `experiments/` | 评估、消融、结果核验和视频生成 |
-| 对照代码 | `script/` | 独立对照实现，不是推荐主入口 |
-| 编译依赖 | `tools/`、`third_party/ecf/` | ECF 解码器构建与第三方许可证 |
-| **数据集** | **`FRED/`** | **8、20、51、65、93 五个原始 ZIP，含事件数据、图像和标注** |
-| **最新评估结果** | **`results/reevaluation_20260929/`** | **四种方案的汇总、逐帧匹配与持续性重放结果** |
-| 完整实验结果 | `results/persistence_mvp/fred_v1/` | 原版持续性实验、评分、配置、视频、审计 |
-| 过滤对比结果 | `results/raw_pixel3_20260928/`、`results/saliency_area9_20260928/` | 两种过滤方案的输出 |
-| 基线结果 | `comparison/` | 独立检测入口产生的 CSV、时间窗及合并视频 |
-| 原始可视化 | `output/FRED_current/` | RGB、事件合并视频及时间戳等处理结果 |
-| 说明 | `docs/`、`FRED/README.md`、`results/README.md` | 接手路线、数据及结果索引 |
-
-已排除临时环境、缓存、重复的 `script.zip`、论文改稿与作图工作目录。结果中的 `source/` 是对应实验的源码快照，仅供追溯，不是日常开发入口。
-
-## 推荐版本
-
-使用 `configs/persistence_original.json`，保持 `--saliency-min-area 0 --min-raw-component-pixels 0`。
-在本地留出序列 51、65、93 上，中心一对一匹配的 Precision / Recall / F1 为 **80.53% / 70.17% / 75.00%**。
-8、20 用于校准。这是已查看过的五段本地数据，不能当作新的未知场景泛化验证，也不是整机框 IoU/AP 指标。
-
-## 安装与运行
-
-建议 Python 3.10+，macOS 或 Linux。Windows 建议 WSL2；原生 Windows 解码库构建未验证。
+建议 Python 3.12，macOS / Linux。Windows 建议 WSL2，原生 Windows 的解码库构建未验证。
 
 ```sh
+git clone --depth 1 https://github.com/Eolande666/Event_MAV.git
+cd Event_MAV
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements-handoff.lock.txt
-python tools/build_ecf.py
+python -m pip install -r requirements-persistence.txt
 python -m unittest discover -s tests -v
 ```
 
-ECF 构建需要 C++17 编译器（macOS Command Line Tools 或 Linux g++/clang++）。不附带本机编译的动态库，避免架构不匹配。
-锁定依赖记录本次 Python 3.12 的验证环境；其他 Python 版本可使用 `requirements-persistence.txt` 安装兼容版本后重新测试。
+测试使用自行构造的小规模数据，不需要下载数据集。
 
-### 先跑 12 个时间窗
+## 目录
+
+| 路径 | 内容 |
+|---|---|
+| `evdetmav/` | 显著性、周期性、聚类、精细定位及 CSV 输出 |
+| `persistence/` | 事件读取、候选关联、邻域和轨迹持续性、评估与重放 |
+| `configs/` | 推荐持续性配置与关闭持续性的 baseline 配置 |
+| `experiments/` | 历史校准与冻结参数重新评估脚本 |
+| `tests/` | 处理算法测试 |
+| `third_party/ecf/` | ECF 解码源码及许可证 |
+| `tools/build_ecf.py` | 编译 ECF 解码库 |
+| `FRED/` | 后续放入数据，当前为空 |
+
+## 数据准备
+
+数据来源：https://huggingface.co/datasets/GabrieleMagrini/FRED
+
+后续可将原始 `8.zip`、`20.zip`、`51.zip`、`65.zip`、`93.zip` 放入 `FRED/`，保持 ZIP 内结构。历史本地划分为 8、20 校准，51、65、93 留出，不是官方完整测试集。
+ECF 压缩事件需要支持 C++17 的编译器，先执行：
+
+```sh
+python tools/build_ecf.py
+```
+
+## 检测入口
+
+推荐使用原版检测＋持续性配置，两个可选小区域过滤默认关闭。数据准备后可先运行 12 个窗口：
 
 ```sh
 python evdetmav_persistence.py --config configs/persistence_original.json --input FRED/8.zip --out runs/smoke_8 --width 1280 --height 720 --time-unit us --window-ms 30 --step-ms 30 --max-windows 12 --saliency-min-area 0 --min-raw-component-pixels 0
 ```
 
-去掉 `--max-windows 12` 可运行整段。输出写到 `runs/`，避免覆盖已保存的实验。
-原始 ZIP 中使用 ECF 压缩的 H5 由持续性入口流式读取；不要将 ZIP 直接传给只接受普通事件文件的 baseline CLI。
+移除 `--max-windows 12` 可处理整段，输出检测 CSV、轨迹、关联与评分 JSONL 等结构化结果。纯处理版已移除 `--save-saliency`、`--save-event-frames`、`--save-segmentation` 等图像输出参数。
 
-### 复核保存的四种方案
-
-```sh
-python experiments/reevaluate_retained.py --out runs/reevaluation
-```
-
-该命令读取原 ZIP 的标注，使用已保存的前两级检测 CSV，从第 0 窗重新计算持续性及评估，**不重跑前两级，也不调参**。输出目录必须不存在。完整检测重跑与已有结果重放需区分。
-
-## 获取方式和完整性
-
-ZIP 已包含实际数据和视频，解压即可使用，无需 Git LFS。
-从 GitHub 获取请先安装 Git LFS，再执行：
+独立 baseline 入口处理普通、未压缩事件 H5：
 
 ```sh
-git clone --branch handoff/20261008 https://github.com/Eolande666/Event_MAV.git
-cd Event_MAV
-git lfs pull
-python tools/verify_handoff.py
+python evdetmav_detector.py --input /path/to/events.h5 --out runs/baseline --width 1280 --height 720 --time-unit us --window-ms 30 --step-ms 30
 ```
 
-`MANIFEST.sha256` 记录交接文件校验值。完整包约数 GB，请预留至少 10 GB 空间用于解压、环境及临时 H5。
+原始 ZIP 不可直接交给 baseline CLI。ECF 压缩 ZIP/H5 请通过开启持续性的入口读取。
+
+## 评估与继续开发
+
+- 配置定义：`persistence/config.py`；评分实现：`neighborhood.py`、`trajectory.py`、`scoring.py`。
+- 通用评估与重放接口：`persistence/evaluation.py`、`persistence/replay.py`。
+- `experiments/` 中的历史批量脚本需要额外准备原 ZIP 及 `comparison/`、`results/` 中已保存的检测 CSV。仓库未附带这些输入，刚克隆时不能直接重放历史实验。
+- 校准脚本会写入历史结果路径，运行前请确认输出位置。新检测建议统一输出到 `runs/`。
+- `.gitignore` 已排除数据、结果、虚拟环境和编译产物，避免再次上传大文件。
