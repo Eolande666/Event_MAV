@@ -124,6 +124,8 @@ class WindowResult:
     candidates: list[Candidate]
     refined: list[RefinedCandidate]
     segmentation_mask: np.ndarray
+    saliency_filter_stats: dict | None = None
+    raw_saliency_u8: np.ndarray | None = None
 
 
 def clipped_box(box: Box, width: int, height: int) -> Box:

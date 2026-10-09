@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 
 import numpy as np
@@ -11,7 +12,6 @@ from .io import iter_input_files, load_events, prepare_events
 from .models import Detection
 from .output import write_csv, write_manifest
 from .pipeline import process_window
-from .visualization import save_event_frame, save_saliency_image, save_segmentation_image
 
 
 def build_windows(t: np.ndarray, args: argparse.Namespace) -> list[tuple[int, float, float]]:
@@ -55,9 +55,10 @@ def process_file(input_file: Path, out_root: Path, output_prefix: str, args: arg
         f"windows={len(windows)}"
     )
 
-    saliency_dir = out_root / "saliency"
-    event_dir = out_root / "event_boxes_evdetmav"
-    segmentation_dir = out_root / "segmentation"
+    stats_path = out_root / f"{output_prefix}_saliency_filter.jsonl"
+    if args.saliency_min_area > 0 or args.min_raw_component_pixels > 0:
+        out_root.mkdir(parents=True, exist_ok=True)
+        stats_path.write_text('')
 
     for local_window_id, start_t, end_t in windows:
         start_idx = int(np.searchsorted(t, start_t, side="left"))
@@ -67,15 +68,10 @@ def process_file(input_file: Path, out_root: Path, output_prefix: str, args: arg
             continue
         result = process_window(xw, yw, tw, pw, start_t, end_t, height, width, str(input_file), local_window_id, args)
         rows.extend(result.detections)
-
-        if local_window_id % int(args.save_every) == 0:
-            image_stem = f"{output_prefix}__win_{local_window_id:06d}"
-            if args.save_saliency:
-                save_saliency_image(saliency_dir / f"{image_stem}.png", result)
-            if args.save_event_frames:
-                save_event_frame(event_dir / f"{image_stem}.png", xw, yw, pw, height, width, result, args)
-            if args.save_segmentation:
-                save_segmentation_image(segmentation_dir / f"{image_stem}.png", xw, yw, pw, height, width, result, args)
+        if args.saliency_min_area > 0 or args.min_raw_component_pixels > 0:
+            with stats_path.open('a') as log:
+                log.write(json.dumps(dict(window_id=local_window_id, start_sec=start_t, end_sec=end_t,
+                                          **result.saliency_filter_stats)) + '\n')
 
         if args.progress_every > 0 and local_window_id % int(args.progress_every) == 0:
             print(
@@ -111,6 +107,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--intersection-radius", type=int, default=1, help="Spatial tolerance for positive/negative intersection. 0 is the strict paper rule.")
     parser.add_argument("--saliency-sigma", type=float, default=0.0, help="Optional Gaussian smoothing on saliency map.")
     parser.add_argument("--tau-s", type=float, default=50.0, help="Paper saliency threshold tau_s.")
+    parser.add_argument("--saliency-min-area", type=int, default=0, help="Before candidate dilation/merging, keep only thresholded 8-connected saliency regions with at least this many pixels. 0 preserves the original algorithm; recommended first trial: 9.")
+    parser.add_argument("--min-raw-component-pixels", type=int, default=0, help="Before positive/negative dilation, require this many distinct original event coordinates in an 8-connected region over the window. Repeated events/polarities count once. 0 disables; first trial: 3.")
     parser.add_argument("--tau-p", type=int, default=3, help="Paper periodicity threshold tau_p.")
     parser.add_argument("--top-k", type=int, default=4, help="K top salient areas evaluated with periodicity features.")
     parser.add_argument("--init-dilate-px", type=int, default=0, help="Optional dilation before initial connected components.")
@@ -133,12 +131,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--merge-propellers", action=argparse.BooleanOptionalAction, default=False, help="Merge accepted propeller regions into one MAV detection box. Default keeps refined cyan boxes as final results.")
     parser.add_argument("--max-detections-per-window", type=int, default=0, help="Keep top N detections. 0 keeps all refined final boxes.")
 
-    parser.add_argument("--save-saliency", action=argparse.BooleanOptionalAction, default=True, help="Save saliency map visualizations.")
-    parser.add_argument("--save-event-frames", action=argparse.BooleanOptionalAction, default=True, help="Save event-frame visualizations with boxes.")
-    parser.add_argument("--save-segmentation", action=argparse.BooleanOptionalAction, default=True, help="Save fine segmentation overlays.")
     parser.add_argument("--save-per-file-csv", action=argparse.BooleanOptionalAction, default=True, help="Save one detection CSV for every input file in addition to the batch CSV.")
-    parser.add_argument("--event-vis-percentile", type=float, default=99.0, help="Event frame normalization percentile.")
-    parser.add_argument("--save-every", type=int, default=1, help="Save every Nth processed window.")
     parser.add_argument("--progress-every", type=int, default=20, help="Print progress every N windows. 0 disables.")
     return parser
 

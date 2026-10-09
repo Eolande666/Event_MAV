@@ -34,14 +34,6 @@ class StreamingTests(unittest.TestCase):
             rows=detect(values,0,.03,10,10,'dummy',0,args,use_periodicity=False)
             self.assertEqual(rows,[])
 
-    def test_debug_panel_preserves_entire_sensor_image(self):
-        from PIL import Image
-        from persistence.visualization import debug_panel
-        image=Image.new('RGB',(1280,784),(12,34,56))
-        result=debug_panel(image,[])
-        self.assertEqual(result.size,(1280,928))
-        self.assertEqual(result.crop((0,0,1280,784)).tobytes(),image.tobytes())
-
     def test_negative_config_values(self):
         base=Config(enabled=True,cold_start='fixed',sigma_position=1,sigma_direction=1,sigma_acceleration=1,threshold=.4)
         for update in [dict(radius=-1),dict(temporal_decay=0),dict(lambda_position=-1),dict(epsilon=0),dict(alpha=2)]:

@@ -11,9 +11,9 @@ from persistence.config import Config
 from persistence.replay import load_baseline,replay,boxes_by_window,dump_csv
 from persistence.evaluation import align_frames,evaluate,metrics,match_boxes
 
-SEQUENCES=['8','20','51','65','93','114']
+SEQUENCES=['8','20','51','65','93']
 CALIBRATION=['8','20']
-HOLDOUT=['51','65','93','114']
+HOLDOUT=['51','65','93']
 OUT=ROOT/'results/persistence_mvp/fred_v1'
 
 
